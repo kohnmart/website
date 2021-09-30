@@ -1,15 +1,25 @@
 <template>
-  <div class="project-container">
-    <div v-for="project in projects" :key="project.title">
-      <div>
-        <Button class="button"
-          ><img
-            :src="require(`@/assets/img/${project.image}`)"
-            :alt="project.imagetitle"
-          />
-          <p class="hidden">{{ project.title }}</p>
-        </Button>
-        <p>{{ project.image }}</p>
+  <div>
+    <div class="sorting-container">
+      <ul>
+        <li><Button @click="sortBy('photo')">ALL</Button></li>
+        <li><Button>PHOTO</Button></li>
+        <li><Button>SOFTWARE</Button></li>
+        <li><Button>3D/VFX</Button></li>
+      </ul>
+    </div>
+    <div class="project-container">
+      <div v-for="item in store" :key="item.title">
+        <div>
+          <Button class="button"
+            ><img
+              :src="require(`@/assets/img/${item.image}`)"
+              :alt="item.imagetitle"
+            />
+            <p class="hidden">{{ item.title }}</p>
+          </Button>
+          <p>{{ item.image }}</p>
+        </div>
       </div>
     </div>
   </div>
@@ -17,16 +27,41 @@
 
 <script>
 export default {
+  data() {
+    return {
+      store: []
+    };
+  },
+
   async asyncData({ $content }) {
     const projects = await $content("projects").fetch();
-    console.log(projects[1].image);
-    return {
-      projects
-    };
+    return { projects };
+  },
+
+  methods: {
+    async sortBy(filter) {
+      this.store = await this.$content("projects")
+        .where({ tag: filter })
+        .fetch();
+    }
   }
 };
 </script>
 <style lang="scss" scoped>
+.sorting-container {
+  ul {
+    list-style-type: none;
+    margin-left: 4em;
+    padding: 0;
+    overflow: hidden;
+
+    li {
+      float: left;
+      margin-left: 2em;
+    }
+  }
+}
+
 .project-container {
   display: flex;
   flex-wrap: wrap;
@@ -35,12 +70,12 @@ export default {
     margin: 10px;
     padding: 20px;
     font-size: 10px;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
 
     img {
-      width: 200px;
-      height: 200px;
+      width: 300px;
+      height: 300px;
       object-fit: cover;
     }
   }
