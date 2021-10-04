@@ -1,6 +1,6 @@
 <template>
-<div>
-      <div class="sorting-container">
+  <div>
+    <div class="sorting-container">
       <ul>
         <li><Button @click="sortBy('')">ALL</Button></li>
         <li><Button @click="sortBy('photo')">PHOTO</Button></li>
@@ -10,26 +10,25 @@
     </div>
     <div class="project-container">
       <div v-for="item in store" :key="item.title">
-        <div>
-          <nuxt-link to="project" class="button"
+        <div class="thumbnail">
+          <nuxt-link :to="item.slug" class="button"
             ><img
               :src="require(`@/assets/img/${item.image}`)"
               :alt="item.imagetitle"
             />
-            <p class="hidden">{{ item.title }}</p>
           </nuxt-link>
-          <p>{{ item.image }}</p>
+          <p>{{ item.title }}</p>
         </div>
       </div>
     </div>
-</div>
+  </div>
 </template>
 
 <script>
 export default {
   data() {
     return {
-      store: [],
+      store: []
     };
   },
 
@@ -63,17 +62,24 @@ export default {
     }
   }
 }
-
 .project-container {
   display: flex;
   flex-wrap: wrap;
 
   div {
+    .thumbnail {
+      background-color: gray;
+      p {
+        font-size: 2em;
+        text-decoration: none;
+      }
+    }
+
     margin: 10px;
     padding: 20px;
     font-size: 10px;
     width: 300px;
-    height: 300px;
+    height: 350px;
 
     img {
       width: 300px;
@@ -81,6 +87,5 @@ export default {
       object-fit: cover;
     }
   }
-
 }
 </style>
