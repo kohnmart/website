@@ -1,5 +1,7 @@
 <template>
-  <Container />
+  <div>
+    <ProjectsContainer />
+  </div>
 </template>
 
 <script>

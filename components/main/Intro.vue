@@ -1,7 +1,8 @@
 <template>
-      <div class="about">
-      <h2>ABOUT ME.</h2>
-      <img src="@/assets/img/ny.jpg" alt="Ballon" />
+  <div class="about">
+    <h1>ABOUT ME.</h1>
+    <img src="@/assets/img/ny.jpg" alt="Ballon" />
+    <div>
       <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
         eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -14,29 +15,36 @@
         ipsum dolor sit amet.
       </p>
     </div>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang="scss" scoped>
+@import "@/assets/css/main.scss";
 .about {
-    margin-left: 2em;
-    margin-right: 1em;
-    h2 {
-      font-size: 4em;
-    }
-    img {
-      width: 30%;
-      float: left;
-    }
+  margin-bottom: 10em;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  h1 {
+    font-weight: 300;
+    font-size: $h1;
+  }
+  img {
+    width: 30%;
+    float: left;
+  }
+  div {
+    float: right;
+    display: block;
+    width: 60%;
     p {
-      width: 60%;
-      float: right;
-      display: block;
+      font-weight: 300;
     }
   }
+}
 </style>
