@@ -4,6 +4,7 @@ description: 'Empower your NuxtJS application with @nuxt/content module: write i
 tag: software
 image: "ny.jpg"
 imagetitle: 'ballon'
+highlight: 'true'
 ---
 
 
