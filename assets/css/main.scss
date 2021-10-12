@@ -1,5 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
-$background: white;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(8, 8, 8);
+  h1 {
+    font-size: 5em;
+  }
+  h2 {
+    font-size: 3.5em;
+  }
+}
 
-$roboto: 'Roboto'
+$roboto: "Roboto";
+
+$h1: 5em;
+$h2: 4em;
+$h3: 3em;
+$p: 1em;

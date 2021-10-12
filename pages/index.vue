@@ -1,14 +1,16 @@
 <template>
-  <div class="container">
-    <Teaser />
-    <About />
+  <div>
+    <MainHighlights />
+    <MainProfile />
+    <MainIntro />
   </div>
 </template>
-<script></script>
+<script>
+export default {};
+</script>
+
 <style lang="scss" scoped>
-.container {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1.2em;
+div {
+
 }
 </style>
