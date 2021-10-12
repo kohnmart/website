@@ -1,39 +1,19 @@
 <template>
-  <div>
-    <div class="flex-container">
-      <div>
-        <h2>Experience</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua.
-        </p>
-      </div>
-      <div>
-        <img src="@/assets/img/test.png" alt="Ballon" />
-      </div>
-      <div>
-        <h2>Discover</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua.
-        </p>
-      </div>
-      <div>
-        <img src="@/assets/img/moon.jpg" alt="Ballon" />
-      </div>
-      <div>
-        <h2>Design</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua.
-        </p>
-      </div>
-      <div>
-        <img src="@/assets/img/moon.jpg" alt="Ballon" />
-      </div>
+  <div class="about">
+    <h1>ABOUT ME.</h1>
+    <img src="@/assets/img/ny.jpg" alt="Ballon" />
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+        ipsum dolor sit amet.
+      </p>
     </div>
   </div>
 </template>
@@ -44,36 +24,26 @@ export default {};
 
 <style lang="scss" scoped>
 @import "@/assets/css/main.scss";
-
-div {
-  margin-top: 10%;
+.about {
+  margin-bottom: 10em;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-
+  display: block;
   h1 {
-    font-weight: $h1;
-    margin-bottom: 10%;
-    text-align: center;
+    font-weight: 300;
+    font-size: $h1;
   }
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    div {
-      padding: 2%;
-      width: 50%;
-      border-radius: 4px;
-      p {
-        font-weight: $p;
-        font-size: 1.5em;
-      }
-      img {
-        object-fit: cover;
-        width: 100%;
-        border-radius: 5px;
-      }
+  img {
+    width: 30%;
+    float: left;
+  }
+  div {
+    float: right;
+    display: block;
+    width: 60%;
+    p {
+      font-weight: 300;
     }
   }
 }
