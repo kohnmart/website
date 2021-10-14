@@ -1,7 +1,14 @@
 <template>
-  <div>
-    <h1>About Me_</h1>
-    <img src="@/assets/img/ny.jpg" alt="Ballon" />
+  <div class="flex-container">
+    <div>
+      <h1>About Me_</h1>
+    </div>
+    <div>
+      <img
+        src="@/assets/img/profile/me_lowres_cl.png"
+        alt="Martin Kohnle is not here"
+      />
+    </div>
   </div>
 </template>
 
@@ -11,24 +18,29 @@ export default {};
 
 <style lang="scss" scoped>
 @import "@/assets/css/main.scss";
-div {
-  margin-top: 10%;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  h1 {
-    font-weight: $h1;
-    margin-bottom: 10%;
-    text-align: center;
-  }
+.flex-container {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
-  img {
-    object-fit: cover;
+  div {
     width: 50%;
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
+   
+    h1 {
+      font-size: 150px;
+      text-align: center;
+
+    }
+
+    img {
+      object-fit: cover;
+      width: 80%;
+      border-radius: 20px;
+    }
   }
 }
 </style>

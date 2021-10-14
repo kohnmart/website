@@ -6,9 +6,9 @@
       <Button class="forward" @click="forward">forward</Button>
       <Button class="exit" @click="exit">close</Button>
     </div>
-    <div v-for="img in all_images" :key="img">
+    <div class="static_images" v-for="img in all_images" :key="img">
       <Button class="btn_image" @click="exit">
-        <img class="overview" :src="img"
+        <img class="overview_image" :src="img"
       /></Button>
     </div>
   </div>
@@ -69,15 +69,13 @@ export default {
   height: 700px;
 }
 
-.overview {
-  height: 400px;
+.static_images {
+  float:left;
 }
 
-.back {
-  position: absolute;
-  width: 200px;
-  height: 250px;
-  top: 250px;
+.overview_image {
+  height: 400px;
+  margin-left: 10px;
 }
 
 .btn_image {
@@ -86,18 +84,25 @@ export default {
 
 .exit {
   position: absolute;
-  width: 200px;
+  width: 100px;
   height: 20px;
-  left: 1080px;
+   left: 1160px;
   top: 0px;
 }
 
 .forward {
   position: absolute;
-  width: 200px;
+  width: 100px;
   height: 250px;
-  left: 1080px;
+  left: 1160px;
   top: 250px;
+}
+.back {
+  position: absolute;
+  width: 100px;
+  height: 250px;
+  top: 250px;
+
 }
 
 .hidden {

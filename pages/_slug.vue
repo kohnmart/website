@@ -33,6 +33,10 @@ h3,
 p {
   margin-left: 3%;
   margin: 1%;
-  width: 50%;
 }
+
+p {
+  margin-bottom: 5%;
+}
+
 </style>

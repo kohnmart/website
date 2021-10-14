@@ -65,10 +65,8 @@ export default {
     position: absolute;
     top: 560px;
     left: 80px;
-    padding: 10px;
-    padding: 0px;
+    border-radius: 10px;
     p {
-      border-radius: 2px;
       padding: 10px;
       font-size: $p;
     }
