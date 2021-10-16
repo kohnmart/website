@@ -24,19 +24,5 @@ export default {
   width: 90%;
   display: block;
 }
-h2 {
-  font-size: $h2;
-  margin-bottom: 2%;
-}
-
-h3,
-p {
-  margin-left: 3%;
-  margin: 1%;
-}
-
-p {
-  margin-bottom: 5%;
-}
 
 </style>

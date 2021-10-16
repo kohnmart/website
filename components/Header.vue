@@ -27,7 +27,6 @@
       h2,
       a {
         display: block;
-        color: white;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;

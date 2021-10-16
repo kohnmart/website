@@ -1,7 +1,7 @@
 <template>
-  <div class="title">
-    <img src="@/assets/img/ballon.jpg" alt="Ballon" />
-    <div class="text">
+  <div>
+ <!--   <img src="@/assets/img/ballon.jpg" alt="Ballon" />
+  <div class="text">
       <p>Photoshoot Lago Di Garda</p>
     </div>
     <div class="sorting-container">
@@ -10,7 +10,7 @@
           <li><Button></Button></li>
         </ul>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -37,9 +37,20 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/assets/css/main.scss";
+
+div {
+  background-image: url("~/assets/img/ballon.jpg") ;
+  width: 100%;
+  height: 800px;
+  //background-attachment: fixed;
+  background-size: 150%;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
 .title {
   img {
-    object-fit: cover;
+    
     width: 100%;
     height: 500px;
     border-radius: 5px;
