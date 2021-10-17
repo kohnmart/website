@@ -1,13 +1,12 @@
 ---
-title: 'Good project'
+title: 'Swimming-Photoshoot'
 description: 'Empower yourself' 
-tag: 'software'
-thumbnail: 'ny.jpg'
-imagetitle: 'ballon'
+tag: 'photo'
+thumbnail: 'highlights/DSC03486-1.png'
 highlight: 'true'
 ---
-## Venice Photoshoot
-### Date: 20.08.2021 Field: Fashion
+## Swim & Tan
+### Date: 20.08.2021 - Field: Fashion - Role: Photographer
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.

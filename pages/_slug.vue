@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
-      <nuxt-content :document="post" />
-    </div>
+  <div class="container">
+    <nuxt-content :document="post" />
+  </div>
 </template>
 <script>
 export default {
@@ -21,8 +21,18 @@ export default {
 @import "@/assets/css/main.scss";
 .container {
   margin: auto;
-  width: 90%;
+  width: 80%;
   display: block;
-}
 
+  h2 {
+    font-size: $h2;
+    margin-bottom: 2%;
+  }
+
+  h3,
+  p {
+    font-size: 1.5;
+    width: 50%;
+  }
+}
 </style>

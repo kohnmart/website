@@ -4,10 +4,10 @@
       <Button class="back" @click="back">back</Button>
       <img class="carousel " :src="all_images[carousel]" />
       <Button class="forward" @click="forward">forward</Button>
-      <Button class="exit" @click="exit">close</Button>
+      <Button class="exit" @click="switchState">close</Button>
     </div>
     <div class="static_images" v-for="img in all_images" :key="img">
-      <Button class="btn_image" @click="exit">
+      <Button class="btn_image" @click="switchState(img)">
         <img class="overview_image" :src="img"
       /></Button>
     </div>
@@ -44,7 +44,8 @@ export default {
         : (this.carousel = this.all_images.length);
     },
 
-    exit() {
+    switchState(img) {
+      this.carousel = this.all_images.indexOf(img);
       return (this.v_state = !this.v_state);
     },
 
@@ -70,23 +71,24 @@ export default {
 }
 
 .static_images {
-  float:left;
+  float: left;
+  margin-top: 5%;
 }
 
 .overview_image {
-  height: 400px;
-  margin-left: 10px;
+  height: 300px;
 }
 
 .btn_image {
   border: none;
+  margin-right: 10px;
 }
 
 .exit {
   position: absolute;
   width: 100px;
   height: 20px;
-   left: 1160px;
+  left: 1180px;
   top: 0px;
 }
 
@@ -94,7 +96,7 @@ export default {
   position: absolute;
   width: 100px;
   height: 250px;
-  left: 1160px;
+  left: 1180px;
   top: 250px;
 }
 .back {
@@ -102,7 +104,6 @@ export default {
   width: 100px;
   height: 250px;
   top: 250px;
-
 }
 
 .hidden {
@@ -115,5 +116,6 @@ export default {
   left: 0;
   right: 0;
   bottom: 0;
+  background-color: white;
 }
 </style>

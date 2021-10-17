@@ -1,17 +1,5 @@
 <template>
-  <div>
- <!--   <img src="@/assets/img/ballon.jpg" alt="Ballon" />
-  <div class="text">
-      <p>Photoshoot Lago Di Garda</p>
-    </div>
-    <div class="sorting-container">
-      <div v-for="item in store" :key="item.title">
-        <ul>
-          <li><Button></Button></li>
-        </ul>
-      </div>
-    </div> -->
-  </div>
+  <div></div>
 </template>
 
 <script>
@@ -39,18 +27,18 @@ export default {
 @import "@/assets/css/main.scss";
 
 div {
-  background-image: url("~/assets/img/ballon.jpg") ;
+  background-image: url("~/assets/img/land.jpg");
   width: 100%;
   height: 800px;
-  //background-attachment: fixed;
-  background-size: 150%;
+  background-attachment: fixed;
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
+  background-position-y: -100px;
 }
 
 .title {
   img {
-    
     width: 100%;
     height: 500px;
     border-radius: 5px;

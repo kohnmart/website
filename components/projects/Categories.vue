@@ -4,16 +4,16 @@
       <h1>Discover Projects</h1>
       <ul>
         <li>
-          <Button @click="sortBy('')">ALL</Button>
+          <Button @click="sortBy('')">All</Button>
         </li>
         <li>
-          <Button @click="sortBy('photo')">PHOTO</Button>
+          <Button @click="sortBy('photo')">Photography</Button>
         </li>
         <li>
-          <Button @click="sortBy('software')">DEV</Button>
+          <Button @click="sortBy('software')">Development</Button>
         </li>
         <li>
-          <Button @click="sortBy('vfx')">VFX</Button>
+          <Button @click="sortBy('vfx')">3D/Visual FX</Button>
         </li>
       </ul>
     </div>
@@ -55,22 +55,31 @@ export default {
 </script>
 <style lang="scss" scoped>
 @import "@/assets/css/main.scss";
+
+h1 {
+  font-size: $h1;
+}
+
 .main-container {
   width: 80%;
   margin: auto;
   margin-top: 5%;
   .sorting-container {
     margin-bottom: 10%;
-    text-align: center;
+    text-align: left;
     ul {
+      margin-top: 2%;
       list-style-type: none;
       padding: 0;
       display: flex;
       flex-wrap: wrap;
       overflow: hidden;
-      justify-content: center;
+      justify-content: left;
+
       li {
+        margin-right: 20px;
         button {
+          border-radius: 10px;
           border: none;
           padding: 0px 10px 0px 10px;
           font-size: $p;
@@ -78,26 +87,27 @@ export default {
       }
     }
   }
-}
 
-.project-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  .thumbnail {
-    margin-right: 1em;
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    .thumbnail {
+      margin-right: 25px;
+      p {
+        margin: 0;
+        display: block;
+      }
 
-    p {
-      margin: 0;
-      display: block;
-    }
-
-    img {
-      width: 220px;
-      height: 220px;
-      object-fit: cover;
-      margin: 0;
-      padding: 0;
+      img {
+        border-radius: 10px;
+        width: 220px;
+        height: 220px;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+        background-color: gray;
+      }
     }
   }
 }

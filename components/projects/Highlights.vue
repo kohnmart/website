@@ -1,6 +1,6 @@
 <template>
   <div class="title">
-    <img src="@/assets/img/ballon.jpg" alt="Ballon" />
+    <img src="@/assets/img/land.jpg" alt="Ballon" />
     <div class="text">
       <p>Photoshoot Lago Di Garda</p>
     </div>
