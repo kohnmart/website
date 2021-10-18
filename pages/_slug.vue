@@ -20,12 +20,18 @@ export default {
 <style lang="scss">
 @import "@/assets/css/main.scss";
 .container {
-  margin: auto;
+  margin: 60px auto;
   width: 80%;
   display: block;
 
   h2 {
-    font-size: $h2;
+    font-size: 3em;
+    margin-bottom: 1%;
+  }
+
+  h3{
+    color: grey;
+    font-weight: 300;
     margin-bottom: 2%;
   }
 

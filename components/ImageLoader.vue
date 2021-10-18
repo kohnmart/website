@@ -73,15 +73,19 @@ export default {
 .static_images {
   float: left;
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .overview_image {
-  height: 300px;
+  height: 460px;
 }
 
 .btn_image {
   border: none;
-  margin-right: 10px;
+  margin-right: 5px;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
 }
 
 .exit {

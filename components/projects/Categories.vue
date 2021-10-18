@@ -22,6 +22,9 @@
         <div class="thumbnail">
           <nuxt-link :to="item.slug" class="button">
             <img :src="require(`~/assets/img/${item.thumbnail}`)" />
+            <div class="project_info">
+              <h2>{{ item.title }}</h2>
+            </div>
           </nuxt-link>
         </div>
       </div>
@@ -94,6 +97,7 @@ h1 {
     justify-content: left;
     .thumbnail {
       margin-right: 25px;
+      margin-bottom: 25px;
       p {
         margin: 0;
         display: block;
@@ -101,12 +105,37 @@ h1 {
 
       img {
         border-radius: 10px;
-        width: 220px;
-        height: 220px;
+        width: 300px;
+        height: 300px;
         object-fit: cover;
         margin: 0;
         padding: 0;
         background-color: gray;
+      }
+      .project_info {
+        display: none;
+        background-color: rgba(0, 0, 0, 0.8);
+        opacity: 0;
+        text-align: left;
+        width: 300px;
+        height: 300px;
+        border-radius: 10px;
+        margin: 0;
+        
+        padding: 5px;
+        h2 {
+          color: rgb(255, 255, 255);
+          font-size: 5em;
+        }
+      }
+    }
+    .thumbnail:hover {
+      img {
+        display: none;
+      }
+      .project_info {
+        display: block;
+        opacity: 1;
       }
     }
   }
