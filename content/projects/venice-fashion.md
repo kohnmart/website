@@ -1,11 +1,12 @@
 ---
-title: 'bikini fashion series'
+title: 'venice fashion series' 
 tag: 'photo'
-thumbnail: 'photo/bikini/DSC03486-1.jpg'
+thumbnail: 'photo/venice/1.jpg'
 ---
-## Bikini Fashion Series
+
+## Venice Fashion Series
 ### Date: 20.08.2021 - Field: Fashion - Role: Photographer
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
 
-<image-loader image="photo/bikini"></image-loader>
+<image-loader image="photo/venice"></image-loader>

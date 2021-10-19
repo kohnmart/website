@@ -4,16 +4,13 @@
       <h1>Discover Projects</h1>
       <ul>
         <li>
-          <Button @click="sortBy('')">All</Button>
+          <Button @click="sortBy('photo')">photography</Button>
         </li>
         <li>
-          <Button @click="sortBy('photo')">Photography</Button>
+          <Button @click="sortBy('software')">web-development</Button>
         </li>
         <li>
-          <Button @click="sortBy('software')">Development</Button>
-        </li>
-        <li>
-          <Button @click="sortBy('vfx')">3D/Visual FX</Button>
+          <Button @click="sortBy('vfx')">3D-visual-fx</Button>
         </li>
       </ul>
     </div>
@@ -95,9 +92,14 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
+
     .thumbnail {
       margin-right: 25px;
       margin-bottom: 25px;
+      .button {
+        text-decoration: none;
+      }
+
       p {
         margin: 0;
         display: block;
@@ -114,28 +116,29 @@ h1 {
       }
       .project_info {
         display: none;
-        background-color: rgba(0, 0, 0, 0.8);
         opacity: 0;
-        text-align: left;
+        text-align: center;
         width: 300px;
         height: 300px;
         border-radius: 10px;
-        margin: 0;
-        
-        padding: 5px;
-        h2 {
-          color: rgb(255, 255, 255);
-          font-size: 5em;
+        border: 5px solid black;
+        h2{
+          color: rgb(0, 0, 0);
+          font-size: 4em;
+          padding: 10px;
+  
         }
       }
     }
     .thumbnail:hover {
       img {
         display: none;
+        
       }
       .project_info {
         display: block;
         opacity: 1;
+        
       }
     }
   }
