@@ -1,15 +1,23 @@
 <template>
   <div>
     <div :class="diashow">
-      <Button class="back" @click="back">back</Button>
-      <img class="carousel " :src="all_images[carousel]" />
-      <Button class="forward" @click="forward">forward</Button>
-      <Button class="exit" @click="switchState">close</Button>
+      <Button class="back" @click="back"
+        ><i class="fas fa-chevron-left"></i
+      ></Button>
+      <img class="carousel" :src="all_images[carousel]" />
+      <Button class="forward" @click="forward">
+        <i class="fas fa-chevron-right"></i>
+      </Button>
+      <Button class="exit" @click="switchState"
+        ><i class="far fa-times-circle"></i
+      ></Button>
     </div>
-    <div class="static_images" v-for="img in all_images" :key="img">
-      <Button class="btn_image" @click="switchState(img)">
-        <img class="overview_image" :src="img"
-      /></Button>
+    <div class="overview">
+      <div class="static_images" v-for="img in all_images" :key="img">
+        <Button class="btn_image" @click="switchState(img)">
+          <img class="overview_image" :src="img"
+        /></Button>
+      </div>
     </div>
   </div>
 </template>
@@ -70,10 +78,12 @@ export default {
   height: 700px;
 }
 
-.static_images {
-  float: left;
-  margin-top: 5%;
-  margin-bottom: 5%;
+.overview {
+  .static_images {
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
 }
 
 .overview_image {
@@ -94,6 +104,12 @@ export default {
   height: 20px;
   left: 1180px;
   top: 0px;
+  background: none;
+  border: none;
+  font-size: 2em;
+  .far {
+    opacity: 0.1;
+  }
 }
 
 .forward {
@@ -102,12 +118,24 @@ export default {
   height: 250px;
   left: 1180px;
   top: 250px;
+  background: none;
+  border: none;
+  font-size: 4em;
+  .fas {
+    opacity: 0.2;
+  }
 }
 .back {
   position: absolute;
   width: 100px;
   height: 250px;
   top: 250px;
+  background: none;
+  border: none;
+  font-size: 4em;
+  .fas {
+    opacity: 0.2;
+  }
 }
 
 .hidden {

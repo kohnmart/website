@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <nuxt-content :document="post" />
+    <return-button></return-button>
   </div>
 </template>
 <script>

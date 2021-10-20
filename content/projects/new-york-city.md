@@ -1,11 +1,9 @@
 ---
-title: new york city
-tag: software
+title: 'new york city'
+tag: 'photo'
 thumbnail: 'photo/newyork/1.jpg'
 ---
 ## New York
-### Date: 20.08.2021 - City Trip
-
-
+### 2017 - City Trip
 
 <image-loader image="photo/newyork"></image-loader>

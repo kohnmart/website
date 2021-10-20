@@ -4,13 +4,16 @@
       <h1>Discover Projects</h1>
       <ul>
         <li>
-          <Button @click="sortBy('photo')">photography</Button>
+          <Button @click="sortBy('web')">Web-Development</Button>
         </li>
         <li>
-          <Button @click="sortBy('software')">web-development</Button>
+          <Button @click="sortBy('science')">Science</Button>
         </li>
         <li>
-          <Button @click="sortBy('vfx')">3D-visual-fx</Button>
+          <Button @click="sortBy('photo')">Photography</Button>
+        </li>
+        <li>
+          <Button @click="sortBy('vfx')">3D-Visual-Fx</Button>
         </li>
       </ul>
     </div>
@@ -79,8 +82,8 @@ h1 {
       li {
         margin-right: 20px;
         button {
-          border-radius: 10px;
-          border: none;
+          border-radius: 5px;
+          background-color: white;
           padding: 0px 10px 0px 10px;
           font-size: $p;
         }
@@ -99,12 +102,10 @@ h1 {
       .button {
         text-decoration: none;
       }
-
       p {
         margin: 0;
         display: block;
       }
-
       img {
         border-radius: 10px;
         width: 300px;
@@ -117,28 +118,26 @@ h1 {
       .project_info {
         display: none;
         opacity: 0;
-        text-align: center;
         width: 300px;
         height: 300px;
         border-radius: 10px;
-        border: 5px solid black;
-        h2{
+        border: 2px solid black;
+        margin: auto;
+        text-align: left;
+        h2 {
           color: rgb(0, 0, 0);
-          font-size: 4em;
-          padding: 10px;
-  
+          font-size: 5em;
+          font-weight: 400;
         }
       }
     }
     .thumbnail:hover {
       img {
         display: none;
-        
       }
       .project_info {
         display: block;
         opacity: 1;
-        
       }
     }
   }
