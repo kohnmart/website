@@ -1,17 +1,9 @@
 <template>
-    <Button @click="openPdf"></Button>
+<a href="docs/spotifyparty.pdf">SpotifyParty.pdf</a>
 </template>
 
 <script>
 export default {
-
-
-      methods: {
-          openPdf()
-          {
-              window.open(require("~/assets/docs/spotifyparty.pdf"));
-          }
-      }
 }
 </script>
 
