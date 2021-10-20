@@ -15,7 +15,7 @@
     <div class="overview">
       <div class="static_images" v-for="img in all_images" :key="img">
         <Button class="btn_image" @click="switchState(img)">
-          <img class="overview_image" :src="img"
+          <img :class="height" :src="img"
         /></Button>
       </div>
     </div>
@@ -24,7 +24,8 @@
 <script>
 export default {
   props: {
-    image: { type: String, required: true }
+    image: { type: String, required: true },
+    height: { type: String, required: true }
   },
   data() {
     return {
@@ -79,6 +80,7 @@ export default {
 }
 
 .overview {
+  display: inline-block;
   .static_images {
     float: left;
     margin-top: 5%;
@@ -86,9 +88,14 @@ export default {
   }
 }
 
-.overview_image {
+.overview_image_400 {
+  height: 400px;
+}
+
+.overview_image_460 {
   height: 460px;
 }
+
 
 .btn_image {
   border: none;

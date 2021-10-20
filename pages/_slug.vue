@@ -22,7 +22,7 @@ export default {
 @import "@/assets/css/main.scss";
 .container {
   margin: 60px auto;
-  width: 80%;
+  width: 60%;
   display: block;
 
   h2 {
@@ -33,13 +33,12 @@ export default {
   h3{
     color: grey;
     font-weight: 300;
-    margin-bottom: 2%;
   }
 
   h3,
   p {
     font-size: 1.5;
-    width: 50%;
+    width: 90%;
   }
 }
 </style>

@@ -83,6 +83,7 @@ h1 {
         margin-right: 20px;
         button {
           border-radius: 5px;
+          border: 2px solid grey;
           background-color: white;
           padding: 0px 10px 0px 10px;
           font-size: $p;

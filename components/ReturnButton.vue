@@ -15,11 +15,8 @@ export default {
 
 <style lang="scss">
 .bar {
-    display: inline-block;
-    width: 1000px;
+  margin-top: 100px;
   .res {
-    margin: auto;
-    width: 50%;
     text-align: center;
     .return {
       background: none;
