@@ -9,4 +9,4 @@ thumbnail: 'photo/venice/1.jpg'
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
 
-<image-loader image="photo/venice"></image-loader>
+<image-loader height="overview_image_460" image="photo/venice"></image-loader>

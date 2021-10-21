@@ -100,6 +100,7 @@ h1 {
     .thumbnail {
       margin-right: 25px;
       margin-bottom: 25px;
+
       .button {
         text-decoration: none;
       }
@@ -114,6 +115,7 @@ h1 {
         object-fit: cover;
         margin: 0;
         padding: 0;
+        border: 2px solid grey;
         background-color: gray;
       }
       .project_info {
@@ -127,7 +129,7 @@ h1 {
         text-align: left;
         h2 {
           color: rgb(0, 0, 0);
-          font-size: 5em;
+          font-size: 4em;
           font-weight: 400;
         }
       }

@@ -6,7 +6,7 @@ thumbnail: "thumb.png"
 
 ## SpotifyParty
 
-### Python / Django / Websocket / Spotify-API <br /> <br />
+### Pycharm / Python / Django / Websocket / Spotify-API <br /> <br />
 
 The music at parties plays an important role in the mood and joy of the guests. The music genre is
 usually decided by the host himself or someone with exclusive access to the playback device. A single 
@@ -59,22 +59,9 @@ For us, technical development was primary and design secondary. This area can be
 
 
  #### Outlook <br />
-The application also offers a good basis
-with regard to future expansion options.
-Some of the currently hard-coded
-Preferences such as B. the number of
-tracks to be voted on or the running time
-of the voting are available as configurable options
-be asked.
-Also, for example, would be the implementation
-some features of the "competing" applications like
-streaming playback to guest users for
-socially distant celebrations or the possibility of
-other songs outside the playlist to vote on
-to propose conceivable. All possible extensions
-however, should be critical of
-the primary requirement for ease of use
-and low entry barriers.
+The base of the app is a good starting point for future extensions. 
+For example, it should be possible to configure the hard-coded preferences such as the number of tracks, 
+the voting time and playlists by third parties. A simple application and low entry barriers apply to all future extensions.
  <br />  <br />
 
 

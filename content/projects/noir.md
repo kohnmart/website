@@ -10,4 +10,4 @@ thumbnail: 'photo/noir/2.jpg'
 
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
 
-<image-loader image="photo/noir"></image-loader>
+<image-loader height="overview_image_400" image="photo/noir"></image-loader>
