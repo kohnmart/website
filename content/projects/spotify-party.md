@@ -8,48 +8,53 @@ thumbnail: "thumb.png"
 
 ### Python / Django / Websocket / Spotify-API <br /> <br />
 
-At parties with many guests, the music that one would like to hear is often not played. Who knows who is actually putting on the music? With SpotifyParty, everyone can easily have a say via the app. The host shares any playlist and guests can join using a code. Tracks from the playlist are displayed live within the session. The song with the most likes will then play next.
-All those involved should also receive live feedback
-the status of the voting as well as the playback progress
-of the current song. <br /> <br />
+The music at parties plays an important role in the mood and joy of the guests. The music genre is
+usually decided by the host himself or someone with exclusive access to the playback device. A single 
+person's taste in music can become very monotonous and boring. So that the music creates a 
+great atmosphere and satisfaction through the night, everyone should be able to vote. <br /> <br />
+
+
+<image-loader height="overview_image_400" image="dev/spotifyparty/title"></image-loader>
 
 #### Design
 
-At parties, you need the app to be able to use it quickly and spontaneously. We have optimized the interface for smartphones and tablets.
-In addition, the host should be able to start the session with just a few clicks and without prior knowledge. <br /> <br />
+Every unforgettable party needs a smooth start! Creating the session and joining should be possible in just a few steps. Long waiting times are an absolute no-go.
+Based on the fact that guests use a smartphone rather than a PC at the party, we have optimized the app design accordingly.
+Of course you can also control it via the PC, but that's not fancy.<br /> <br />
 
 
 ### Brief Summary <br /> <br />
 
 #### Welcome to the Party!  <br />
-At the start, the app offers two options. With the "Join" form, the user can take part in a session using a 6-digit random code. The session is searched for in the database accordingly. If there is no result, the user is directed to the start page. With "Create Party" the user becomes the host and starts his own session. A Spotify registration is necessary for this.  <br />  <br />
+On the homepage, SpotifyParty offers two options. If a host has already started a session, the guests can join using the 6-digit code.
+With "create party" you can become the host yourself. The steps to create it are described below.
+A Spotify registration is necessary for this.  <br />  <br />
 
 #### Settings <br />
-After the successful Spotity registration (OAuth), the app queries the user playlists and the play-back status. Currently, you can only choose your own playlists. Every device that the user has connected to his account and is currently active can be used to play. In addition, the connection to the web socket is established at this point.<br />  <br />
+After the successful Spotity registration (OAuth), the app queries the user playlists and the play-back status. 
+Currently, you can only choose your own playlists. Every device that the host has connected to his account and 
+is currently active can be used to play. The setting options are mandatory fields without which the session cannot be started.
+For the live feedback, the connection to the websocket is established at this point.<br />  <br />
 
 
 <image-loader height="overview_image_400" image="dev/spotifyparty/first"></image-loader>
 
 #### Start Session <br />
-Before the host starts the session, he/she can send the code to the guests. They can join the waiting room before it begins.
+The session is created and ready to be started. The host can now send the access code to the guests. All guests are led into a waiting room for a joint start.
  <br />  <br />
 
 #### Live Session <br />
-Each participant can now vote for the next song. The song with the most likes will then be played next and the likes will be reset. If the host leaves the session, all users are directed to the start page.
+The session starts and the first song in the playlist is played. As long as the current song is playing, 
+anyone can vote for the next track. The likes are then reset accordingly. 
+Of course, you can skip a few songs if you don't want to look at your smartphone.
  <br />  <br />
 
 <image-loader height="overview_image_400" image="dev/spotifyparty/second"></image-loader>
 
 #### Review <br />
-Having been on throughout development
-the reference to the previously defined requirements
-was respected, they were largely able to do so
-implemented. The basic must criteria, as in 1.2. described,
-are based on the current status of the application
-completely fulfilled.
-The wish criteria are also basically already
-given, albeit optics and usability of
-Application can still be optimized.
+All team members were able to meet the requirements for the app that were set out at the beginning. 
+In the current state, all the necessary features have been implemented so that the app can function as a prototype. 
+For us, technical development was primary and design secondary. This area can be optimized accordingly.
  <br />  <br />
 
 
