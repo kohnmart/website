@@ -1,7 +1,7 @@
 ---
-title: "spotify-party"
+title: "Playlist Sharing"
 tag: "web"
-thumbnail: "thumb.png"
+thumbnail: "spotifyparty.jpg"
 ---
 
 ## SpotifyParty

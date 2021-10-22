@@ -1,5 +1,5 @@
 ---
-title: 'venice fashion series' 
+title: 'venice fashion' 
 tag: 'photo'
 thumbnail: 'photo/venice/1.jpg'
 ---

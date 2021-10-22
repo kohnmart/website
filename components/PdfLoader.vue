@@ -1,9 +1,12 @@
 <template>
-<a href="docs/spotifyparty.pdf">SpotifyParty.pdf</a>
+<a :href="doc">File</a>
 </template>
 
 <script>
 export default {
+      props: {
+    doc: { type: String, required: true },
+  },
 }
 </script>
 

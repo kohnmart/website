@@ -13,7 +13,7 @@
           <Button @click="sortBy('photo')">Photography</Button>
         </li>
         <li>
-          <Button @click="sortBy('vfx')">3D-Visual-Fx</Button>
+          <Button @click="sortBy('vfx')">Rendering</Button>
         </li>
       </ul>
     </div>
@@ -100,7 +100,10 @@ h1 {
     .thumbnail {
       margin-right: 25px;
       margin-bottom: 25px;
-
+      width: 300px;
+      height: 250px;
+       border-radius: 10px;
+      background-color: black;
       .button {
         text-decoration: none;
       }
@@ -109,38 +112,30 @@ h1 {
         display: block;
       }
       img {
-        border-radius: 10px;
         width: 300px;
-        height: 300px;
+        height: 200px;
         object-fit: cover;
-        margin: 0;
+        margin: auto;
         padding: 0;
-        border: 2px solid grey;
         background-color: gray;
       }
       .project_info {
-        display: none;
-        opacity: 0;
-        width: 300px;
-        height: 300px;
-        border-radius: 10px;
-        border: 2px solid black;
-        margin: auto;
+        margin-left: 5%;
         text-align: left;
+        margin-top: 5%;
         h2 {
-          color: rgb(0, 0, 0);
-          font-size: 4em;
+          color: white;
+          font-size: 1em;
           font-weight: 400;
         }
       }
     }
     .thumbnail:hover {
       img {
-        display: none;
+      
       }
       .project_info {
-        display: block;
-        opacity: 1;
+
       }
     }
   }

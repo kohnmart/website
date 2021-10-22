@@ -1,5 +1,5 @@
 ---
-title: 'bikini fashion series'
+title: 'bikini fashion'
 tag: 'photo'
 thumbnail: 'photo/bikini/DSC03486-1.jpg'
 ---
