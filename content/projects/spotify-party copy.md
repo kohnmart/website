@@ -15,7 +15,11 @@ No project that I have done to date has involved such responsibility and risk. T
 that I received at the beginning of 2019. So, much of the work was done before my actual study. 
 The presentation took place a year later in the Fürth town hall.<br /> <br />
 
-
+#### Personal
+I am particularly proud of this project, it is an important milestone in my development. I would even call it a personal moonshot.
+No project that I have done to date has involved such responsibility and risk. This project was an official assignment 
+that I received at the beginning of 2019. So, much of the work was done before my actual study. 
+The presentation took place a year later in the Fürth town hall.<br /> <br />
 
 <image-loader height="overview_image_400" image="dev/spotifyparty/title"></image-loader>
 
