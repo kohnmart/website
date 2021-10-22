@@ -84,7 +84,7 @@ export default {
   .static_images {
     float: left;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
   }
 }
 
@@ -94,6 +94,11 @@ export default {
 
 .overview_image_460 {
   height: 460px;
+}
+
+.overview_image_200 {
+  height: 200px;
+  
 }
 
 
