@@ -83,8 +83,7 @@ export default {
   display: inline-block;
   .static_images {
     float: left;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
   }
 }
 
@@ -97,7 +96,7 @@ export default {
 }
 
 .overview_image_200 {
-  height: 200px;
+  max-width: 350px;
   
 }
 

@@ -4,7 +4,7 @@
       <h1>Discover Projects</h1>
       <ul>
         <li>
-          <Button @click="sortBy('web')">Web-Development</Button>
+          <Button @click="sortBy('web')">Apps</Button>
         </li>
         <li>
           <Button @click="sortBy('science')">Science</Button>
@@ -17,15 +17,17 @@
         </li>
       </ul>
     </div>
-    <div class="project-container">
-      <div v-for="item in store" :key="item.title">
-        <div class="thumbnail">
-          <nuxt-link :to="item.slug" class="button">
-            <img :src="require(`~/assets/img/${item.thumbnail}`)" />
-            <div class="project_info">
-              <h2>{{ item.title }}</h2>
-            </div>
-          </nuxt-link>
+    <div class="highlights">
+      <div class="project-container">
+        <div v-for="item in store" :key="item.title">
+          <div class="thumbnail">
+            <nuxt-link :to="item.slug" class="button">
+              <img :src="require(`~/assets/img/${item.thumbnail}`)" />
+              <div class="project_info">
+                <h2>{{ item.title }}</h2>
+              </div>
+            </nuxt-link>
+          </div>
         </div>
       </div>
     </div>
@@ -43,7 +45,9 @@ export default {
   methods: {
     async sortBy(filter) {
       if (filter === "") {
-        this.store = await this.$content("projects").fetch();
+        this.store = await this.$content("projects")
+          .where({ highlight: "true" })
+          .fetch();
       } else {
         this.store = await this.$content("projects")
           .where({ tag: filter })
@@ -68,7 +72,7 @@ h1 {
   margin: auto;
   margin-top: 5%;
   .sorting-container {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     text-align: left;
     ul {
       margin-top: 2%;
@@ -86,56 +90,57 @@ h1 {
           border: 2px solid grey;
           background-color: white;
           padding: 0px 10px 0px 10px;
-          font-size: $p;
+          font-size: 1em;
+          height: 30px;
         }
       }
     }
   }
 
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
+  .highlights {
+    .project-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
 
-    .thumbnail {
-      margin-right: 25px;
-      margin-bottom: 25px;
-      width: 300px;
-      height: 250px;
-       border-radius: 10px;
-      background-color: black;
-      .button {
-        text-decoration: none;
-      }
-      p {
-        margin: 0;
-        display: block;
-      }
-      img {
+      .thumbnail {
+        margin-right: 25px;
+        margin-bottom: 25px;
         width: 300px;
-        height: 200px;
-        object-fit: cover;
-        margin: auto;
-        padding: 0;
-        background-color: gray;
-      }
-      .project_info {
-        margin-left: 5%;
-        text-align: left;
-        margin-top: 5%;
-        h2 {
-          color: white;
-          font-size: 1em;
-          font-weight: 400;
+        height: 250px;
+        border-radius: 10px;
+        background-color: black;
+        .button {
+          text-decoration: none;
+        }
+        p {
+          margin: 0;
+          display: block;
+        }
+        img {
+          width: 300px;
+          height: 200px;
+          object-fit: cover;
+          margin: auto;
+          padding: 0;
+          background-color: gray;
+        }
+        .project_info {
+          margin-left: 5%;
+          text-align: left;
+          margin-top: 5%;
+          h2 {
+            color: white;
+            font-size: 1em;
+            font-weight: 400;
+          }
         }
       }
-    }
-    .thumbnail:hover {
-      img {
-      
-      }
-      .project_info {
-
+      .thumbnail:hover {
+        img {
+        }
+        .project_info {
+        }
       }
     }
   }

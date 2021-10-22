@@ -2,6 +2,7 @@
 title: "Playlist Sharing"
 tag: "web"
 thumbnail: "spotifyparty.jpg"
+highlight: 'true'
 ---
 
 ## SpotifyParty
@@ -66,4 +67,4 @@ the voting time and playlists by third parties. A simple application and low ent
 
 
  Download the complete documentation:
- <pdf-loader></pdf-loader>
+ <pdf-loader doc="docs/spotifyparty.pdf"></pdf-loader>
