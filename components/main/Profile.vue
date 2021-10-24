@@ -12,7 +12,6 @@
         <h1>Intro</h1>
         <br />
         <a href="#skills"><h2>Skills</h2> </a>
-        <a href="#lessons"><h2>Life Lessons</h2></a>
         <a href="#inspirations"><h2>Literature</h2></a>
           <br />
         <p>
@@ -60,7 +59,7 @@
           alt="Martin Kohnle is not here"
         />
       </div>
-      <div>
+      <!-- <div>
         <h1 id="lessons">Life Lessons</h1>
         <br />
         <p>
@@ -89,8 +88,8 @@
           If something is really important, do it even if the odds are not in
           your favor.
         </p>
-      </div>
-      <div>
+      </div> -->
+      <div> 
         <h1 id="inspirations">Literature</h1>
         <br />
         <ul>
@@ -173,7 +172,7 @@ export default {};
   p {
     font-size: $p;
     text-align: left;
-    font-weight: 200;
+    font-weight: 300;
   }
 
   ul {
