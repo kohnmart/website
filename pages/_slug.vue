@@ -25,20 +25,40 @@ export default {
   width: 60%;
   display: block;
 
-  h2 {
-    font-size: 3em;
-    margin-bottom: 1%;
+  h1 {
+    font-size: 2.5em;
   }
 
-  h3{
-    color: grey;
-    font-weight: 300;
+  h2 {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-weight: 400;
+    margin-bottom: 10px;
   }
 
   h3,
   p {
     font-size: 1.5;
     width: 90%;
+    margin-bottom: 10px;
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 1.2em;
+    }
+
+    a:hover {
+      text-decoration-line: underline;
+    }
+  }
+
+  h4{
+    color: grey;
+    font-weight: 400;
   }
 }
 </style>

@@ -1,32 +1,44 @@
 ---
 title: "Realtime Presentation"
 tag: "science"
-thumbnail: "science/bkpv/1.jpg"
+thumbnail: "science/bkpv/title/1.jpg"
 highlight: "true"
 ---
 
-## 100th Year Anniversary
+# Realtime Presentation
 
-### Unity / Realtime Rendered Presentation / Moonshot <br /> <br />
+### Unity / Visual Studio / Blender <br /> <br />
 
-#### Roles and Rescources
+[Introduction](#introduction)
 
-Role - Head of Development and Design <br />
+[Idea](#idea)
+
+[Development](#development)
+
+[Scenery](#scenery)
+
+
+<br /> <br />
+
+<image-loader height="overview_image_460" image="science/bkpv/title"></image-loader>
+## Introduction 
+
+
+Me - Head of Development and Design <br />
 Client - BKPV <br />
 Development - 6 Months <br />
 Contributors - 20 <br /> <br />
 
 #### Background
-
 I am particularly proud of this project, it is an important milestone in my development. I would even call it a personal moonshot.
 No project that I have done to date has involved such responsibility and risk. This project was an official assignment
-that I received at the beginning of 2019. So, much of the work was done before my actual study.
-The presentation took place a year later in the Fürth town hall.<br /> <br />
+that I received at the beginning of 2019. The occasion of the presentation was the 100th anniversary of the Bavarian Auditing Association.
+Many important mayors and high-ranking politicians attended.
+It took place a year later in the Fürth town hall.<br /> <br />
 
-<image-loader height="overview_image_460" image="science/bkpv"></image-loader>
+<image-loader height="overview_image_400" image="science/bkpv/intro"></image-loader>
 
-### Inspire <br /> <br />
-
+## Idea 
 #### Creating the presentation
 
 The idea was to develop an interactive presentation that can process large amounts of data in real time.
@@ -52,5 +64,8 @@ be controlled from the direction in case the presentator makes a mistake.
 An absolutely flexible presentation is reassuring for everyone involved.
 
 <br /> <br />
+<br /> <br />
 
+## Scenery
 
+<image-loader height="overview_image_400" image="science/bkpv/intro"></image-loader>

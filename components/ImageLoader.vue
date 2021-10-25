@@ -81,9 +81,10 @@ export default {
 
 .overview {
   display: inline-block;
+      margin-bottom: 15%;
   .static_images {
     float: left;
-    margin-bottom: 1%;
+
   }
 }
 
