@@ -4,10 +4,12 @@
       <Button class="back" @click="back"
         ><i class="fas fa-chevron-left"></i
       ></Button>
+
       <img class="carousel" :src="all_images[carousel]" />
       <Button class="forward" @click="forward">
         <i class="fas fa-chevron-right"></i>
       </Button>
+
       <Button class="exit" @click="switchState"
         ><i class="far fa-times-circle"></i
       ></Button>
@@ -81,10 +83,10 @@ export default {
 
 .overview {
   display: inline-block;
-      margin-bottom: 15%;
+  margin-bottom: 5%;
+  margin-top: 5%;
   .static_images {
     float: left;
-
   }
 }
 
@@ -98,9 +100,7 @@ export default {
 
 .overview_image_200 {
   max-width: 350px;
-  
 }
-
 
 .btn_image {
   border: none;
@@ -118,14 +118,15 @@ export default {
   top: 0px;
   background: none;
   border: none;
-  font-size: 2em;
   .far {
-    opacity: 0.1;
+    opacity: 0.5;
+    color: black;
   }
 }
 
 .forward {
   position: absolute;
+  color: black;
   width: 100px;
   height: 250px;
   left: 1180px;
@@ -134,7 +135,8 @@ export default {
   border: none;
   font-size: 4em;
   .fas {
-    opacity: 0.2;
+    opacity: 0.5;
+    color: black;
   }
 }
 .back {
@@ -146,7 +148,8 @@ export default {
   border: none;
   font-size: 4em;
   .fas {
-    opacity: 0.2;
+    opacity: 0.5;
+    color: black;
   }
 }
 

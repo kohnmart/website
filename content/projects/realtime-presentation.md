@@ -11,23 +11,19 @@ highlight: "true"
 
 [Introduction](#introduction)
 
-[Idea](#idea)
+[Concept](#concept)
 
-[Development](#development)
-
-[Scenery](#scenery)
+[Showcase](#showcase)
 
 
 <br /> <br />
 
-<image-loader height="overview_image_460" image="science/bkpv/title"></image-loader>
+<image-loader height="overview_image_400" image="science/bkpv/intro"></image-loader>
 ## Introduction 
 
-
-Me - Head of Development and Design <br />
-Client - BKPV <br />
-Development - 6 Months <br />
-Contributors - 20 <br /> <br />
+Date: August 2019 - January 2021 <br />
+Team: Martin Kohnle, BKPV employees, Fürth town hall staff, KIGG Media <br />
+Role: Head of Development and Design <br /> <br />
 
 #### Background
 I am particularly proud of this project, it is an important milestone in my development. I would even call it a personal moonshot.
@@ -36,9 +32,9 @@ that I received at the beginning of 2019. The occasion of the presentation was t
 Many important mayors and high-ranking politicians attended.
 It took place a year later in the Fürth town hall.<br /> <br />
 
-<image-loader height="overview_image_400" image="science/bkpv/intro"></image-loader>
+<image-loader height="overview_image_460" image="science/bkpv/title"></image-loader>
 
-## Idea 
+## Concept 
 #### Creating the presentation
 
 The idea was to develop an interactive presentation that can process large amounts of data in real time.
@@ -60,12 +56,55 @@ screens with backlight projectors. Each hall is different in terms of space and 
 It is not always possible to coordinate everything beforehand. The engine allows us to 
 dynamically adjust light and color settings shortly before or even during the presentation.
 In addition, the camera and media of the presentation can 
-be controlled from the direction in case the presentator makes a mistake.
+be controlled from the direction in case the presentator makes a mistake or want to step back.
 An absolutely flexible presentation is reassuring for everyone involved.
 
 <br /> <br />
-<br /> <br />
 
-## Scenery
 
+
+## Showcase
+#### Main Scence
+Introduced by the intro, this scene became the center of the presentation. Many speakers, as well as the band, used this as a background. The auditing association is responsible for the federal state of Bavaria. Accordingly, our globe consists only of the Bavaria map. A little gag.
+The logo flies endlessly around the earth in an orbit.
 <image-loader height="overview_image_400" image="science/bkpv/intro"></image-loader>
+
+
+#### History Scence
+Showing history and development of the association.
+<image-loader height="overview_image_400" image="science/bkpv/history"></image-loader>
+
+
+#### Present Scence
+Transfer to the present. Showing the development and current activities.
+Core of the entire presentation. Features such as slides, 2D and 3D objects, terrain maps, films and live speeches are shown here.
+<image-loader height="overview_image_400" image="science/bkpv/present"></image-loader>
+
+## Roadmap
+#### January
+Creating the prototype <br /> <br />
+
+#### February
+Demo Presentation and assignment <br /> <br />
+
+#### July
+Official start of production <br />
+Creating a storyboard <br /> 
+Adapting the concept <br /> 
+<br />
+
+#### August
+Concept and Creation of the main scenery (globe) <br /> 
+Video and sound check in fürth <br /> <br />
+
+#### September
+Concept and Creation of the second scenery (hall)<br /> 
+Second video and sound check in fürth  <br /> <br />
+
+#### October
+Adding the intro camera path to the main scenery<br /> 
+Incorporate client documents and videos into the presentations <br />
+
+#### October
+Adding the intro camera path to the main scenery<br /> 
+Incorporate client documents and videos into the presentations <br />

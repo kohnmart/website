@@ -2,12 +2,18 @@
 title: "Project Clouds Animation"
 tag: "vfx"
 thumbnail: "vfx/clouds/title/title.png"
-highlight: 'true'
+highlight: "true"
 ---
+
 
 ## Project Clouds Animation
 
-### Houdini / Substance Painter / Mapbox <br /> <br />
+### Houdini / Substance Painter / Mapbox
+
+Date: July 2021 <br />
+Team: Martin Kohnle, Moritz Kronberger <br />
+Role: Research, Cloud Modelling, Rendering <br />
+<br /> <br />
 
 <image-loader height="overview_image_400" image="vfx/clouds/title"></image-loader>
 <br /> <br />
@@ -29,7 +35,7 @@ We imagined that the entire scene would take place on a farm field. As the sun g
 
 <youtube-loader link="https://www.youtube.com/embed/bUjEX9_8Q0c"></youtube-loader>
 
-### A spontaneous study
+#### Study
 
 After we set up the concept, we quickly noticed that with the clouds and field, we encountered two very complex structures. Clouds are strange objects when you think about them, are they more physical or gaseous? You can imagine the field better, but rendering millions of grasses and bushes is a crazy effort. We decided to work separately on clouds and fields in order to be able to dive deeper into the areas. Different approaches and implementations were tested for both models. We had to find the sweet spot of acceptable hardware performance and the best optical quality. Nothing easier than that. <br /> <br />
 
@@ -39,14 +45,13 @@ At the beginning, a research had to be done to find out when and where certain c
 Check the documentation for detailed informations and node structures. For the final work, we decided on two model concepts, Pointy and Poly. The development has shown that pointy clouds can be used efficiently for very large, flat and scattered formations which extend over the whole map. In contrast, the polyclouds are better suited for high and dense cumulus clouds.
 <br /> <br />
 
-
 <image-loader height="overview_image_200" image="vfx/clouds/poly"></image-loader>
 
-
 #### Review
+
 For a team of two with limited hardware, it was quite a challenge. Again and again we have reached the limits of what is technically feasible (for us). Instead of compromising with the problems, we invested a lot of time and creativity to find meaningful and efficient solutions. <br />
 A great side effect is that I was able to find out a lot about clouds and their formation.
 <br /> <br />
 
- Download the complete documentation:
- <pdf-loader doc="docs/clouds.pdf"></pdf-loader>
+Download the complete documentation:
+<pdf-loader doc="docs/clouds.pdf"></pdf-loader>

@@ -44,7 +44,6 @@ export default {
   p {
     font-size: 1.5;
     width: 90%;
-    margin-bottom: 10px;
     a {
       text-decoration: none;
       color: black;
@@ -56,7 +55,7 @@ export default {
     }
   }
 
-  h4{
+  h4 {
     color: grey;
     font-weight: 400;
   }

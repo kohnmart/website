@@ -8,6 +8,13 @@ thumbnail: "snippets.jpg"
 
 ### VsCode / Javascript / Vue 3 / Prism.js <br /> <br />
 
+Date: July 2021 <br />
+Tech: Vue.js, Express, PostgreSQL, Docker <br />
+Team: Lea Jell, Moritz Kronberger <br />
+Role: Frontend, Design <br />
+Code: GitHub <br /> <br />
+
+
 Snippets is a small social media web-application for developers. The basis consists of the classic methods of creating, liking and commenting on posts. The special feature of the app is the type of post. The users share special, interesting and complex code snippets which are also highlighted in the corresponding language. The main page "Coding Feed" shows the feed of all posts. The posts can be sorted and filtered using a fault-tolerant search. Code support is usually offered on these platforms. Our intention was to create a platform that shows the code and its logic as a work of art. <br /> <br />
 
 <image-loader height="overview_image_400" image="dev/snippets/title"></image-loader>
