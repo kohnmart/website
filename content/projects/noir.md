@@ -6,9 +6,7 @@ highlight: 'true'
 ---
 
 
-## Noir Series
-### Date: 20.08.2021 - Field: Fashion - Role: Photographer
+# Noir Series
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.
 
-<image-loader height="overview_image_400" image="photo/noir"></image-loader>
+<image-loader height="overview_image_460" image="photo/noir"></image-loader>

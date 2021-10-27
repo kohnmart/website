@@ -99,7 +99,7 @@ export default {
 }
 
 .overview_image_200 {
-  max-width: 350px;
+  max-width: 335px;
 }
 
 .btn_image {
