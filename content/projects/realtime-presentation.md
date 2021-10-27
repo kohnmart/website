@@ -1,15 +1,15 @@
 ---
 title: "Realtime Presentation"
 tag: "science"
-thumbnail: "science/bkpv/title/regie.jpg"
+thumbnail: "science/bkpv/scenes/bkpv.jpg"
 highlight: "true"
 members: {
 Date: "August 2019 - January 2020",         
 Martin Kohnle: "Unity, Terrain, Scene Setup, Camera Path",
-Adrian Kohnle: "Music, Design, Scrum Master", 
+Adrian Kohnle: "Music, Stage Design, Scrum Master", 
 Mirela Wagner: "Management, Project Owner", 
 Kigg Media: "Photo, Film, Editing",                BKPV: "Storyboard, Documents", 
-Fürth staff: "Light, Audio, Stage",                Freelancers: "3D Modelling"
+Fürth staff: "Light, Audio, Stage",                Freelancers: "3D Modelling, Animations"
 }
 ---
 
@@ -26,7 +26,6 @@ Fürth staff: "Light, Audio, Stage",                Freelancers: "3D Modelling"
 [Scenes](#scenes)
 
 [Review](#review)
-
 
 <br /> <br />
 
@@ -105,5 +104,9 @@ Features such as slides, 2D and 3D objects, terrain maps, films and live speeche
 ## Review
 
 This presentation should be seen as a study. The aim was to find out whether the use of 3D space and real time could result in an advantage. First of all it was definitely a success, the employees of the association were emotionally touched by the new representation of their workplace. They had never seen each other in this perspective before. We achieved the desired effect, that was really great!
-
+<br /> <br />
 This kind of presentation creates completely new possibilities and perspectives, I think we have only implemented a minimum of what would be possible. That was just the beginning of a study to determine whether there was any need for it.
+
+<br /> <br />
+
+I would like to thank everyone involved for their trust and willingness to take risks.

@@ -13,21 +13,20 @@
         <br />
         <a href="#skills"><h2>Skills</h2> </a>
         <a href="#inspirations"><h2>Literature</h2></a>
-          <br />
-        <p>
-          Hello my name is Martin and this that. Good to be here. I like beeing
-          in the work getting things done. Failing and winning. I like sports.
-          Failing and winning. I like sports. Hello my name is Martin and this
-          that. Good to be here. I like beeing in the work getting things done.
-        </p>
         <br />
         <p>
-          Hello my name is Martin and this that. Good to be here. I like beeing
-          in the work getting things done. Failing and winning. I like sports.
-          Failing and winning. I like sports. Hello my name is Martin and this
-          that. Good to be here. I like beeing in the work getting things done.
+          Hello, everyone. My name is Martin Kohnle, 24 years old. I am
+          currently studying interactive media with a focus on computer science
+          in Augsburg. A course that bridges the gap between design and computer
+          science. I feel at home in this in-between world. I started
+          photography and filming when I was around 16. Since then I have worked
+          through various fields and tried all sorts of things. It raised my
+          awareness of project management, communication, and failure.
+          Experience that I transfer to my activities today. With my skills and
+          resources I try to solve valuable and urgent problems as possible.
         </p>
       </div>
+
       <div>
         <img
           class="profile"
@@ -52,7 +51,7 @@
           that. Good to be here. I like beeing in the work getting things done.
         </p>
       </div>
-           <div>
+      <div>
         <img
           class="profile"
           src="~/assets/img/profile/control.jpg"
@@ -89,7 +88,7 @@
           your favor.
         </p>
       </div> -->
-      <div> 
+      <div>
         <h1 id="inspirations">Literature</h1>
         <br />
         <ul>

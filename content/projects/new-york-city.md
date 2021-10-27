@@ -1,5 +1,5 @@
 ---
-title: 'new york city'
+title: 'New York City'
 tag: 'photo'
 thumbnail: 'photo/newyork/1.jpg'
 ---

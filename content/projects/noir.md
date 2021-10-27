@@ -1,12 +1,10 @@
 ---
-title: 'noir series'
+title: 'Noir'
 tag: 'photo'
-thumbnail: 'photo/noir/2.jpg'
+thumbnail: 'noir.jpg'
 highlight: 'true'
 ---
 
-
 # Noir Series
-
 
 <image-loader height="overview_image_460" image="photo/noir"></image-loader>

@@ -18,6 +18,7 @@
       </ul>
     </div>
     <div class="highlights">
+      <h2>{{ subline }}</h2>
       <div class="project-container">
         <div v-for="item in store" :key="item.title">
           <div class="thumbnail">
@@ -38,7 +39,8 @@
 export default {
   data() {
     return {
-      store: []
+      store: [],
+      subline: "Highlights",
     };
   },
 
@@ -52,6 +54,7 @@ export default {
         this.store = await this.$content("projects")
           .where({ tag: filter })
           .fetch();
+          this.subline = "";
       }
     }
   },
@@ -98,6 +101,9 @@ h1 {
   }
 
   .highlights {
+    h2 {
+      margin-bottom: 25px;
+    }
     .project-container {
       display: flex;
       flex-wrap: wrap;
@@ -134,12 +140,6 @@ h1 {
             font-size: 1em;
             font-weight: 400;
           }
-        }
-      }
-      .thumbnail:hover {
-        img {
-        }
-        .project_info {
         }
       }
     }

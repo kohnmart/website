@@ -13,7 +13,7 @@ Code: "GitHub",
 
 # Snippets
 
-### Vue 3, Express, Postgres SQL, Docker <br /> <br />
+### Vue 3, SCSS, Express, Postgres SQL, Docker <br /> <br />
 
 <team :members="members"></team>
 
@@ -23,7 +23,7 @@ Snippets is a small social media web-application for developers. The basis consi
 
 <image-loader height="overview_image_400" image="dev/snippets/title"></image-loader>
 
-### Brief Summary <br /> <br />
+## Summary <br /> <br />
 
 #### Design
 
@@ -50,9 +50,10 @@ As an additional feature, users can subsequently change their user name and pass
 <image-loader height="overview_image_400" image="dev/snippets/profile"></image-loader>
 
 
- #### Review <br />
+ ## Review <br />
 This project was carried out in a group of three and should be understood as a prototype. The development time was about two months. In addition to the web application, the focus was also on the use of version management (Gitlab) with various branches. All participants were able to fully fulfill their intended area of responsibility.
  <br />  <br />
+ 
  #### Outlook <br />
 Expansion options are conceivable for each feature. Accounts could take on various useful roles (admins). It would also be nice if you could follow other users. Each user should have their own feed in their profile. Assuming that there will be thousands of posts in the database at some point, the main feed should load them in batches. The individual post should also be editable at a later date. Most important, revised the SCSS haha!
  <br />  <br />
