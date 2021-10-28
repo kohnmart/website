@@ -5,8 +5,8 @@ thumbnail: "vfx/clouds/title/title.png"
 highlight: "true"
 members: {
 Date: "May - July 2021",        
-Martin Kohnle: "Research, Focus=Clouds, Skybox, Animation, Modell, Rendering",
-Moritz Kronberger: "Research, Focus=Field, Extrusions, Modell, Animation"
+Martin Kohnle: "Research, Clouds, Skybox, Animation, Modell, Rendering",
+Moritz Kronberger: "Research, Field, Extrusions, Modell, Animation"
 }
 points: ["Introduction", "Animation", "Research", "Review"]
 ---
@@ -24,7 +24,7 @@ points: ["Introduction", "Animation", "Research", "Review"]
 <br /> <br />
 
 ## Introduction 
-<team :members="members"></team> <br /> <br />
+<team :members="members" title="Media" type="Video"></team> <br /> <br />
 
 #### Plot
 "It was now the third day that something seemed to be wrong with the evening sky. The clouds were even lower today than the days before. And when nature finally fell silent, the storm set in."

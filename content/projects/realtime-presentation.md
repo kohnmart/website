@@ -5,7 +5,7 @@ thumbnail: "science/bkpv/scenes/bkpv.jpg"
 highlight: "true"
 members: {
 Date: "August 2019 - January 2020",         
-Martin Kohnle: "Unity, Terrain, Scene Setup, Camera Path",
+Martin Kohnle: "Unity, Visual Studio, Blender, Stage Design",
 Adrian Kohnle: "Music, Stage Design, Scrum Master", 
 Mirela Wagner: "Management, Project Owner", 
 Kigg Media: "Photo, Film, Editing",                BKPV: "Storyboard, Documents", 
@@ -28,7 +28,7 @@ points: ["Introduction", "Concept", "Showcase", "Scenes", "Review"]
 ## Introduction
 
 <br /> 
-<team :members="members"></team>
+<team :members="members" title="Media" type="Showcase"></team>
 
 <br /> <br />
 

@@ -4,7 +4,6 @@
       <li style="float:left"><nuxt-link to="/">Martin Kohnle</nuxt-link></li>
       <li><nuxt-link to="/projects">contact</nuxt-link></li>
       <li><nuxt-link to="/projects">projects</nuxt-link></li>
-      <li><nuxt-link to="/">work</nuxt-link></li>
     </ul>
   </div>
 </template>

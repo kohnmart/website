@@ -10,47 +10,26 @@
       </div>
       <div>
         <h1>Intro</h1>
-        <br />
-        <a href="#skills"><h2>Skills</h2> </a>
-        <a href="#inspirations"><h2>Literature</h2></a>
-        <br />
         <p>
-          Hello, everyone. My name is Martin Kohnle, 24 years old. I am
-          currently studying interactive media with a focus on computer science
-          in Augsburg. A course that bridges the gap between design and computer
-          science. I feel at home in this in-between world. I started
-          photography and filming when I was around 16. Since then I have worked
-          through various fields and tried all sorts of things. It raised my
-          awareness of project management, communication, and failure.
-          Experience that I transfer to my activities today. With my skills and
-          resources I try to solve valuable and urgent problems as possible.
-        </p>
-      </div>
+          Hello, everyone. My name is Martin Kohnle, I am a 24 year old student
+          from Augsburg. I am currently studying interactive media with a focus
+          on computer science. A course, that bridges the gap between design and
+          computer science. <br />
+          <br />
+          I feel at home in this intermediate world of logic and design. The
+          know-how in both fields makes it possible to structure a project
+          better, to recognize possible problems early and to adapt the design
+          to technical possibilities. <br />
+          <br />
 
-      <div>
-        <img
-          class="profile"
-          src="~/assets/img/profile/skills.jpg"
-          alt="Martin Kohnle is not here"
-        />
-      </div>
-      <div>
-        <h1 id="skills">Skills</h1>
-        <br />
-        <p>
-          Hello my name is Martin and this that. Good to be here. I like beeing
-          in the work getting things done. Failing and winning. I like sports.
-          Failing and winning. I like sports. Hello my name is Martin and this
-          that. Good to be here. I like beeing in the work getting things done.
-        </p>
-        <br />
-        <p>
-          Hello my name is Martin and this that. Good to be here. I like beeing
-          in the work getting things done. Failing and winning. I like sports.
-          Failing and winning. I like sports. Hello my name is Martin and this
-          that. Good to be here. I like beeing in the work getting things done.
+          I started photography as a teenager. I went through different fields
+          and tried all sorts of things. It wasn't my goal to achieve a specific
+          business goal with photography. First and foremost, I wanted to gain
+          experience in projects, problem solving, self-reflection and
+          communication.
         </p>
       </div>
+      <!-- <div>
       <div>
         <img
           class="profile"
@@ -58,7 +37,7 @@
           alt="Martin Kohnle is not here"
         />
       </div>
-      <!-- <div>
+
         <h1 id="lessons">Life Lessons</h1>
         <br />
         <p>
@@ -89,7 +68,7 @@
         </p>
       </div> -->
       <div>
-        <h1 id="inspirations">Literature</h1>
+        <h2 id="inspirations">Literature</h2>
         <br />
         <ul>
           <li>
@@ -149,10 +128,10 @@ export default {};
     padding: 5%;
     width: 50%;
     float: left;
-    margin-bottom: 100px;
     .profile {
       object-fit: cover;
       width: 100%;
+      height: 500px;
       border-radius: 50px;
     }
   }
@@ -161,6 +140,7 @@ export default {};
     font-size: $h1;
     font-weight: 400;
     text-align: left;
+    margin-bottom: 10px;
   }
 
   h2 {

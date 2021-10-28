@@ -7,7 +7,6 @@ members: {
 Date: "November 2020 - February 2021",    
 Martin Kohnle: "Django, Websocket, Spotipy, Docker, Design",
 Moritz Kronberger: "Postgres SQL, Django, Docker, Design",
-Code: "GitHub",
 }
 ---
 
@@ -21,20 +20,16 @@ Code: "GitHub",
 
 The music at parties plays an important role in the mood and joy of the guests. The music genre is
 usually decided by the host himself or someone with exclusive access to the playback device. A single
-person's taste in music can become very monotonous and boring. So that the music creates a
-great atmosphere and satisfaction through the night, everyone should be able to vote. <br /> <br />
+person's taste in music can become very monotonous and boring. Through the music voting, SpotifyParty helps to keep the mood and atmosphere positive all night long. <br /> <br />
 
 <image-loader height="overview_image_400" image="dev/spotifyparty/title"></image-loader>
-
-
 
 ## Summary
 
 #### Design
 
-Every unforgettable party needs a smooth start! Creating the session and joining should be possible in just a few steps. Long waiting times are an absolute no-go.
-Based on the fact that guests use a smartphone rather than a PC at the party, we have optimized the app design accordingly.
-Of course you can also control it via the PC, but that's not fancy.<br /> <br />
+Every unforgettable party needs a smooth start! Creating the session and joining should be possible in a few steps. Long waiting times are an absolute no-go.
+Based on the fact that guests use a smartphone rather than a PC at the party, we have optimized the app design accordingly. Of course you can also control it via the PC, but that's not fancy on a party.<br /> <br />
 
 #### Welcome to the Party! <br />
 

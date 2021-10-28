@@ -7,7 +7,7 @@
         </ul>
       </div>
       <ul>
-        <li>Code</li>
+        <li>{{title}}</li>
       </ul>
     </div>
     <div class="float">
@@ -17,7 +17,7 @@
         </ul>
       </div>
       <ul>
-        <li><a :href="git">GitHub</a></li>
+        <li><a :href="git">{{type}}</a></li>
       </ul>
     </div>
   </div>
@@ -27,7 +27,9 @@
 export default {
   props: {
     members: { type: Object, default: () => ({}) },
-    git: { type: String }
+    git: { type: String },
+    title: { type: String, default: "Code"},
+    type: { type: String, default: "GitHub" },
   }
 };
 </script>
