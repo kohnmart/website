@@ -6,6 +6,9 @@
           <li class="left">{{ item }}</li>
         </ul>
       </div>
+      <ul>
+        <li>Code</li>
+      </ul>
     </div>
     <div class="float">
       <div v-for="(key, item) in members">
@@ -13,6 +16,9 @@
           <li>{{ key }}</li>
         </ul>
       </div>
+      <ul>
+        <li><a :href="git">GitHub</a></li>
+      </ul>
     </div>
   </div>
 </template>
@@ -20,8 +26,9 @@
 <script>
 export default {
   props: {
-    members: { type: Object, default: () => ({}) }
-  },
+    members: { type: Object, default: () => ({}) },
+    git: { type: String }
+  }
 };
 </script>
 

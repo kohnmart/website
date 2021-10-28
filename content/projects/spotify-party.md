@@ -28,7 +28,7 @@ great atmosphere and satisfaction through the night, everyone should be able to 
 
 
 
-## Summary <br /> <br />
+## Summary
 
 #### Design
 

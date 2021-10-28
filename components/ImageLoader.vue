@@ -78,7 +78,7 @@ export default {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 700px;
+  max-height: 630px;
 }
 
 .overview {

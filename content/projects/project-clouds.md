@@ -4,34 +4,27 @@ tag: "vfx"
 thumbnail: "vfx/clouds/title/title.png"
 highlight: "true"
 members: {
-Date: "April - July 2021",        
+Date: "May - July 2021",        
 Martin Kohnle: "Research, Focus=Clouds, Skybox, Animation, Modell, Rendering",
 Moritz Kronberger: "Research, Focus=Field, Extrusions, Modell, Animation"
 }
+points: ["Introduction", "Animation", "Research", "Review"]
 ---
 
 
-## Project Clouds Animation
+# Project Clouds Animation
 
 ### Houdini / Substance Painter / Mapbox  <br /> <br />
 
-[Introduction](#introduction)
 
-[Animation](#animation)
+<bullet-points :points="points"></bullet-points>
 
-[Research](#research)
-
-[Review](#review)
-
-
-
-<br /> <br />
 
 <image-loader height="overview_image_400" image="vfx/clouds/title"></image-loader>
 <br /> <br />
 
 ## Introduction 
-<team :members="members"></team><br /> <br />
+<team :members="members"></team> <br /> <br />
 
 #### Plot
 "It was now the third day that something seemed to be wrong with the evening sky. The clouds were even lower today than the days before. And when nature finally fell silent, the storm set in."
@@ -44,7 +37,10 @@ Aliens arrive on earth by camouflaging themselves in cloud formations.
 
 #### Concept
 
-We imagined that the entire scene would take place on a farm field. As the sun goes down, plants and grasses gently blow in the wind. The mood is peaceful, Birds chirp in the distance. In the process, the clouds in the sky transform and the wind gets stronger. The wind strength is evident through the vegetation. The clouds suddenly produce extrusions that are threateningly approaching the ground.
+We imagined that the entire scene would take place on a farm field. As the sun goes down, plants and grasses gently blow in the wind. The mood is peaceful, birds chirp in the distance. In the process, the clouds in the sky transform and the wind gets stronger. The wind strength is evident through the vegetation. The clouds suddenly produce extrusions that are threateningly approaching the ground.
+<br /> <br />
+
+<image-loader height="overview_image_460" image="vfx/clouds/skizze"></image-loader>
 <br /> <br />
 
 ## Animation 
@@ -58,8 +54,10 @@ After we set up the concept, we quickly noticed that with the clouds and field, 
 
 #### Clouds
 
-At the beginning, a research had to be done to find out when and where certain cloud formations appeare. It is also realistic that formations are visible at different altitudes at the same time.
-Check the documentation for detailed informations and node structures. For the final work, we decided on two model concepts, Pointy and Poly. The development has shown that pointy clouds can be used efficiently for very large, flat and scattered formations which extend over the whole map. In contrast, the polyclouds are better suited for high and dense cumulus clouds.
+At the beginning, research had to be done to find out when and where certain cloud formations appear. It is also realistic that formations are visible at different altitudes at the same time.
+Check the documentation for detailed information and node structures. For the final work, we decided on two model concepts, Pointy and Poly. The development has shown that pointy clouds can be used efficiently for very large, flat and scattered formations which extend over the whole map. In contrast, the poly clouds are better suited for high and dense cumulus clouds.
+
+
 <br /> <br />
 
 <image-loader height="overview_image_200" image="vfx/clouds/poly"></image-loader>

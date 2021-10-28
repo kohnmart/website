@@ -11,21 +11,15 @@ Mirela Wagner: "Management, Project Owner",
 Kigg Media: "Photo, Film, Editing",                BKPV: "Storyboard, Documents", 
 Fürth staff: "Light, Audio, Stage",                Freelancers: "3D Modelling, Animations"
 }
+points: ["Introduction", "Concept", "Showcase", "Scenes", "Review"]
 ---
 
 # Realtime Presentation
 
 ### Unity / Visual Studio / Blender <br /> <br />
 
-[Introduction](#introduction)
 
-[Concept](#concept)
-
-[Showcase](#showcase)
-
-[Scenes](#scenes)
-
-[Review](#review)
+<bullet-points :points="points"></bullet-points>
 
 <br /> <br />
 
@@ -56,25 +50,22 @@ The idea was to develop an interactive presentation that can process large amoun
 There is no way around a game engine to bring these two factors together.
 To prove my technical skills, I developed a primitive prototype.
 Which was able to show a possible process with various features such as an interactive
-camera path, 2D and 3D objects, animations, presentation slides and a generated height map. <br /> <br />
+camera path, 2D and 3D objects, animations, presentation slides and a generated height map.
+The prototype was able to confirm the technical implementation. Of course, the entire concept and visual quality had to be scaled for the official presentation. The show should have a total length of 2 hours.
+ <br /> <br />
 
 #### Transfering information
 
-Does this provide a better way of conveying information than with a classic presentation? It depends.
-In presentations of this kind, the focus is on experience and conviction. The software makes
-it possible for companies to present themselves in a completely new way. We open up the three-dimensional
-space, visualize products and history. Creating a long lasting feeling and perspective. At these events,
-nobody remembers the 35th presentation slide with the annual balance sheet. <br /> <br />
+
+Does this provide a better way of conveying information than with a classic presentation? It depends. In presentations of this kind, the focus is on experience and conviction. The software makes it possible for companies to present themselves in a completely new way. We open up the three-dimensional
+space, visualize products and history. Creating a long-lasting feeling and perspective. At these events, nobody remembers the 35th presentation slide with the annual balance sheet.
+
+ <br /> <br />
 
 #### Benefits of real time
 
-Real time helps more than just visualize. Our presentations are shown in large halls on 16 meter
-screens with backlight projectors. Each hall is different in terms of space and lighting technology.
-It is not always possible to coordinate everything beforehand. The engine allows us to
-dynamically adjust light and color settings shortly before or even during the presentation.
-In addition, the camera and media of the presentation can
-be controlled from the direction in case the presentator makes a mistake or want to step back.
-An absolutely flexible presentation is reassuring for everyone involved.
+Real time helps more than just visualize. Our presentations are shown in large halls on 16 meters screens with backlight projectors. Each hall is different in terms of space and lighting technology.
+It is not always possible to coordinate everything beforehand. The engine allows to dynamically adjust light and color settings shortly before or even during the presentation. In addition, the camera and media of the presentation can be controlled from the direction in case the presentator makes a mistake or want to step back. Accordingly, changes to the content at short notice are also possible days before the deadline. An absolutely flexible presentation is reassuring for everyone involved.
 
 <br /> <br />
 
@@ -91,10 +82,10 @@ The logo flies endlessly around the earth in an orbit.
 Images and documents of the history were visualized in an animated book.
 <image-loader height="overview_image_460" image="science/bkpv/history"></image-loader>
 
-#### Present Scence
+#### Hall Scence
 
-Core of the entire presentation. Showing the development and current activities.
-Features such as slides, 2D and 3D objects, terrain maps, films and live speeches are shown here.
+Core of the presentation. Showing the development and current activities.
+Features such as slides, 2D and 3D objects, terrain maps, videos and live speeches are shown here.
 <image-loader height="overview_image_200" image="science/bkpv/present"></image-loader>
 
 ## Scenes
@@ -103,10 +94,7 @@ Features such as slides, 2D and 3D objects, terrain maps, films and live speeche
 
 ## Review
 
-This presentation should be seen as a study. The aim was to find out whether the use of 3D space and real time could result in an advantage. First of all it was definitely a success, the employees of the association were emotionally touched by the new representation of their workplace. They had never seen each other in this perspective before. We achieved the desired effect, that was really great!
+This presentation should be seen as a study. The aim was to find out whether the use of 3D space and real time could result in an advantage. First it was definitely a success, the employees of the association were emotionally touched by the new representation of their workplace. They had never seen each other in this perspective before. We achieved the desired effect, that was really great!
 <br /> <br />
-This kind of presentation creates completely new possibilities and perspectives, I think we have only implemented a minimum of what would be possible. That was just the beginning of a study to determine whether there was any need for it.
+This kind of presentation creates completely new possibilities and perspectives, I think we have only implemented a minimum of what would be possible.
 
-<br /> <br />
-
-I would like to thank everyone involved for their trust and willingness to take risks.

@@ -4,18 +4,19 @@ tag: "web"
 thumbnail: "snippets.jpg"
 members: {
 Date: "May - July 2021", 
+Type: "Study",
 Lea Jell: "Express, Vuex, Design",        
 Martin Kohnle: "Vue, Vuex, Validation, Prism.js, Design",
 Moritz Kronberger: "Postgres SQL, Docker, Design",
-Code: "GitHub",
 }
+repo: "https://github.com/MoritzKronberger/Snippets"
 ---
 
 # Snippets
 
 ### Vue 3, SCSS, Express, Postgres SQL, Docker <br /> <br />
 
-<team :members="members"></team>
+<team :members="members" :git="repo"></team>
 
 <br /> <br />
 
@@ -23,8 +24,7 @@ Snippets is a small social media web-application for developers. The basis consi
 
 <image-loader height="overview_image_400" image="dev/snippets/title"></image-loader>
 
-## Summary <br /> <br />
-
+## Summary
 #### Design
 
 A technically flawless web-application was required in this study project. 
@@ -44,14 +44,14 @@ to search for specific posts. The post itself can be removed at any time.  <br /
 <image-loader height="overview_image_400" image="dev/snippets/first"></image-loader>
 
 #### Adjust the Profile <br />
-As an additional feature, users can subsequently change their user name and password.
+As an additional feature, users can subsequently change their username and password.
  <br />  <br />
 
 <image-loader height="overview_image_400" image="dev/snippets/profile"></image-loader>
 
 
  ## Review <br />
-This project was carried out in a group of three and should be understood as a prototype. The development time was about two months. In addition to the web application, the focus was also on the use of version management (Gitlab) with various branches. All participants were able to fully fulfill their intended area of responsibility.
+This project was carried out in a group of three and should be understood as a prototype. The development time was about two months. In addition to the web application, the focus was also on the use of version management (GitLab) with various branches. All participants were able to fully fulfill their intended area of responsibility.
  <br />  <br />
  
  #### Outlook <br />
