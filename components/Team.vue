@@ -1,25 +1,29 @@
 <template>
   <div class="info">
-    <div class="float">
+    <div class="list">
       <div v-for="(key, item) in members">
         <ul>
-          <li class="left">{{ item }}</li>
+          <li>{{ item }}</li>
         </ul>
       </div>
       <ul>
-        <li>{{title}}</li>
-        <li>Documentation</li>
+        <li>{{ title }}</li>
+        <li v-if="doc != null">Documentation</li>
       </ul>
     </div>
-    <div class="float">
+    <div class="list">
       <div v-for="(key, item) in members">
         <ul>
           <li>{{ key }}</li>
         </ul>
       </div>
       <ul>
-        <li><a :href="git">{{type}}</a></li>
-             <li>filename</li>
+        <li>
+          <a :href="link" target="_blank">{{ type }}</a>
+        </li>
+        <li v-if="doc != null">
+          <a :href="doc">{{ doc.slice(5) }}</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -29,22 +33,24 @@
 export default {
   props: {
     members: { type: Object, default: () => ({}) },
-    git: { type: String },
-    title: { type: String, default: "Code"},
+    link: { type: String },
+    title: { type: String, default: "Code" },
     type: { type: String, default: "GitHub" },
+    doc: { type: String, default: null }
   }
 };
 </script>
 
 <style lang="scss">
 .info {
-  .float {
+  .list {
     display: inline-block;
     margin-right: 20px;
   }
-  ul {
+  ul > li {
     list-style-type: none;
-    margin-bottom: 7px;
+    margin-bottom: 0.5em;
   }
+
 }
 </style>

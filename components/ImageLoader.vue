@@ -90,24 +90,26 @@ export default {
   }
 }
 
-.overview_image_400 {
-  height: 400px;
-}
-
-.overview_image_460 {
-  height: 460px;
-}
-
-.overview_image_200 {
-  max-width: 335px;
-}
-
 .btn_image {
   border: none;
   margin-right: 5px;
   cursor: grab;
   cursor: -moz-grab;
   cursor: -webkit-grab;
+
+  .overview_image_portrait {
+    width: 100%;
+    height: 400px;
+  }
+
+  .overview_image_wide {
+    width: 700px;
+  }
+
+  .overview_image_ws {
+    width: 335px;
+    height: 220px;
+  }
 }
 
 .exit {

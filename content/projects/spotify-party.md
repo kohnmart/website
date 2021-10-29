@@ -8,13 +8,15 @@ Date: "November 2020 - February 2021",
 Martin Kohnle: "Django, Websocket, Spotipy, Docker, Design",
 Moritz Kronberger: "Postgres SQL, Django, Docker, Design",
 }
+link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
+file: "docs/spotifyparty.pdf"
 ---
 
 # SpotifyParty
 
 ### Python / Django / Websocket / Postgres SQL / Docker <br /> <br />
 
-<team :members="members"></team>
+<team :members="members" :link="link" :doc="file"></team>
 
 <br /> <br />
 
@@ -22,7 +24,7 @@ The music at parties plays an important role in the mood and joy of the guests. 
 usually decided by the host himself or someone with exclusive access to the playback device. A single
 person's taste in music can become very monotonous and boring. Through the music voting, SpotifyParty helps to keep the mood and atmosphere positive all night long. <br /> <br />
 
-<image-loader height="overview_image_400" image="dev/spotifyparty/title"></image-loader>
+<image-loader height="overview_image_wide" image="dev/spotifyparty/title"></image-loader>
 
 ## Summary
 
@@ -44,7 +46,7 @@ Currently, you can only choose your own playlists. Every device that the host ha
 is currently active can be used to play. The setting options are mandatory fields without which the session cannot be started.
 For the live feedback, the connection to the websocket is established at this point.<br /> <br />
 
-<image-loader height="overview_image_400" image="dev/spotifyparty/first"></image-loader>
+<image-loader height="overview_image_portrait" image="dev/spotifyparty/first"></image-loader>
 
 #### Start Session <br />
 
@@ -58,7 +60,7 @@ anyone can vote for the next track. The likes are then reset accordingly.
 Of course, you can skip a few songs if you don't want to look at your smartphone.
 <br /> <br />
 
-<image-loader height="overview_image_400" image="dev/spotifyparty/second"></image-loader>
+<image-loader height="overview_image_portrait" image="dev/spotifyparty/second"></image-loader>
 
 #### Review <br />
 
@@ -72,7 +74,3 @@ For us, technical development was primary and design secondary. This area can be
 The base of the app is a good starting point for future extensions.
 For example, it should be possible to configure the hard-coded preferences such as the number of tracks,
 the voting time and playlists by third parties. A simple application and low entry barriers apply to all future extensions.
-<br /> <br />
-
-Download the complete documentation:
-<pdf-loader doc="docs/spotifyparty.pdf"></pdf-loader>

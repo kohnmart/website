@@ -4,14 +4,16 @@ tag: "science"
 thumbnail: "science/bkpv/scenes/bkpv.jpg"
 highlight: "true"
 members: {
-Date: "August 2019 - January 2020",         
+Date: "August 2019 - January 2020",
+Type: "Work",         
 Martin Kohnle: "Unity, Visual Studio, Blender, Stage Design",
 Adrian Kohnle: "Music, Stage Design, Scrum Master", 
 Mirela Wagner: "Management, Project Owner", 
 Kigg Media: "Photo, Film, Editing",                BKPV: "Storyboard, Documents", 
 Fürth staff: "Light, Audio, Stage",                Freelancers: "3D Modelling, Animations"
 }
-points: ["Introduction", "Concept", "Showcase", "Scenes", "Review"]
+headlines: ["Introduction", "Concept", "Showcase", "Scenes", "Review"]
+link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
 ---
 
 # Realtime Presentation
@@ -19,16 +21,16 @@ points: ["Introduction", "Concept", "Showcase", "Scenes", "Review"]
 ### Unity / Visual Studio / Blender <br /> <br />
 
 
-<bullet-points :points="points"></bullet-points>
+<bullet-points :points="headlines"></bullet-points>
 
 <br /> <br />
 
-<image-loader height="overview_image_460" image="science/bkpv/intro"></image-loader>
+<image-loader height="overview_image_wide" image="science/bkpv/intro"></image-loader>
 
 ## Introduction
 
 <br /> 
-<team :members="members" title="Media" type="Showcase"></team>
+<team :link="link" :members="members" title="Media" type="Showcase"></team>
 
 <br /> <br />
 
@@ -40,7 +42,7 @@ that I received at the beginning of 2019. The occasion of the presentation was t
 Many important mayors and high-ranking politicians attended.
 It took place a year later in the Fürth town hall.<br /> <br />
 
-<image-loader height="overview_image_460" image="science/bkpv/title"></image-loader>
+<image-loader height="overview_image_wide" image="science/bkpv/title"></image-loader>
 
 ## Concept
 
@@ -75,22 +77,22 @@ It is not always possible to coordinate everything beforehand. The engine allows
 
 Introduced by the intro, this scene became the center of the presentation. Many speakers, as well as the band, used this as a background. The auditing association is responsible for the federal state of Bavaria. Accordingly, our globe consists only of the Bavaria map. A little gag.
 The logo flies endlessly around the earth in an orbit.
-<image-loader height="overview_image_460" image="science/bkpv/intro"></image-loader>
+<image-loader height="overview_image_wide" image="science/bkpv/intro"></image-loader>
 
 #### History Scence
 
 Images and documents of the history were visualized in an animated book.
-<image-loader height="overview_image_460" image="science/bkpv/history"></image-loader>
+<image-loader height="overview_image_wide" image="science/bkpv/history"></image-loader>
 
 #### Hall Scence
 
 Core of the presentation. Showing the development and current activities.
 Features such as slides, 2D and 3D objects, terrain maps, videos and live speeches are shown here.
-<image-loader height="overview_image_200" image="science/bkpv/present"></image-loader>
+<image-loader height="overview_image_ws" image="science/bkpv/present"></image-loader>
 
 ## Scenes
 
-<image-loader height="overview_image_200" image="science/bkpv/scenes"></image-loader>
+<image-loader height="overview_image_ws" image="science/bkpv/scenes"></image-loader>
 
 ## Review
 
