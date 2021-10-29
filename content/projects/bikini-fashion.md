@@ -10,4 +10,4 @@ Mirela Wagner: "Modell, Fashion, Pool Owner"
 ---
 # Bikini Fashion Series
 
-<image-loader height="overview_image_460" image="photo/bikini"></image-loader>
+<image-loader height="overview_image_portrait" image="photo/bikini"></image-loader>
