@@ -21,7 +21,6 @@ export default {
 
 <style style="scss">
 iframe {
-    margin-top: 2%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 </style>

@@ -16,11 +16,11 @@ repo: "https://github.com/MoritzKronberger/Snippets"
 
 ### Vue 3, SCSS, Express, Postgres SQL, Docker <br /> <br />
 
-<team :members="members" :git="repo"></team>
+<team :members="members" :git="repo" ></team>
 
 <br /> <br />
 
-Snippets is a small social media web application for developers. The basis consists of the classic methods of creating, liking and commenting on posts. The special feature of the app is the type of post. The users share unique, interesting and complex code snippets which are highlighted in the corresponding language. The main page "Coding Feed" shows the feed of all posts. The posts can be sorted and filtered using a fault-tolerant search. Code support is usually offered on these platforms. Our intention was to create a platform that shows the code and its logic as a work of art. <br /> <br />
+Snippets is a small social media web application for developers. The basis consists of the classic methods of creating, liking and commenting on posts. The special feature of the app is the type of post. The users share unique, interesting and complex code snippets which are highlighted in the corresponding language. The main page "Coding Feed" shows the feed of all posts. The posts can be sorted and filtered using a fault-tolerant search. Code support is usually offered on these platforms. Our intention was to create a platform that shows the code and its logic as a work of art. Please refer to the documentation for detailed information. <br /> <br />
 
 <image-loader height="overview_image_460" image="dev/snippets/title"></image-loader>
 
@@ -30,28 +30,30 @@ Snippets is a small social media web application for developers. The basis consi
 
 The main aim of this study work was to develop a flawless web application. We kept the SCSS design simple as it had no influence on the grade and evaluation. We only paid special attention to syntax highlighting with prism.js.<br /> <br />
 
-#### Get started <br />
+#### Get started
 
 You should first log in or register from the start page. This is a requirement for posting and interacting. The authentication pages can be accessed
-from the start page via "Login". At this point, it should also be mentioned that all input fields of the platform are linked to a self-developed validation. <br />
+from the start page via "Login". It should also be mentioned that all input fields of the platform are linked to a self-developed validation.
 
 <image-loader height="overview_image_400" image="dev/snippets/login"></image-loader>
 
-#### Create a Post! <br />
+#### Create a Post
 
 To create a post, click on "Add Post". There is a fixed structure for creation. First you choose one of the available languages. Then add a title and the code snippet. We made sure that line breaks in the code are retained. Optionally, you can add tags in "category" to find the post via search. 
-The contribution can be deleted at any time. An example post can be seen in the second picture.<br />
+The contribution can be deleted at any time. An example post can be seen below.
 
 <image-loader height="overview_image_460" image="dev/snippets/first"></image-loader>
 
 
 #### Interaction<br />
 You can now comment and like the created post. In addition, you can also like a certain comment. Of course, a comment can also consist of a code snippet. Comment highlighting should be included in a later update.
-<br /> <br />
-#### Adjust the Profile <br />
+<image-loader height="overview_image_460" image="dev/snippets/comment"></image-loader>
+
+
+
+#### Adjust the Profile
 
 Users can subsequently change their username and password.
-<br /> <br />
 
 <image-loader height="overview_image_460" image="dev/snippets/profile"></image-loader>
 
@@ -62,7 +64,7 @@ This project was carried out in a group of three and should be understood as a p
 
 #### Outlook <br />
 
-Expansion options are conceivable for each feature. Accounts could take on various useful roles (admins). It would also be nice if you could follow other users. Each user should have their own feed in their profile. Assuming that there will be thousands of posts in the database at some point, the main feed should load them in batches. The individual post should also be editable at a later date. In addition, the SCSS should also be revised.
+Expansion options are conceivable for each feature.The most important ones should be listed here. Accounts could take on various useful roles (admins).  Users have their own feed on profile and can follow others. Assuming that there will be thousands of posts in the database at some point, the main feed should load them in batches. The individual post should also be editable at a later date. In addition, the SCSS should also be revised.
 <br /> <br />
 
 Download the complete documentation:

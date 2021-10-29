@@ -4,15 +4,17 @@ tag: "vfx"
 thumbnail: "vfx/clouds/title/title.png"
 highlight: "true"
 members: {
-Date: "May - July 2021",        
-Martin Kohnle: "Research, Clouds, Skybox, Animation, Modell, Rendering",
-Moritz Kronberger: "Research, Field, Extrusions, Modell, Animation"
+Date: "May - July 2021",       
+Type: "Study",  
+Martin Kohnle: "Research, Clouds, Skybox, Animation, Modelling, Rendering",
+Moritz Kronberger: "Research, Field, Extrusions, Modelling, Animation"
 }
 points: ["Introduction", "Animation", "Research", "Review"]
+link: https://www.youtube.com/watch?v=bUjEX9_8Q0c
 ---
 
 
-# Project Clouds Animation
+# Project Clouds
 
 ### Houdini / Substance Painter / Mapbox  <br /> <br />
 
@@ -21,10 +23,8 @@ points: ["Introduction", "Animation", "Research", "Review"]
 
 
 <image-loader height="overview_image_400" image="vfx/clouds/title"></image-loader>
-<br /> <br />
-
 ## Introduction 
-<team :members="members" title="Media" type="Video"></team> <br /> <br />
+<team :members="members" :git="link" title="Media" type="Video"></team> <br /> <br />
 
 #### Plot
 "It was now the third day that something seemed to be wrong with the evening sky. The clouds were even lower today than the days before. And when nature finally fell silent, the storm set in."
@@ -37,13 +37,14 @@ Aliens arrive on earth by camouflaging themselves in cloud formations.
 
 #### Concept
 
-We imagined that the entire scene would take place on a farm field. As the sun goes down, plants and grasses gently blow in the wind. The mood is peaceful, birds chirp in the distance. In the process, the clouds in the sky transform and the wind gets stronger. The wind strength is evident through the vegetation. The clouds suddenly produce extrusions that are threateningly approaching the ground.
+We imagined that the entire scene would take place on a farm field. As the sun goes down, plants and grasses gently blow in the wind. The mood is peaceful, birds chirp in the distance. In the process, the clouds transform and the wind gets stronger. The wind strength is evident through the vegetation. The clouds suddenly produce extrusions that are threateningly approaching the ground.
 <br /> <br />
 
 <image-loader height="overview_image_460" image="vfx/clouds/skizze"></image-loader>
-<br /> <br />
+
 
 ## Animation 
+
 <youtube-loader link="https://www.youtube.com/embed/bUjEX9_8Q0c"></youtube-loader>
 
 
@@ -55,7 +56,13 @@ After we set up the concept, we quickly noticed that with the clouds and field, 
 #### Clouds
 
 At the beginning, research had to be done to find out when and where certain cloud formations appear. It is also realistic that formations are visible at different altitudes at the same time.
-Check the documentation for detailed information and node structures. For the final work, we decided on two model concepts, Pointy and Poly. The development has shown that pointy clouds can be used efficiently for very large, flat and scattered formations which extend over the whole map. In contrast, the poly clouds are better suited for high and dense cumulus clouds.
+Check the documentation for detailed information and node structures. For the final work, we decided on two model concepts, pointy and poly. The development has shown that pointy clouds can be used efficiently for very large, flat and scattered formations which extend over the whole map. In contrast, the poly clouds are better suited for high and dense cumulus clouds.
+<br /> <br />
+
+#### Mapbox
+The Mapbox Node can be used to generate landscapes and terrain in Houdini.
+Height maps and satellite images are combined to create a realistic landscape.
+In addition, the image data is read out in order to match the color of the vegetation.
 
 
 <br /> <br />

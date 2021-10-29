@@ -83,7 +83,7 @@ export default {
 
 .overview {
   display: inline-block;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   margin-top: 5%;
   .static_images {
     float: left;

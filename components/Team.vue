@@ -8,6 +8,7 @@
       </div>
       <ul>
         <li>{{title}}</li>
+        <li>Documentation</li>
       </ul>
     </div>
     <div class="float">
@@ -18,6 +19,7 @@
       </div>
       <ul>
         <li><a :href="git">{{type}}</a></li>
+             <li>filename</li>
       </ul>
     </div>
   </div>
