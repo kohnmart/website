@@ -20,8 +20,7 @@ export default {
     text-align: center;
     .return {
       background: none;
-      border: 2px solid rgb(161, 161, 161);
-      border-radius: 5px;
+      border:none;
       .fas {
         font-size: 1.5em;
         opacity: 0.5;

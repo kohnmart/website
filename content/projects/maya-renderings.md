@@ -8,4 +8,4 @@ thumbnail: "vfx/maya/4.jpg"
 
 ### Maya <br /> <br />
 
-<image-loader height="overview_image_400" image="vfx/maya"></image-loader>
+<image-loader height="overview_image_ws" image="vfx/maya"></image-loader>

@@ -60,7 +60,7 @@ Users can subsequently change their username and password.
 
 ## Review <br />
 
-This project was carried out in a group of three and should be understood as a prototype. The development time was about two months. In addition to the web application, the focus was also on the use of version management (GitLab) with various branches. All participants were able to fully fulfill their intended area of responsibility.
+This project was carried out in a group of three and should be understood as a prototype. The development time was about two months. In addition to the web application, the focus was also on the use of version management (GitLab) with various branches. All participants were able to fulfill their intended area of responsibility.
 <br /> <br />
 
 #### Outlook <br />

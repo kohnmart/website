@@ -11,7 +11,7 @@
       </Button>
 
       <Button class="exit" @click="switchState"
-        ><i class="far fa-times-circle"></i
+        ><i class="far fa-times-circle fa-2x"></i
       ></Button>
     </div>
     <div class="overview">

@@ -22,8 +22,8 @@
           to technical possibilities. <br />
           <br />
 
-          I started photography as a teenager. I went through different fields
-          and tried all sorts of things. It wasn't my goal to achieve a specific
+          My career started early in photography. I went through different fields
+          and tried all sorts of things. It wasn't my intesion to achieve a specific
           business goal with photography. First and foremost, I wanted to gain
           experience in projects, problem solving, self-reflection and
           communication.

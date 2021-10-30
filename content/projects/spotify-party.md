@@ -5,6 +5,7 @@ thumbnail: "spotifyparty.jpg"
 highlight: 'true'
 members: {
 Date: "November 2020 - February 2021",    
+Type: "Study",
 Martin Kohnle: "Django, Websocket, Spotipy, Docker, Design",
 Moritz Kronberger: "Postgres SQL, Django, Docker, Design",
 }
@@ -19,10 +20,11 @@ file: "docs/spotifyparty.pdf"
 <team :members="members" :link="link" :doc="file"></team>
 
 <br /> <br />
-
-The music at parties plays an important role in the mood and joy of the guests. The music genre is
-usually decided by the host himself or someone with exclusive access to the playback device. A single
-person's taste in music can become very monotonous and boring. Through the music voting, SpotifyParty helps to keep the mood and atmosphere positive all night long. <br /> <br />
+This course was about developing an agile web application with Python and the Django framework.
+We decided to create an application that makes it possible to share Spotify playlists at parties.
+The host simply creates a session. The party guests can then join using an access code.
+The music selection works via a voting system. The song with the most votes is chosen in each round.
+Varied music is essential for a good party. The mood changes over the night and so does the music. <br /> <br />
 
 <image-loader height="overview_image_wide" image="dev/spotifyparty/title"></image-loader>
 
