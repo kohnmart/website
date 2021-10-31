@@ -18,13 +18,11 @@ file: "docs/clouds.pdf"
 
 ### Houdini / Substance Painter / Mapbox <br /> <br />
 
-<bullet-points :points="headlines"></bullet-points>
+<team :members="members" :link="link" title="Media" type="Video" :doc="file"></team> <br /> <br />
 
 <image-loader height="overview_image_wide" image="vfx/clouds/title"></image-loader>
 
 ## Introduction
-
-<team :members="members" :link="link" title="Media" type="Video" :doc="file"></team> <br /> <br />
 
 #### Plot
 
@@ -41,9 +39,7 @@ Aliens arrive on earth by camouflaging themselves in cloud formations.
 We imagined that the entire scene would take place on a farm field. As the sun goes down, plants and grasses gently blow in the wind. The mood is peaceful, birds chirp in the distance. In the process, the clouds transform and the wind gets stronger. The wind strength is evident through the vegetation. The clouds suddenly produce extrusions that are threateningly approaching the ground.
 <br /> <br />
 
-<image-loader height="overview_image_wide" image="vfx/clouds/skizze"></image-loader>
-
-## Animation
+## Animation  
 
 <youtube-loader link="https://www.youtube.com/embed/bUjEX9_8Q0c"></youtube-loader>
 
@@ -71,5 +67,5 @@ In addition, the image data is read out in order to match the color of the veget
 
 ## Review
 
-For a team of two with limited hardware, it was quite a challenge. Again and again we have reached the limits of what is technically feasible (for us). Instead of compromising with the problems, we invested a lot of time and creativity to find meaningful and efficient solutions. <br />
+For a team of two with limited hardware, it was quite a challenge. Again and again we have reached the limits of what is technically feasible (for us). Instead of compromising with the problems, we invested a lot of time and creativity to find meaningful and efficient solutions.
 A great side effect is that I was able to find out a lot about clouds and their formation.

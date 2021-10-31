@@ -1,14 +1,16 @@
 <template>
-  <iframe
-    width="700"
-    height="400"
-    :src="link"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; 
+  <div>
+    <iframe
+      width="800"
+      height="500"
+      :src="link"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; 
     encrypted-media; gyroscope; picture-in-picture"
-    allowfullscreen
-  ></iframe>
+      allowfullscreen
+    ></iframe>
+  </div>
 </template>
 
 <script>
@@ -19,8 +21,14 @@ export default {
 };
 </script>
 
-<style style="scss">
-iframe {
-    margin-bottom: 5%;
+<style lang="scss">
+div {
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
 }
 </style>

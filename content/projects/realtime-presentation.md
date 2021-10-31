@@ -20,19 +20,17 @@ link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
 
 ### Unity / Visual Studio / Blender <br /> <br />
 
-
-<bullet-points :points="headlines"></bullet-points>
+<team :link="link" :members="members" title="Media" type="Showcase"></team>
 
 <br /> <br />
+
 
 <image-loader height="overview_image_wide" image="science/bkpv/intro"></image-loader>
 
 ## Introduction
 
 <br /> 
-<team :link="link" :members="members" title="Media" type="Showcase"></team>
 
-<br /> <br />
 
 #### Background
 
@@ -42,7 +40,7 @@ that I received at the beginning of 2019. The occasion of the presentation was t
 Many important mayors and high-ranking politicians attended.
 It took place a year later in the Fürth town hall.<br /> <br />
 
-<image-loader height="overview_image_wide" image="science/bkpv/title"></image-loader>
+<image-loader height="overview_image_small" image="science/bkpv/title"></image-loader>
 
 ## Concept
 
@@ -77,17 +75,23 @@ It is not always possible to coordinate everything beforehand. The engine allows
 
 Introduced by the intro, this scene became the center of the presentation. Many speakers, as well as the band, used this as a background. The auditing association is responsible for the federal state of Bavaria. Accordingly, our globe consists only of the Bavaria map. A little gag.
 The logo flies endlessly around the earth in an orbit.
-<image-loader height="overview_image_wide" image="science/bkpv/intro"></image-loader>
+
+
+<image-loader height="overview_image_small" image="science/bkpv/intro"></image-loader>
 
 #### History Scence
 
 Images and documents of the history were visualized in an animated book.
-<image-loader height="overview_image_wide" image="science/bkpv/history"></image-loader>
+
+
+<image-loader height="overview_image_small" image="science/bkpv/history"></image-loader>
 
 #### Hall Scence
 
 Core of the presentation. Showing the development and current activities.
 Features such as slides, 2D and 3D objects, terrain maps, videos and live speeches are shown here.
+
+
 <image-loader height="overview_image_ws" image="science/bkpv/present"></image-loader>
 
 ## Scenes

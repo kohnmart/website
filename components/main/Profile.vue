@@ -10,18 +10,19 @@
       </div>
       <div>
         <h1>Intro</h1>
-        <p>
+        <h2>
           Hello, everyone. My name is Martin Kohnle, I am a 24 year old student
           from Augsburg. I am currently studying interactive media with a focus
-          on computer science. <br /> A course, that bridges the gap between design and
-          computer science. <br />
+          on computer science. A course, that bridges the gap between design and
+          computer science.<br />
           <br />
+
           I feel at home in this intermediate world of logic and design. The
           know-how in both fields makes it possible to structure a project
           better, to recognize possible problems early and to adapt the design
           to technical possibilities. <br />
           <br />
-        </p>
+        </h2>
       </div>
       <!-- <div>
       <div>
@@ -114,19 +115,19 @@ export default {};
 @import "@/assets/css/main.scss";
 
 .intro {
-  width: 80%;
-  margin: auto;
+  width: 50%;
+  margin: 0 auto;
+  margin-right: auto;
   margin-bottom: 100px;
-
   div {
     padding: 5%;
-    width: 50%;
-    float: left;
+    width: 100%;
     .profile {
       object-fit: cover;
-      width: 100%;
       height: 500px;
-      border-radius: 50px;
+      width: 100%;
+      border-radius: 150px;
+      margin: 100px 0px;
     }
   }
 
@@ -138,7 +139,7 @@ export default {};
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 300;
   }
 

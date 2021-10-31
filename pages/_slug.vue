@@ -22,28 +22,32 @@ export default {
 @import "@/assets/css/main.scss";
 .container {
   margin: 60px auto;
-  width: 60%;
+  width: 70%;
   display: block;
 
   h1 {
-    font-size: 2.5em;
+    font-size: 4em;
   }
 
   h2 {
-    font-size: 1.7em;
-    margin-bottom: 20px;
+    font-size: 3em;
     font-weight: 600;
+    margin: 0.5em auto;
+    margin-top: 1em;
+    width: 60%;
   }
 
   h3 {
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 2em;
   }
 
-  h3,
   p {
-    font-size: 1.5;
-    width: 90%;
+    font-size: 1.1em;
+    width: 60%;
+    margin: 0 auto;
+    font-weight: 300;
+    line-height: 170%;
     a {
       text-decoration: none;
       color: black;
@@ -57,7 +61,11 @@ export default {
 
   h4 {
     color: grey;
+    font-size: 1.2em;
     font-weight: 400;
+    margin-bottom: 0.5em;
+    margin: 0 auto;
+    width: 60%;
   }
 }
 </style>

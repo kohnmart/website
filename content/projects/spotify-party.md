@@ -20,6 +20,8 @@ file: "docs/spotifyparty.pdf"
 <team :members="members" :link="link" :doc="file"></team>
 
 <br /> <br />
+
+<image-loader height="overview_image_wide" image="dev/spotifyparty/title"></image-loader>
 #### Introduction
 This course was about developing an agile web application with Python and the Django framework.
 We decided to create an application that makes it possible to share Spotify playlists at parties.
@@ -27,7 +29,7 @@ The host simply creates a session. The party guests can then join using an acces
 The music selection works via a voting system. The song with the most votes is chosen in each round.
 Varied music is essential for a good party. The mood changes over the night and so does the music. <br /> <br />
 
-<image-loader height="overview_image_wide" image="dev/spotifyparty/title"></image-loader>
+
 
 #### Design
 
@@ -45,7 +47,9 @@ A Spotify registration is necessary for this. <br /> <br />
 After the successful Spotity registration (OAuth), the app queries the user playlists and the play-back status.
 Currently, you can only choose your own playlists. Every device that the host has connected to his account and
 is currently active can be used to play. The setting options are mandatory fields without which the session cannot be started.
-For the live feedback, the connection to the websocket is established at this point.<br /> <br />
+For the live feedback, the connection to the websocket is established at this point.
+<br /> <br />
+
 
 <image-loader height="overview_image_portrait" image="dev/spotifyparty/first"></image-loader>
 

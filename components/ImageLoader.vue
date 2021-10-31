@@ -83,32 +83,35 @@ export default {
 
 .overview {
   display: inline-block;
-  margin-bottom: 10%;
-  margin-top: 5%;
+  margin-bottom: 100px;
+  margin-top: 50px;
   .static_images {
-    float: left;
+     margin: 0 auto;
+     float: left;
   }
 }
 
 .btn_image {
   border: none;
-  margin-right: 5px;
   cursor: grab;
+  margin-right: 5px;
   cursor: -moz-grab;
   cursor: -webkit-grab;
-
+  background-color: white;
   .overview_image_portrait {
-    width: 100%;
-    height: 400px;
+    width: 285px;
   }
 
   .overview_image_wide {
-    width: 700px;
+    width: 100%;
+  }
+
+  .overview_image_small {
+    width: 70%;
   }
 
   .overview_image_ws {
-    width: 335px;
-    height: 220px;
+    width: 430px;
   }
 }
 
