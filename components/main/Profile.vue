@@ -13,7 +13,7 @@
         <p>
           Hello, everyone. My name is Martin Kohnle, I am a 24 year old student
           from Augsburg. I am currently studying interactive media with a focus
-          on computer science. A course, that bridges the gap between design and
+          on computer science. <br /> A course, that bridges the gap between design and
           computer science. <br />
           <br />
           I feel at home in this intermediate world of logic and design. The
@@ -21,12 +21,6 @@
           better, to recognize possible problems early and to adapt the design
           to technical possibilities. <br />
           <br />
-
-          My career started early in photography. I went through different fields
-          and tried all sorts of things. It wasn't my intesion to achieve a specific
-          business goal with photography. First and foremost, I wanted to gain
-          experience in projects, problem solving, self-reflection and
-          communication.
         </p>
       </div>
       <!-- <div>

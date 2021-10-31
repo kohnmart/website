@@ -96,7 +96,7 @@ Features such as slides, 2D and 3D objects, terrain maps, videos and live speech
 
 ## Review
 
-This presentation should be seen as a study. The aim was to find out whether the use of 3D space and real time could result in an advantage. First it was definitely a success, the employees of the association were emotionally touched by the new representation of their workplace. They had never seen each other in this perspective before. We achieved the desired effect, that was really great!
+This presentation should be seen as a study. The aim was to find out whether the use of 3D space and real time could result in an advantage. First, it was definitely a success. The employees of the association were emotionally touched by the new representation of their workplace. They had never seen each other in this perspective before. We achieved the desired effect, that was really great!
 <br /> <br />
 This kind of presentation creates completely new possibilities and perspectives, I think we have only implemented a minimum of what would be possible.
 

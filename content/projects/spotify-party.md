@@ -20,6 +20,7 @@ file: "docs/spotifyparty.pdf"
 <team :members="members" :link="link" :doc="file"></team>
 
 <br /> <br />
+#### Introduction
 This course was about developing an agile web application with Python and the Django framework.
 We decided to create an application that makes it possible to share Spotify playlists at parties.
 The host simply creates a session. The party guests can then join using an access code.
@@ -27,8 +28,6 @@ The music selection works via a voting system. The song with the most votes is c
 Varied music is essential for a good party. The mood changes over the night and so does the music. <br /> <br />
 
 <image-loader height="overview_image_wide" image="dev/spotifyparty/title"></image-loader>
-
-## Summary
 
 #### Design
 
