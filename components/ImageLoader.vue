@@ -6,6 +6,7 @@
       ></Button>
 
       <img class="carousel" :src="all_images[carousel]" />
+
       <Button class="forward" @click="forward">
         <i class="fas fa-chevron-right"></i>
       </Button>
@@ -76,9 +77,8 @@ export default {
 <style lang="scss">
 .carousel {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-height: 630px;
+  margin: auto;
+  max-height: 100%;
 }
 
   .overview {
@@ -172,6 +172,37 @@ export default {
 }
 
 @media (max-width: 600px) {
+
+.carousel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+}
+
+
+.exit {
+  width: 100px;
+  height: 100px;
+  left: 340px;
+}
+
+.forward {
+  width: 100px;
+  height: 250px;
+  left: 340px;
+  top: 200px;
+  font-size: 4em;
+}
+.back {
+  width: 100px;
+  height: 250px;
+  top: 200px;
+  left: -25px;
+  font-size: 4em;
+}
 
   .btn_image {
     .overview_image_portrait {
