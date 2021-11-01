@@ -71,4 +71,18 @@ div {
     }
   }
 }
+
+@media (max-width: 600px) {
+  div {
+    background-image: url("~/assets/img/land.jpg");
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0px;
+  }
+}
 </style>

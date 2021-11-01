@@ -40,7 +40,7 @@ export default {
   data() {
     return {
       store: [],
-      subline: "Highlights",
+      subline: "Highlights"
     };
   },
 
@@ -54,7 +54,7 @@ export default {
         this.store = await this.$content("projects")
           .where({ tag: filter })
           .fetch();
-          this.subline = "";
+        this.subline = "";
       }
     }
   },
@@ -68,6 +68,7 @@ export default {
 
 h1 {
   font-size: $h1;
+  margin-bottom: 0.5em;
 }
 
 .main-container {
@@ -85,9 +86,11 @@ h1 {
       flex-wrap: wrap;
       overflow: hidden;
       justify-content: left;
+   
 
       li {
         margin-right: 20px;
+        margin: 10px 5px;
         button {
           border-radius: 5px;
           border: 2px solid grey;
@@ -144,5 +147,9 @@ h1 {
       }
     }
   }
+}
+
+@media (max-width: 600px) {
+
 }
 </style>

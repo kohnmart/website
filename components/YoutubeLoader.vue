@@ -1,8 +1,6 @@
 <template>
-  <div>
+  <div class="video-container">
     <iframe
-      width="800"
-      height="500"
       :src="link"
       title="YouTube video player"
       frameborder="0"
@@ -22,13 +20,27 @@ export default {
 </script>
 
 <style lang="scss">
-div {
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+  margin: 20px 0px 100px 0px;
   iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .video-container {
+    margin: 20px 0px 50px 0px;
   }
 }
 </style>

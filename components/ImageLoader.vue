@@ -81,25 +81,25 @@ export default {
   max-height: 630px;
 }
 
-.overview {
-  display: inline-block;
-  margin-bottom: 100px;
-  margin-top: 50px;
-  .static_images {
-     margin: 0 auto;
-     float: left;
+  .overview {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 2px;
+    margin: 20px 0px;
   }
-}
 
 .btn_image {
   border: none;
   cursor: grab;
-  margin-right: 5px;
+  margin: 0px 2px;
   cursor: -moz-grab;
   cursor: -webkit-grab;
   background-color: white;
   .overview_image_portrait {
-    width: 285px;
+    width: 200px;
   }
 
   .overview_image_wide {
@@ -107,11 +107,11 @@ export default {
   }
 
   .overview_image_small {
-    width: 70%;
+    width: 80%;
   }
 
   .overview_image_ws {
-    width: 430px;
+    width: 435px;
   }
 }
 
@@ -169,5 +169,26 @@ export default {
   right: 0;
   bottom: 0;
   background-color: white;
+}
+
+@media (max-width: 600px) {
+
+  .btn_image {
+    .overview_image_portrait {
+      width: 100px;
+    }
+
+    .overview_image_wide {
+      width: 300px;
+    }
+
+    .overview_image_small {
+      width: 300px;
+    }
+
+    .overview_image_ws {
+      width: 150px;
+    }
+  }
 }
 </style>

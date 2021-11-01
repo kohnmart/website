@@ -51,6 +51,17 @@ export default {
     list-style-type: none;
     margin-bottom: 0.5em;
   }
-
+}
+@media (max-width: 600px) {
+.info {
+  .list {
+    margin-right: 5px;
+  }
+  ul > li {
+    font-size: 0.6em;
+    list-style-type: none;
+    margin-bottom: 0.5em;
+  }
+}
 }
 </style>

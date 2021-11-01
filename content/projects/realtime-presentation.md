@@ -29,7 +29,6 @@ link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
 
 ## Introduction
 
-<br /> 
 
 
 #### Background

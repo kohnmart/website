@@ -10,7 +10,7 @@
       </div>
       <div>
         <h1>Intro</h1>
-        <h2>
+        <p>
           Hello, everyone. My name is Martin Kohnle, I am a 24 year old student
           from Augsburg. I am currently studying interactive media with a focus
           on computer science. A course, that bridges the gap between design and
@@ -22,7 +22,7 @@
           better, to recognize possible problems early and to adapt the design
           to technical possibilities. <br />
           <br />
-        </h2>
+        </p>
       </div>
       <!-- <div>
       <div>
@@ -147,6 +147,7 @@ export default {};
     font-size: $p;
     text-align: left;
     font-weight: 300;
+    line-height: 150%;
   }
 
   ul {
@@ -160,6 +161,31 @@ export default {};
   }
   a:hover {
     text-decoration: underline;
+  }
+}
+@media (max-width: 600px) {
+  .intro {
+    width: 80%;
+    div {
+      padding: 5%;
+      width: 100%;
+      .profile {
+        object-fit: cover;
+        height: 300px;
+        width: 100%;
+        border-radius: 10px;
+        margin: 20px 0px;
+      }
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: $p;
+      text-align: left;
+      font-weight: 300;
+    }
   }
 }
 </style>

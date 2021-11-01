@@ -65,7 +65,7 @@ anyone can vote for the next track. The likes are then reset accordingly.
 Of course, you can skip a few songs if you don't want to look at your smartphone.
 <br /> <br />
 
-<image-loader height="overview_image_portrait" image="dev/spotifyparty/second"></image-loader>
+<image-loader height="overview_image_ws" image="dev/spotifyparty/second"></image-loader>
 
 #### Review <br />
 
