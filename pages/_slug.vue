@@ -6,11 +6,6 @@
 </template>
 <script>
 export default {
-  data() {
-    return {
-      store: []
-    };
-  },
   async asyncData({ $content, params }) {
     const post = await $content("projects", params.slug).fetch();
     return { post };
