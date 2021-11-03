@@ -4,7 +4,7 @@
       <div>
         <img
           class="profile"
-          src="~/assets/img/profile/me_lowres_cl.png"
+          src="~/assets/img/profile/profile.jpg"
           alt="Martin Kohnle is not here"
         />
       </div>
@@ -24,44 +24,6 @@
           <br />
         </p>
       </div>
-      <!-- <div>
-      <div>
-        <img
-          class="profile"
-          src="~/assets/img/profile/control.jpg"
-          alt="Martin Kohnle is not here"
-        />
-      </div>
-
-        <h1 id="lessons">Life Lessons</h1>
-        <br />
-        <p>
-          In the past few years I have been able to work in various areas of the
-          media. I took positive and negative experiences with me from every
-          discipline. In the meantime, I can bundle my knowledge of the branch
-          and my experience very well in order to get a solid project off the
-          ground.
-        </p>
-        <br />
-        <p>
-          Each project takes 3 times longer when you do it the first time. This
-          is because there are many unknown problems and difficulties along the
-          way. Solid preparation and an agile way of working is essential for a
-          successful project. Always question the project's instructions and
-          limitations. No matter how smart someone is, everyone can be wrong to
-          some degree.
-        </p>
-        <br />
-        <p>
-          Having decisive opportunities is more important than good grades. One
-          can always acquire knowledge, but not possibilities. Thanks Dad!
-        </p>
-        <br />
-        <p>
-          If something is really important, do it even if the odds are not in
-          your favor.
-        </p>
-      </div> -->
       <div>
         <h2 id="inspirations">Literature</h2>
         <br />

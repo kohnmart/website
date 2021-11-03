@@ -18,10 +18,12 @@
       </ul>
     </div>
     <div class="highlights">
+        <h2 v-if="filter==false">{{subline}}</h2>
       <div class="project-container">
+      
         <div v-for="item in articles" :key="item">
           <nuxt-link :to="{ name: 'slug', params: { slug: item.slug } }">
-            <div v-if="item.tag == searchtag || filter == false">
+            <div v-if="item.tag == searchtag || (filter == false && item.highlight == 'true')">
               <div class="thumbnail">
                 <img :src="require(`~/assets/img/${item.thumbnail}`)" />
                 <div class="project_info">
@@ -40,7 +42,8 @@ export default {
   data() {
     return {
       searchtag: "",
-      filter: false
+      filter: false,
+      subline: 'Highlights'
     };
   },
   async asyncData({ $content, params }) {
