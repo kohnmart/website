@@ -73,9 +73,9 @@ h1 {
 .main-container {
   width: 80%;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 10%;
   .sorting-container {
-    margin-bottom: 5%;
+    margin-bottom: 10%;
     text-align: left;
     ul {
       margin-top: 2%;

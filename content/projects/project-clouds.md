@@ -6,8 +6,8 @@ highlight: "true"
 members: {
 Date: "May - July 2021",   
 Type: "Study",  
-Martin Kohnle: "Research, Clouds, Skybox, Animation, Modelling, Rendering",
-Moritz Kronberger: "Research, Field, Extrusions, Modelling, Animation"
+Martin Kohnle: "Clouds, Skybox, Animation, Modelling, Rendering",
+Moritz Kronberger: "Field, Extrusions, Modelling, Animation"
 }
 headlines: ["Introduction", "Animation", "Research", "Review"]
 link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
@@ -18,7 +18,7 @@ file: "docs/clouds.pdf"
 
 ### Houdini / Substance Painter / Mapbox <br /> <br />
 
-<team :members="members" :link="link" title="Media" type="Video" :doc="file"></team> <br /> <br />
+<team :members="members" :link="link" title="Media" type="Video" :doc="file"></team>
 
 <image-loader height="overview_image_wide" image="vfx/clouds/title"></image-loader>
 
@@ -61,7 +61,6 @@ The Mapbox Node can be used to generate landscapes and terrain in Houdini.
 Height maps and satellite images are combined to create a realistic landscape.
 In addition, the image data is read out in order to match the color of the vegetation.
 
-<br /> <br />
 
 <image-loader height="overview_image_ws" image="vfx/clouds/poly"></image-loader>
 

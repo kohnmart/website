@@ -81,15 +81,15 @@ export default {
   max-height: 100%;
 }
 
-  .overview {
-    display: flex;
-    flex-direction: row;
-    flex-flow: wrap;
-    justify-content: center;
-    align-content: center;
-    gap: 2px;
-    margin: 20px 0px;
-  }
+.overview {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 2px;
+  margin: 40px 0px;
+}
 
 .btn_image {
   border: none;
@@ -100,6 +100,10 @@ export default {
   background-color: white;
   .overview_image_portrait {
     width: 200px;
+  }
+
+  .overview_small_portrait {
+    width: 235px;
   }
 
   .overview_image_wide {
@@ -124,7 +128,7 @@ export default {
   background: none;
   border: none;
   .far {
-    opacity: 0.5;
+    opacity: 0.1;
     color: black;
   }
 }
@@ -140,7 +144,7 @@ export default {
   border: none;
   font-size: 4em;
   .fas {
-    opacity: 0.5;
+    opacity: 0.1;
     color: black;
   }
 }
@@ -153,7 +157,7 @@ export default {
   border: none;
   font-size: 4em;
   .fas {
-    opacity: 0.5;
+    opacity: 0.1;
     color: black;
   }
 }
@@ -172,41 +176,40 @@ export default {
 }
 
 @media (max-width: 600px) {
+  .carousel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+  }
 
-.carousel {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 300px;
-}
+  .exit {
+    width: 100px;
+    height: 80px;
+    left: 280px;
+  }
 
+  .forward,
+  .back {
+    width: 100px;
+    height: 250px;
+    top: 470px;
+    font-size: 4em;
+  }
 
-.exit {
-  width: 100px;
-  height: 100px;
-  left: 340px;
-}
-
-.forward {
-  width: 100px;
-  height: 250px;
-  left: 340px;
-  top: 200px;
-  font-size: 4em;
-}
-.back {
-  width: 100px;
-  height: 250px;
-  top: 200px;
-  left: -25px;
-  font-size: 4em;
-}
+  .forward {
+    left: 160px;
+  }
+  .back {
+    left: 110px;
+    font-size: 4em;
+  }
 
   .btn_image {
     .overview_image_portrait {
-      width: 100px;
+      width: 200px;
     }
 
     .overview_image_wide {
@@ -218,7 +221,11 @@ export default {
     }
 
     .overview_image_ws {
-      width: 150px;
+      width: 100px;
+    }
+
+    .overview_small_portrait {
+      width: 135px;
     }
   }
 }

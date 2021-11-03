@@ -128,6 +128,7 @@ export default {};
 @media (max-width: 600px) {
   .intro {
     width: 80%;
+    margin-top: 50px;
     div {
       padding: 5%;
       width: 100%;
