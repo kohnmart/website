@@ -194,17 +194,16 @@ export default {
   .forward,
   .back {
     width: 100px;
-    height: 250px;
+    height: 50%;
     top: 470px;
     font-size: 4em;
   }
 
   .forward {
-    left: 160px;
+    left: 45%;
   }
   .back {
-    left: 110px;
-    font-size: 4em;
+    left: 30%;
   }
 
   .btn_image {

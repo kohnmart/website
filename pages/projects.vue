@@ -73,7 +73,7 @@ h1 {
 .main-container {
   width: 80%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   .sorting-container {
     margin-bottom: 10%;
     text-align: left;
