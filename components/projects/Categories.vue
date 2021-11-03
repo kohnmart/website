@@ -20,9 +20,9 @@
     <div class="highlights">
       <h2>{{ subline }}</h2>
       <div class="project-container">
-        <div v-for="item in store" :key="item.title">
+        <div v-for="item in articles" :key="item">
           <div class="thumbnail">
-            <nuxt-link :to="item.slug" class="button">
+            <nuxt-link :to="{ name: 'slug', params: { slug: item.slug } }">
               <img :src="require(`~/assets/img/${item.thumbnail}`)" />
               <div class="project_info">
                 <h2>{{ item.title }}</h2>
@@ -44,22 +44,12 @@ export default {
     };
   },
 
-  methods: {
-    async sortBy(filter) {
-      if (filter === "") {
-        this.store = await this.$content("projects")
-          .where({ highlight: "true" })
-          .fetch();
-      } else {
-        this.store = await this.$content("projects")
-          .where({ tag: filter })
-          .fetch();
-        this.subline = "";
-      }
-    }
-  },
-  beforeMount() {
-    this.sortBy("");
+  async asyncData({ $content, params }) {
+		const articles = await $content('projects', params.slug)
+			.fetch();
+		return {
+			articles
+		}
   }
 };
 </script>

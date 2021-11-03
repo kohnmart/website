@@ -47,8 +47,5 @@ export default {
   build: {},
 
   generate: {
-    routes: [
-      'projects/project-clouds',
-    ]
   }
 };
