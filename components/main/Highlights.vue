@@ -11,7 +11,7 @@ export default {
 @import "@/assets/css/main.scss";
 
 div {
-  background-image: url("~/assets/img/land.jpg");
+  background-image: url("~/assets/img/land.webp");
   width: 100%;
   height: 800px;
   background-attachment: fixed;
@@ -22,7 +22,7 @@ div {
 }
 @media (max-width: 600px) {
   div {
-    background-image: url("~/assets/img/land.jpg");
+    background-image: url("~/assets/img/land.webp");
     width: 100%;
     height: 600px;
     background-size: cover;

@@ -67,7 +67,7 @@ export default {
 
 h1 {
   font-size: $h1;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.2em;
 }
 
 .main-container {
@@ -75,10 +75,9 @@ h1 {
   margin: auto;
   margin-top: 5%;
   .sorting-container {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     text-align: left;
     ul {
-      margin-top: 2%;
       list-style-type: none;
       padding: 0;
       display: flex;

@@ -19,7 +19,7 @@ export default {
   margin: 60px auto;
   width: 70%;
   display: block;
-
+  
   h1 {
     font-size: 4em;
   }

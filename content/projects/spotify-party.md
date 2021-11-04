@@ -9,7 +9,7 @@ Type: "Study",
 Martin Kohnle: "Django, Websocket, Spotipy, Docker, Design",
 Moritz Kronberger: "Postgres SQL, Django, Docker, Design",
 }
-link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
+link: "https://github.com/kohnmart/spotify-party"
 file: "docs/spotifyparty.pdf"
 ---
 

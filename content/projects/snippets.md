@@ -9,7 +9,7 @@ Lea Jell: "Express, Vuex, Design",
 Martin Kohnle: "Vue, Vuex, Validation, Prism.js, Design",
 Moritz Kronberger: "Postgres SQL, Docker, Design",
 }
-link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
+link: "https://github.com/kohnmart/snippets"
 file: "docs/Snippets.pdf"
 ---
 

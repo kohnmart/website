@@ -4,7 +4,7 @@
       <div>
         <img
           class="profile"
-          src="~/assets/img/profile/profile.jpg"
+          src="~/assets/img/profile/profile.webp"
           alt="Martin Kohnle is not here"
         />
       </div>

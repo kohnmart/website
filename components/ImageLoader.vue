@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div :class="diashow">
+    <!-- <div :class="diashow">
       <Button class="back" @click="back"
         ><i class="fas fa-chevron-left"></i
       ></Button>
@@ -14,7 +14,7 @@
       <Button class="exit" @click="switchState"
         ><i class="far fa-times-circle fa-2x"></i
       ></Button>
-    </div>
+    </div> -->
     <div class="overview">
       <div class="static_images" v-for="img in all_images" :key="img">
         <Button class="btn_image" @click="switchState(img)">
@@ -69,7 +69,7 @@ export default {
   },
 
   mounted() {
-    this.importImages(require.context("~/assets/img/", true, /\.(png|jpe?g)$/));
+    this.importImages(require.context("~/assets/img/", true, /\.(webp|jpe?g)$/));
   }
 };
 </script>
@@ -93,10 +93,10 @@ export default {
 
 .btn_image {
   border: none;
-  cursor: grab;
   margin: 0px 2px;
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
+  //cursor: grab;
+  //cursor: -moz-grab;
+  //cursor: -webkit-grab;
   background-color: white;
   .overview_image_portrait {
     width: 200px;

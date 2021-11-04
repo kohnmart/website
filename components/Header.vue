@@ -24,17 +24,17 @@
       </div>
     </ul>
   </div>
+   
 </template>
 
 <script></script>
 <style lang="scss" scoped>
 @import "@/assets/css/main.scss";
 .header {
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin: 20px;
   ul {
     list-style-type: none;
-    margin: 20px;
+      margin-top: 20px;
     padding: 0;
     overflow: hidden;
     li {
