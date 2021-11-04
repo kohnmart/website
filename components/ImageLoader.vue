@@ -69,7 +69,7 @@ export default {
   },
 
   mounted() {
-    this.importImages(require.context("~/assets/img/", true, /\.(webp|jpe?g)$/));
+    this.importImages(require.context("~/assets/img/", true, /\.(webp)$/));
   }
 };
 </script>
@@ -99,7 +99,7 @@ export default {
   //cursor: -webkit-grab;
   background-color: white;
   .overview_image_portrait {
-    width: 200px;
+    height: 400px;
   }
 
   .overview_small_portrait {

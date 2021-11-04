@@ -1,7 +1,7 @@
 ---
 title: 'Venice Fashion' 
 tag: 'photo'
-thumbnail: 'photo/venice/1.jpg'
+thumbnail: 'photo/venice/1'
 ---
 
 # Venice Fashion Series

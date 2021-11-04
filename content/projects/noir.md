@@ -1,7 +1,7 @@
 ---
 title: 'Noir'
 tag: 'photo'
-thumbnail: 'noir.jpg'
+thumbnail: 'noir'
 ---
 
 # Noir Series

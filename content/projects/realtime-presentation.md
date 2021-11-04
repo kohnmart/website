@@ -1,7 +1,7 @@
 ---
 title: "Realtime Presentation"
 tag: "science"
-thumbnail: "science/bkpv/scenes/bkpv.jpg"
+thumbnail: "science/bkpv/scenes/bkpv"
 highlight: "true"
 members: {
 Date: "August 2019 - January 2020",

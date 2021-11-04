@@ -1,7 +1,7 @@
 ---
 title: "Playlist Sharing"
 tag: "web"
-thumbnail: "spotifyparty.jpg"
+thumbnail: "spotifyparty"
 highlight: 'true'
 members: {
 Date: "November 2020 - February 2021",    

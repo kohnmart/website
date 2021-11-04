@@ -1,7 +1,7 @@
 ---
 title: "Social Media"
 tag: "web"
-thumbnail: "snippets.jpg"
+thumbnail: "snippets"
 members: {
 Date: "May - July 2021", 
 Type: "Study",

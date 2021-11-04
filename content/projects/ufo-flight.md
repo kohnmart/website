@@ -1,7 +1,7 @@
 ---
 title: "UFO Flight Animation"
 tag: "vfx"
-thumbnail: "vfx/ufo/1.webp"
+thumbnail: "vfx/ufo/1"
 members: {
 Date: "March - April 2021",
 Type: "Study",    

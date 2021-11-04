@@ -1,7 +1,7 @@
 ---
 title: 'New York City'
 tag: 'photo'
-thumbnail: 'photo/newyork/1.jpg'
+thumbnail: 'photo/newyork/1'
 ---
 # New York
 

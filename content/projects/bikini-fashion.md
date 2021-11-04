@@ -1,7 +1,7 @@
 ---
 title: 'Bikini Fashion'
 tag: 'photo'
-thumbnail: 'photo/bikini/DSC03486-1.jpg'
+thumbnail: 'photo/bikini/DSC03486-1'
 members: {
 Date: "2017",        
 Martin Kohnle: "Photography, Editing, Moodboard",
