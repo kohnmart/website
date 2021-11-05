@@ -17,33 +17,33 @@ $h3: 1.4em;
 $h4: 1.2em;
 $p: 1em;
 
+
 @mixin h1-main {
   font-size: $h1;
-  font-weight: 400;
-  margin-bottom: $h1/12;
+  font-weight: 500;
+  margin-bottom: 0.2em;
 }
 
 @mixin h2-main {
   font-size: $h2;
-  font-weight: 300;
-  margin-bottom: $h2/6;
+  font-weight: 400;
+  margin-bottom: 0.5;
+}
+
+@mixin h3-main {
+  font-size: $h3;
+  font-weight: 400;
+  margin-bottom: 1em;
 }
 
 @mixin h4-main {
   font-size: $h4;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 0.5em;
   margin: 0 auto;
   line-height: 200%;
   color: grey;
 }
-
-@mixin p-responsive {
-  @extend .p-main;
-  font-size: $p * 1.005;
-  line-height: 170%;
-}
-
 
 @mixin p-main {
   font-size: $p;
@@ -51,4 +51,13 @@ $p: 1em;
   font-weight: 300;
   line-height: 150%;
   text-align: left;
+}
+
+@mixin button-main {
+  border-radius: 5px;
+  border: 2px solid grey;
+  background-color: white;
+  padding: 0px 10px 0px 10px;
+  font-size: 1em;
+  height: 30px;
 }

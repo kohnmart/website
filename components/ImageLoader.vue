@@ -25,7 +25,6 @@ export default {
       );
     }
   },
-
   mounted() {
     this.importImages(require.context("~/assets/img/", true, /\.(webp)$/));
   }
@@ -38,7 +37,6 @@ export default {
   margin: auto;
   max-height: 100%;
 }
-
 .overview {
   display: flex;
   flex-direction: row;
@@ -50,45 +48,35 @@ export default {
   margin-top: 40px;
   margin-bottom: 80px;
 }
-
 .overview_image_portrait {
   height: 400px;
 }
-
 .small_portrait {
   width: 235px;
 }
-
 .large_wide {
   height: 500px;
 }
-
 .medium_wide {
   width: 665px;
 }
-
 .medium_portrait {
   width: 335px;
 }
-
 @media (max-width: 600px) {
 .overview_image_portrait {
   height: 200px;
 }
-
 .small_portrait {
   width: 235px;
 }
-
 .large_wide {
    width: 400px;
    height: 100%;
 }
-
 .medium_wide {
   width: 300px;
 }
-
 .medium_portrait {
   width: 335px;
 }

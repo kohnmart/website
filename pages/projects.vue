@@ -18,7 +18,7 @@
       </ul>
     </div>
     <div class="highlights">
-      <h2 v-if="filter == false">{{ subline }}</h2>
+      <h3 v-if="filter == false">{{ subline }}</h3>
       <div class="project-container">
         <div v-for="item in articles" :key="item">
           <nuxt-link :to="{ name: 'slug', params: { slug: item.slug } }">
@@ -33,7 +33,7 @@
                   :src="require(`~/assets/img/thumbs/${item.thumbnail}.webp`)"
                 />
                 <div class="project_info">
-                  <h2>{{ item.title }}</h2>
+                  <p>{{ item.title }}</p>
                 </div>
               </div>
             </div>
@@ -49,7 +49,7 @@ export default {
     return {
       searchtag: "",
       filter: false,
-      subline: "Highlights"
+      subline: "Highlights 2021"
     };
   },
   async asyncData({ $content, params }) {
@@ -72,16 +72,15 @@ export default {
 @import "@/assets/css/main.scss";
 
 h1 {
-  font-size: $h1;
-  margin-bottom: 0.2em;
+  @include h1-main;
 }
 
 .main-container {
   width: 80%;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 80px;
   .sorting-container {
-    margin-bottom: 5%;
+    margin-bottom: 40px;
     text-align: left;
     ul {
       list-style-type: none;
@@ -91,19 +90,15 @@ h1 {
       li {
         margin: 10px 5px;
         button {
-          border-radius: 5px;
-          border: 2px solid grey;
-          background-color: white;
-          padding: 0px 10px 0px 10px;
-          font-size: 1em;
-          height: 30px;
+          @include button-main;
         }
       }
     }
   }
   .highlights {
-    h2 {
-      margin-bottom: 25px;
+    h3 {
+      @include h3-main;
+      font-weight: 500;
     }
     .project-container {
       display: flex;
@@ -125,10 +120,11 @@ h1 {
           margin-left: 5%;
           text-align: left;
           margin-top: 5%;
-          h2 {
+          p {
+            @include p-main;
             color: white;
-            font-size: 1em;
             font-weight: 400;
+            line-height: 100%;
           }
         }
       }

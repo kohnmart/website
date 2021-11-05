@@ -19,45 +19,32 @@ export default {
   margin: 60px auto;
   width: 70%;
   display: block;
-  h2,
-  h3,
-  h4,
+
   p {
-    width: 75%;
+    @include p-main;
+    width: 60%;
+    margin: 0 auto;
   }
 
   h1 {
-    font-size: $h1;
+    @include h1-main;
   }
 
   h2 {
-    font-size: 3em;
-    font-weight: 600;
+    @include h2-main;
     margin: 0.5em auto;
-    margin-top: 1em;
+    margin-top: 2em;
+    width: 60%;
   }
 
   h3 {
-    font-weight: 400;
-    font-size: $h3;
-    margin-bottom: 1.4em;
+    @include h3-main;
   }
 
   h4 {
     @include h4-main;
-  }
-
-  p {
-    @include p-main;
-
-    a {
-      text-decoration: none;
-      color: black;
-      font-size: 1.2em;
-    }
-    a:hover {
-      text-decoration-line: underline;
-    }
+    margin: 0 auto;
+    width: 60%;
   }
 }
 @media (max-width: 600px) {
@@ -66,32 +53,22 @@ export default {
     margin: 40px auto;
     width: 90%;
     h1 {
-      font-size: 2em;
-      margin-bottom: 0.5em;
+      font-size: $h1 * 0.7;
     }
-    h2 {
-      font-size: 1.5em;
-      margin: 0.4em auto;
+    h2,
+    p,
+    h4 {
+      width: 80%;
     }
-    h3 {
-      font-size: $h3;
-      margin-bottom: 0.5em;
-    }
-    p {
-      @include p-responsive;
-      a {
-        text-decoration: none;
-        color: black;
-        font-size: 1.2em;
-      }
 
-      a:hover {
-        text-decoration-line: underline;
-      }
+    p {
+      font-size: $p * 0.7;
+      line-height: 170%;
     }
     h4 {
-      @include h4-main;
-      font-size: $h4 * 1.008;
+      color: grey;
+      font-size: $h4 * 0.7;
+      font-weight: 400;
     }
   }
 }

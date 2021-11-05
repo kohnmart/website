@@ -79,7 +79,6 @@ export default {};
 .intro {
   width: 50%;
   margin: 0 auto;
-  margin-right: auto;
   margin-bottom: 100px;
   div {
     padding: 5%;
@@ -129,6 +128,11 @@ export default {};
         margin: 20px 0px;
       }
     }
+    p {
+      font-size: $p * 1.005;
+      line-height: 170%;
+    }
+
     h1 {
       margin-bottom: 10px;
     }
