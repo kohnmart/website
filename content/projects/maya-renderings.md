@@ -1,7 +1,7 @@
 ---
 title: "Maya Renderings"
 tag: "vfx"
-thumbnail: "vfx/maya/4"
+thumbnail: "maya"
 ---
 
 # Maya Rendering

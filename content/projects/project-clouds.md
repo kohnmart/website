@@ -1,7 +1,7 @@
 ---
 title: "Project Clouds Animation"
 tag: "vfx"
-thumbnail: "vfx/clouds/title/title"
+thumbnail: "clouds"
 highlight: "true"
 members: {
 Date: "May - July 2021",   

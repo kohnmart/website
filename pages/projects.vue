@@ -25,7 +25,7 @@
           <nuxt-link :to="{ name: 'slug', params: { slug: item.slug } }">
             <div v-if="item.tag == searchtag || (filter == false && item.highlight == 'true')">
               <div class="thumbnail">
-                <img :src="require(`~/assets/img/${item.thumbnail}.webp`)" />
+                <img :src="require(`~/assets/img/thumbs/${item.thumbnail}.webp`)" />
                 <div class="project_info">
                   <h2>{{ item.title }}</h2>
                 </div>
