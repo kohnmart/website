@@ -21,7 +21,7 @@ file: "docs/Snippets.pdf"
 
 <br /> <br />
 
-<image-loader height="overview_image_wide" image="dev/snippets/title"></image-loader>
+<image-loader height="large_wide" image="dev/snippets/title"></image-loader>
 
 ## Introduction
 
@@ -31,31 +31,33 @@ Snippets is a small social media web application for developers. The basis consi
 
 The main aim of this study work was to develop a flawless web application. We kept the SCSS design simple as it had no influence on the grade and evaluation. We only paid special attention to syntax highlighting with prism.js.<br /> <br />
 
+## Features
+
 #### Get started
 
 You should first log in or register from the start page. This is a requirement for posting and interacting. The authentication pages can be accessed
 from the start page via "Login". It should also be mentioned that all input fields of the platform are linked to a self-developed validation.
 
-<image-loader height="overview_image_ws" image="dev/snippets/login"></image-loader>
+<image-loader height="medium_portrait" image="dev/snippets/login"></image-loader>
 
 #### Create a Post
 
 To create a post, click on "Add Post". There is a fixed structure for creation. First you choose one of the available languages. Then add a title and the code snippet. We made sure that line breaks in the code are retained. Optionally, you can add tags in "category" to find the post via search.
 The contribution can be deleted at any time. An example post can be seen below.
 
-<image-loader height="overview_image_small" image="dev/snippets/first"></image-loader>
+<image-loader height="medium_wide" image="dev/snippets/first"></image-loader>
 
 #### Interaction<br />
 
 You can now comment and like the created post. In addition, you can also like a certain comment. Of course, a comment can also consist of a code snippet. Comment highlighting should be included in a later update.
 
-<image-loader height="overview_image_small" image="dev/snippets/comment"></image-loader>
+<image-loader height="medium_wide" image="dev/snippets/comment"></image-loader>
 
 #### Adjust the Profile
 
 Users can subsequently change their username and password.
 
-<image-loader height="overview_image_small" image="dev/snippets/profile"></image-loader>
+<image-loader height="medium_wide" image="dev/snippets/profile"></image-loader>
 
 ## Review <br />
 

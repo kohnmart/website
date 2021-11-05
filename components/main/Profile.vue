@@ -92,26 +92,16 @@ export default {};
       margin: 100px 0px;
     }
   }
-
   h1 {
-    font-size: $h1;
-    font-weight: 400;
-    text-align: left;
-    margin-bottom: 10px;
+    @include h1-main;
   }
-
   h2 {
-    font-size: 1.2em;
-    font-weight: 300;
+    @include h2-main;
   }
 
   p {
-    font-size: $p;
-    text-align: left;
-    font-weight: 300;
-    line-height: 150%;
+    @include p-main;
   }
-
   ul {
     li {
       margin-left: 30px;
@@ -131,7 +121,6 @@ export default {};
     margin-top: 50px;
     div {
       padding: 5%;
-      width: 100%;
       .profile {
         object-fit: cover;
         height: 300px;
@@ -140,14 +129,8 @@ export default {};
         margin: 20px 0px;
       }
     }
-
     h1 {
       margin-bottom: 10px;
-    }
-    p {
-      font-size: $p;
-      text-align: left;
-      font-weight: 300;
     }
   }
 }

@@ -1,16 +1,9 @@
 <template>
-  <div></div>
+  <div class="bg_image"></div>
 </template>
 
-<script>
-export default {
-}
-</script>
-
 <style lang="scss" scoped>
-@import "@/assets/css/main.scss";
-
-div {
+.bg_image {
   background-image: url("~/assets/img/land.webp");
   width: 100%;
   height: 800px;
@@ -21,7 +14,7 @@ div {
   background-position-y: -100px;
 }
 @media (max-width: 600px) {
-  div {
+  .bg_image {
     height: 600px;
     background-size: cover;
     background-position-y: 0px;

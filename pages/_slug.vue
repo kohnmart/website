@@ -19,9 +19,15 @@ export default {
   margin: 60px auto;
   width: 70%;
   display: block;
-  
+  h2,
+  h3,
+  h4,
+  p {
+    width: 75%;
+  }
+
   h1 {
-    font-size: 4em;
+    font-size: $h1;
   }
 
   h2 {
@@ -29,39 +35,29 @@ export default {
     font-weight: 600;
     margin: 0.5em auto;
     margin-top: 1em;
-    width: 60%;
   }
 
   h3 {
     font-weight: 400;
-    margin-bottom: 2em;
+    font-size: $h3;
+    margin-bottom: 1.4em;
+  }
+
+  h4 {
+    @include h4-main;
   }
 
   p {
-    font-size: 1.1em;
-    width: 60%;
-    margin: 0 auto;
-    font-weight: 300;
-    line-height: 170%;
+    @include p-main;
+
     a {
       text-decoration: none;
       color: black;
       font-size: 1.2em;
     }
-
     a:hover {
       text-decoration-line: underline;
     }
-  }
-
-  h4 {
-    color: grey;
-    font-size: 1.2em;
-    font-weight: 400;
-    margin-bottom: 0.5em;
-    margin: 0 auto;
-    width: 60%;
-    line-height: 200%;
   }
 }
 @media (max-width: 600px) {
@@ -78,14 +74,11 @@ export default {
       margin: 0.4em auto;
     }
     h3 {
-      font-size: 0.9em;
+      font-size: $h3;
       margin-bottom: 0.5em;
     }
-
     p {
-      font-size: 0.6em;
-      font-weight: 300;
-      line-height: 170%;
+      @include p-responsive;
       a {
         text-decoration: none;
         color: black;
@@ -97,12 +90,8 @@ export default {
       }
     }
     h4 {
-      color: grey;
-      font-size: 0.8em;
-      font-weight: 400;
-      margin-bottom: 0.5em;
-      margin: 0 auto;
-      line-height: 200%;
+      @include h4-main;
+      font-size: $h4 * 1.008;
     }
   }
 }

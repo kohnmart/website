@@ -6,4 +6,4 @@ thumbnail: "maya"
 
 # Maya Rendering
 
-<image-loader height="overview_image_ws" image="vfx/maya"></image-loader>
+<image-loader height="overview_image_portrait" image="vfx/maya"></image-loader>

@@ -18,14 +18,20 @@
       </ul>
     </div>
     <div class="highlights">
-        <h2 v-if="filter==false">{{subline}}</h2>
+      <h2 v-if="filter == false">{{ subline }}</h2>
       <div class="project-container">
-      
         <div v-for="item in articles" :key="item">
           <nuxt-link :to="{ name: 'slug', params: { slug: item.slug } }">
-            <div v-if="item.tag == searchtag || (filter == false && item.highlight == 'true')">
+            <div
+              v-if="
+                item.tag == searchtag ||
+                  (filter == false && item.highlight == 'true')
+              "
+            >
               <div class="thumbnail">
-                <img :src="require(`~/assets/img/thumbs/${item.thumbnail}.webp`)" />
+                <img
+                  :src="require(`~/assets/img/thumbs/${item.thumbnail}.webp`)"
+                />
                 <div class="project_info">
                   <h2>{{ item.title }}</h2>
                 </div>
@@ -43,7 +49,7 @@ export default {
     return {
       searchtag: "",
       filter: false,
-      subline: 'Highlights'
+      subline: "Highlights"
     };
   },
   async asyncData({ $content, params }) {
@@ -79,14 +85,10 @@ h1 {
     text-align: left;
     ul {
       list-style-type: none;
-      padding: 0;
       display: flex;
       flex-wrap: wrap;
-      overflow: hidden;
       justify-content: left;
-
       li {
-        margin-right: 20px;
         margin: 10px 5px;
         button {
           border-radius: 5px;
@@ -99,7 +101,6 @@ h1 {
       }
     }
   }
-
   .highlights {
     h2 {
       margin-bottom: 25px;
@@ -108,7 +109,6 @@ h1 {
       display: flex;
       flex-wrap: wrap;
       justify-content: left;
-
       .thumbnail {
         margin-right: 25px;
         margin-bottom: 25px;
@@ -116,20 +116,10 @@ h1 {
         height: 250px;
         border-radius: 10px;
         background: black;
-        .button {
-          text-decoration: none;
-        }
-        p {
-          margin: 0;
-          display: block;
-        }
         img {
           width: 300px;
           height: 200px;
           object-fit: cover;
-          margin: auto;
-          padding: 0;
-          background-color: gray;
         }
         .project_info {
           margin-left: 5%;
@@ -144,8 +134,5 @@ h1 {
       }
     }
   }
-}
-
-@media (max-width: 600px) {
 }
 </style>

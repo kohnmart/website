@@ -11,7 +11,44 @@
 
 $roboto: "Roboto";
 
-$h1: 3em;
+$h1: 4em;
 $h2: 2em;
-$h3: 1.5em;
+$h3: 1.4em;
+$h4: 1.2em;
 $p: 1em;
+
+@mixin h1-main {
+  font-size: $h1;
+  font-weight: 400;
+  margin-bottom: $h1/12;
+}
+
+@mixin h2-main {
+  font-size: $h2;
+  font-weight: 300;
+  margin-bottom: $h2/6;
+}
+
+@mixin h4-main {
+  font-size: $h4;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  margin: 0 auto;
+  line-height: 200%;
+  color: grey;
+}
+
+@mixin p-responsive {
+  @extend .p-main;
+  font-size: $p * 1.005;
+  line-height: 170%;
+}
+
+
+@mixin p-main {
+  font-size: $p;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 150%;
+  text-align: left;
+}

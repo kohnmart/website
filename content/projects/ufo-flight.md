@@ -23,11 +23,6 @@ In this Houdini entry-level project, we've covered the the non-destructive workf
 #### Plot
 "The UFO is said to contain an artifact on a strange planet. When it takes off, it gets caught in a dangerous thunderstorm".
 <br /> <br />
-<br /> <br />
-
-## Animation
-
-<youtube-loader :link="link"></youtube-loader>
 
 <image-loader height="overview_image_ws" image="vfx/ufo"></image-loader>
 

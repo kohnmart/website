@@ -20,7 +20,7 @@ file: "docs/clouds.pdf"
 
 <team :members="members" :link="link" title="Media" type="Video" :doc="file"></team>
 
-<image-loader height="overview_image_wide" image="vfx/clouds/title"></image-loader>
+<image-loader height="large_wide" image="vfx/clouds/title"></image-loader>
 
 ## Introduction
 
@@ -38,10 +38,6 @@ Aliens arrive on earth by camouflaging themselves in cloud formations.
 
 We imagined that the entire scene would take place on a farm field. As the sun goes down, plants and grasses gently blow in the wind. The mood is peaceful, birds chirp in the distance. In the process, the clouds transform and the wind gets stronger. The wind strength is evident through the vegetation. The clouds suddenly produce extrusions that are threateningly approaching the ground.
 <br /> <br />
-
-## Animation  
-
-<youtube-loader link="https://www.youtube.com/embed/bUjEX9_8Q0c"></youtube-loader>
 
 ## Research
 
@@ -62,7 +58,7 @@ Height maps and satellite images are combined to create a realistic landscape.
 In addition, the image data is read out in order to match the color of the vegetation.
 
 
-<image-loader height="overview_image_ws" image="vfx/clouds/poly"></image-loader>
+<image-loader height="medium_portrait" image="vfx/clouds/poly"></image-loader>
 
 ## Review
 

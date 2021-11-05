@@ -25,7 +25,7 @@ link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
 <br /> <br />
 
 
-<image-loader height="overview_image_wide" image="science/bkpv/intro"></image-loader>
+<image-loader height="large_wide" image="science/bkpv/intro"></image-loader>
 
 ## Introduction
 
@@ -39,7 +39,7 @@ that I received at the beginning of 2019. The occasion of the presentation was t
 Many important mayors and high-ranking politicians attended.
 It took place a year later in the Fürth town hall.<br /> <br />
 
-<image-loader height="overview_image_small" image="science/bkpv/title"></image-loader>
+<image-loader height="large_wide" image="science/bkpv/title"></image-loader>
 
 ## Concept
 
@@ -76,14 +76,14 @@ Introduced by the intro, this scene became the center of the presentation. Many 
 The logo flies endlessly around the earth in an orbit.
 
 
-<image-loader height="overview_image_small" image="science/bkpv/intro"></image-loader>
+<image-loader height="medium_wide" image="science/bkpv/intro"></image-loader>
 
 #### History Scence
 
 Images and documents of the history were visualized in an animated book.
 
 
-<image-loader height="overview_image_small" image="science/bkpv/history"></image-loader>
+<image-loader height="medium_wide" image="science/bkpv/history"></image-loader>
 
 #### Hall Scence
 
@@ -91,11 +91,11 @@ Core of the presentation. Showing the development and current activities.
 Features such as slides, 2D and 3D objects, terrain maps, videos and live speeches are shown here.
 
 
-<image-loader height="overview_image_ws" image="science/bkpv/present"></image-loader>
+<image-loader height="medium_portrait" image="science/bkpv/present"></image-loader>
 
 ## Scenes
 
-<image-loader height="overview_image_ws" image="science/bkpv/scenes"></image-loader>
+<image-loader height="medium_portrait" image="science/bkpv/scenes"></image-loader>
 
 ## Review
 
