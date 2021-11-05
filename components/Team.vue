@@ -88,7 +88,7 @@ export default {
       margin-right: 5px;
     }
     ul > li {
-      font-size: 0.7em;
+      font-size: 0.9em;
       list-style-type: none;
       margin-bottom: 0.5em;
     }

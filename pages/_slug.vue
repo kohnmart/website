@@ -60,15 +60,8 @@ export default {
     h4 {
       width: 80%;
     }
-
     p {
-      font-size: $p * 0.7;
       line-height: 170%;
-    }
-    h4 {
-      color: grey;
-      font-size: $h4 * 0.7;
-      font-weight: 400;
     }
   }
 }
