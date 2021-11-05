@@ -5,14 +5,12 @@ thumbnail: "bkpv"
 highlight: "true"
 members: {
 Date: "August 2019 - January 2020",
-Type: "Work",         
-Martin Kohnle: "Unity, Visual Studio, Blender, Stage Design",
-Adrian Kohnle: "Music, Stage Design, Scrum Master", 
-Mirela Wagner: "Management, Project Owner", 
-Kigg Media: "Photo, Film, Editing",                BKPV: "Storyboard, Documents", 
-Fürth staff: "Light, Audio, Stage",                Freelancers: "3D Modelling, Animations"
+Type: "Assignment",         
+Role: "Unity, Visual Studio, Blender, Stage Design",
+Team: "Adrian Kohnle, Mirela Wagner, Kigg Media",
+Location: "Fürth town hall",
+Client: "BKPV",
 }
-headlines: ["Introduction", "Concept", "Showcase", "Scenes", "Review"]
 link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
 ---
 

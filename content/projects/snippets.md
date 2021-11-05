@@ -5,9 +5,8 @@ thumbnail: "snippets"
 members: {
 Date: "May - July 2021", 
 Type: "Study",
-Lea Jell: "Express, Vuex, Design",        
-Martin Kohnle: "Vue, Vuex, Validation, Prism.js, Design",
-Moritz Kronberger: "Postgres SQL, Docker, Design",
+Team: "Lea Jell, Martin Kohnle, Moritz Kronberger",
+My Role: "Vue, Vuex, Validation, Prism.js, SCSS",
 }
 link: "https://github.com/kohnmart/snippets"
 file: "docs/Snippets.pdf"
@@ -15,7 +14,7 @@ file: "docs/Snippets.pdf"
 
 # Snippets
 
-### Vue 3, SCSS, Express, Postgres SQL, Docker <br /> <br />
+### Vue 3, SCSS, Express, PostgreSQL, Docker, Figma <br /> <br />
 
 <team :members="members" :link="link" :doc="file"></team>
 

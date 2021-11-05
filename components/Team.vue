@@ -70,11 +70,14 @@ export default {
     font-size: 1em;
     list-style-type: none;
     margin-bottom: 0.5em;
+    margin: 0;
+
     button {
       @include button-main;
       a {
         text-decoration: none;
       }
+      margin-bottom: 10px;
     }
   }
 }

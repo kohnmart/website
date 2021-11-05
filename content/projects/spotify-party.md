@@ -6,8 +6,8 @@ highlight: 'true'
 members: {
 Date: "November 2020 - February 2021",    
 Type: "Study",
+Team: "Martin Kohnle, Moritz Kronberger",
 Martin Kohnle: "Django, Websocket, Spotipy, Docker, Design",
-Moritz Kronberger: "Postgres SQL, Django, Docker, Design",
 }
 link: "https://github.com/kohnmart/spotify-party"
 file: "docs/spotifyparty.pdf"
@@ -15,7 +15,7 @@ file: "docs/spotifyparty.pdf"
 
 # SpotifyParty
 
-### Python / Django / Websocket / Postgres SQL / Docker <br /> <br />
+### Python / Django / Websocket / PostgreSQL / Docker / Figma <br /> <br />
 
 <team :members="members" :link="link" :doc="file"></team>
 
