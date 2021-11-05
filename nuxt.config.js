@@ -11,7 +11,7 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{ rel: 'icon', type: 'image/png', sizes:'32x32', href: '/favicon.png' }],
     css: [
       // Load a Node.js module directly (here it's a Sass file)
       "bulma",
