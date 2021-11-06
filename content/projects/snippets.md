@@ -24,11 +24,11 @@ file: "docs/Snippets.pdf"
 
 ## Introduction
 
-Snippets is a small social media web application for developers. The basis consists of the classic methods of creating, liking and commenting on posts. The special feature of the app is the type of post. The users share unique, interesting and complex code snippets which are highlighted in the corresponding language. The main page "Coding Feed" shows the feed of all posts. The posts can be sorted and filtered using a fault-tolerant search. Code support is usually offered on these platforms. Our intention was to create a platform that shows the code and its logic as a work of art. Please refer to the documentation for detailed information. <br /> <br />
+Snippets is a small social media web application for developers. The basis consists of the classic methods of creating, liking and commenting on posts. The special feature of the app is the type of post. The users share unique, interesting and complex code snippets which are highlighted in the corresponding language. The main page "Coding Feed" shows the feed of all posts. The posts can be sorted and filtered using a fault-tolerant search. Code support is usually offered on these platforms. We intended to create a platform that shows the code and its logic as a work of art. Please refer to the documentation for detailed information.  <br /> <br />
 
 #### Design
 
-The main aim of this study work was to develop a flawless web application. We kept the SCSS design simple as it had no influence on the grade and evaluation. We only paid special attention to syntax highlighting with prism.js.<br /> <br />
+The main aim of this study work was to develop a technically flawless web application. We kept the SCSS design simple as it did not influence the grade and evaluation. We only paid special attention to syntax highlighting with prism.js. <br /> <br />
 
 ## Features
 
@@ -41,7 +41,7 @@ from the start page via "Login". It should also be mentioned that all input fiel
 
 #### Create a Post
 
-To create a post, click on "Add Post". There is a fixed structure for creation. First you choose one of the available languages. Then add a title and the code snippet. We made sure that line breaks in the code are retained. Optionally, you can add tags in "category" to find the post via search.
+To create a post, click on "Add Post". There is a fixed structure for creation. First, you choose one of the available languages. Then add a title and the code snippet. We made sure that line breaks in the code are retained. Optionally, you can add tags in "category" to find the posts with the same tag via search.
 The contribution can be deleted at any time. An example post can be seen below.
 
 <image-loader height="medium_wide" image="dev/snippets/first"></image-loader>

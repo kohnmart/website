@@ -11,21 +11,30 @@
       <div>
         <h1>Intro</h1>
         <p>
-          Hello, everyone. My name is Martin Kohnle, I am a 24 year old student
+          Hello, everyone. My name is Martin Kohnle, I am a 24-year-old student
           from Augsburg. I am currently studying interactive media with a focus
-          on computer science. A course, that bridges the gap between design and
-          computer science.<br />
+          on computer science in the 5th semester. This interdisciplinary course
+          is based at the Faculty of Design and Computer Science. The spectrum
+          ranges from media design, interaction, 2D / 3D animation to web and
+          app development, mathematics and AI. The merging of these two
+          faculties develops experts in a wide variety of areas, who are
+          nevertheless able to understand the fundamentals of all. These
+          individual capabilities enable more complex projects to be scaled up.
+          <br />
           <br />
 
-          I feel at home in this intermediate world of logic and design. The
-          know-how in both fields makes it possible to structure a project
-          better, to recognize possible problems early and to adapt the design
-          to technical possibilities. <br />
+          I feel at home in this intermediate world of logic and design. My
+          focus is on web development, machine learning and 3D animation. It's
+          exciting and varied. A high level of communication, innovation and
+          skills come together. It expands my horizon and perspective on a wide
+          range of challenges. The know-how in these fields makes it possible to
+          find solutions not compromise, to recognize possible issues
+          early and to adapt the design to technical possibilities. <br />
           <br />
         </p>
       </div>
       <div>
-        <h2 id="inspirations">Literature</h2>
+        <h2 id="inspirations">Favorite literature</h2>
         <br />
         <ul>
           <li>
