@@ -75,3 +75,6 @@ The technical implementation of a Python web application was primarily required 
 The base of the app is a good starting point for future extensions.
 For example, it should be possible to configure the hard-coded preferences such as the number of tracks,
 the voting time and playlists by third parties. A simple application and low entry barriers apply to all future extensions.
+ <br />  <br />
+ 
+[Go to Documentation](#top)

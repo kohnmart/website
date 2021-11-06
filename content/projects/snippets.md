@@ -67,3 +67,6 @@ This project was carried out in a group of three and should be understood as a p
 #### Perspective <br />
 
 Expansion options are conceivable for each feature. The most important ones should be listed here. Accounts could take on various useful roles like admins. Users have their personal feed on their profile and can follow others. Assuming that there will be thousands of posts in the database at some point, the main feed should load them in batches. The individual post should also be editable at a later date. In addition, the SCSS should also be revised.
+ <br />  <br />
+
+[Go to Documentation](#top)

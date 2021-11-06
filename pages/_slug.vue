@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <a name="top"></a>
     <nuxt-content :document="post" />
     <return-button></return-button>
   </div>
@@ -24,6 +25,9 @@ export default {
     @include p-main;
     width: 60%;
     margin: 0 auto;
+    a {
+      font-weight: 400;
+    }
   }
 
   h1 {
