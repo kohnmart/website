@@ -4,30 +4,25 @@
       <h1>Discover Projects</h1>
       <ul>
         <li>
-          <Button @click="sortBy('web')">Apps</Button>
+          <Button @click="setFilter('web')">Apps</Button>
         </li>
         <li>
-          <Button @click="sortBy('science')">Science</Button>
+          <Button @click="setFilter('science')">Science</Button>
         </li>
         <li>
-          <Button @click="sortBy('photo')">Photography</Button>
+          <Button @click="setFilter('photo')">Photography</Button>
         </li>
         <li>
-          <Button @click="sortBy('vfx')">Rendering</Button>
+          <Button @click="setFilter('vfx')">Rendering</Button>
         </li>
       </ul>
     </div>
     <div class="highlights">
-      <h3 v-if="filter == false">{{ subline }}</h3>
+      <h3 v-if="category == null">{{ subline }}</h3>
       <div class="project-container">
         <div v-for="item in articles" :key="item">
           <nuxt-link :to="{ name: 'slug', params: { slug: item.slug } }">
-            <div
-              v-if="
-                item.tag == searchtag ||
-                  (filter == false && item.highlight == 'true')
-              "
-            >
+            <div v-if="item.tag == category">
               <div class="thumbnail">
                 <img
                   :src="require(`~/assets/img/thumbs/${item.thumbnail}.webp`)"
@@ -44,14 +39,18 @@
   </div>
 </template>
 <script>
+import { mapState } from "vuex";
 export default {
   data() {
     return {
-      searchtag: "",
-      filter: false,
       subline: "Highlights 2021"
     };
   },
+
+  computed: {
+    ...mapState(["category"])
+  },
+
   async asyncData({ $content, params }) {
     const articles = await $content("projects", params.slug).fetch();
     return {
@@ -60,9 +59,11 @@ export default {
   },
 
   methods: {
-    sortBy(filter) {
-      this.searchtag = filter;
-      this.filter = true;
+    setFilter(filter) {
+      {
+        this.$store.commit("setCategory", filter);
+        console.log(filter);
+      }
     }
   }
 };
