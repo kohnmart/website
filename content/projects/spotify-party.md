@@ -22,34 +22,30 @@ file: "docs/spotifyparty.pdf"
 <br /> <br />
 
 <image-loader height="large_wide" image="dev/spotifyparty/title"></image-loader>
-#### Introduction
-This course was about developing an agile web application with Python and the Django framework.
-We decided to create an application that makes it possible to share Spotify playlists at parties.
-The host simply creates a session. The party guests can then join using an access code.
-The music selection works via a voting system. The song with the most votes is chosen in each round.
-Varied music is essential for a good party. The mood changes over the night and so does the music. <br /> <br />
 
+## Introduction
 
+This course was about developing an agile web application with Python and the Django framework. We decided to create an application that makes it possible to share Spotify playlists at parties. The host simply creates a live session. The guests can then join using an access code. The music selection works via a voting system. The song with the most votes is chosen in each round. Varied music is essential for a good party. The mood changes over the night and so does the music. <br /> <br />
 
 #### Design
 
 Every unforgettable party needs a smooth start! Creating the session and joining should be possible in a few steps. Long waiting times are an absolute no-go.
-Based on the fact that guests use a smartphone rather than a PC at the party, we have optimized the app design accordingly. Of course you can also control it via the PC, but that's not fancy on a party.<br /> <br />
+We have optimized the design for smartphones, as these are usually used at parties.
+We assumed that the guests wanted to spend as little time on the app as possible during the party. Accordingly, we developed an interface that is limited to the essential features.<br /> <br />
 
-#### Welcome to the Party! <br />
+## Welcome to the Party! <br />
 
-On the homepage, SpotifyParty offers two options. If a host has already started a session, the guests can join using the 6-digit code.
-With "create party" you can become the host yourself. The steps to create it are described below.
+SpotifyParty offers two roles at the beginning. If a host has already started a session, the guests can join using the 6-digit code.
+Or you can become the host yourself. The steps to create it are described below.
 A Spotify registration is necessary for this. <br /> <br />
 
 #### Settings <br />
 
 After the successful Spotity registration (OAuth), the app queries the user playlists and the play-back status.
-Currently, you can only choose your own playlists. Every device that the host has connected to his account and
-is currently active can be used to play. The setting options are mandatory fields without which the session cannot be started.
+Every device that the host has connected to his account and
+is currently active can be used to play. The setting options are mandatory fields.
 For the live feedback, the connection to the websocket is established at this point.
 <br /> <br />
-
 
 <image-loader height="small_portrait" image="dev/spotifyparty/first"></image-loader>
 
@@ -69,12 +65,12 @@ Of course, you can skip a few songs if you don't want to look at your smartphone
 
 #### Review <br />
 
-All team members were able to meet the requirements for the app that were set out at the beginning.
+All team members were able to meet the requirements for the app.
 In the current state, all the necessary features have been implemented so that the app can function as a prototype.
-For us, technical development was primary and design secondary. This area can be optimized accordingly.
+The technical implementation of a Python web application was primarily required in this project. The integration of a web socket and the Spotify API was a personal requirement. The design should be considered secondary.
 <br /> <br />
 
-#### Outlook <br />
+#### Perspective <br />
 
 The base of the app is a good starting point for future extensions.
 For example, it should be possible to configure the hard-coded preferences such as the number of tracks,

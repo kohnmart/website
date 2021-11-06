@@ -22,19 +22,18 @@
           individual capabilities enable more complex projects to be scaled up.
           <br />
           <br />
-
           I feel at home in this intermediate world of logic and design. My
           focus is on web development, machine learning and 3D animation. It's
           exciting and varied. A high level of communication, innovation and
           skills come together. It expands my horizon and perspective on a wide
           range of challenges. The know-how in these fields makes it possible to
-          find solutions not compromise, to recognize possible issues
-          early and to adapt the design to technical possibilities. <br />
+          find solutions not compromise, to recognize possible issues early and
+          to adapt the design to technical possibilities. <br />
           <br />
         </p>
       </div>
       <div>
-        <h2 id="inspirations">Favorite literature</h2>
+        <h2>Favorite literature</h2>
         <br />
         <ul>
           <li>
