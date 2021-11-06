@@ -42,12 +42,12 @@ We imagined that the entire scene would take place on a farm field. As the sun g
 
 #### Study
 
-After we set up the concept, we quickly noticed that with the clouds and field, we encountered two very complex structures. Clouds are strange objects when you think about them, are they more physical or gaseous? You can imagine the field better, but rendering millions of grasses and bushes is a crazy effort. We decided to work separately on clouds and field in order to be able to dive deeper into the areas. Different approaches and implementations were tested for both models. We had to find the sweet spot of acceptable hardware performance and the best optical quality. Nothing easier than that. <br /> <br />
+ We quickly noticed two challenges after we set up the concept. The clouds and field,  are very complex structures. Clouds are strange objects when you think about them, are they more physical or gaseous? You can imagine the field better, but rendering millions of grasses and bushes is a crazy effort. We decided to work separately on clouds and field in order to be able to dive deeper into the areas. Different approaches and implementations were tested for both models. We had to find the sweet spot of acceptable hardware performance and the best optical quality. Nothing easier than that. <br /> <br />
 
 #### Clouds
 
-At the beginning, a research had to be done to find out when and where certain cloud formations appear. It is also realistic that formations are visible at different altitudes at the same time.
-Check the documentation for detailed information and node structures. For the final work, we decided on two model concepts, pointy and poly. The development has shown that pointy clouds can be used efficiently for very large, flat and scattered formations which extend over the whole map. In contrast, the poly clouds are better suited for high and dense cumulus clouds.
+In the beginning, research had to be done to find out when and where certain cloud formations appear. It is also realistic that formations are visible at different altitudes at the same time.
+Check the documentation for detailed information and node structures. We decided on two model concepts, pointy and poly clouds. The development has shown that pointy clouds can be used efficiently for very large, flat and scattered formations which extend over the whole map. The poly clouds are better suited for high and dense cumulus clouds.
 <br /> <br />
 
 #### Mapbox
