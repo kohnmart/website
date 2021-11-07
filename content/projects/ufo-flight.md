@@ -17,6 +17,8 @@ link: "https://www.youtube.com/embed/_N7EeSHyqYo"
 <team :members="members" :link="link" type="Animation" title="Media"></team>
 <br /> <br />
 
+<image-loader height="large_wide" image="vfx/ufo/title"></image-loader>
+
 ## Introduction
 
 In this Houdini entry-level project, we've covered the the non-destructive workflow with the node system. The task should be implemented with simple modeling and animation.

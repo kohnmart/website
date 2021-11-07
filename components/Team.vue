@@ -83,18 +83,13 @@ export default {
 }
 @media (max-width: 600px) {
   .info {
-    width: 140%;
-    ul > li {
-      padding: 0;
-      font-size: 0.8em;
-      list-style-type: none;
-      margin-bottom: 0.5em;
-    }
+    display: none;
+    margin: 0;
   }
   .media {
     float: left;
     width: 100%;
-    margin: 2em auto;
+    margin: 0em auto;
     ul > li {
       display: inline-block;
       font-size: 1em;
