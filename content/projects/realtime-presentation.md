@@ -11,7 +11,7 @@ Team: "Adrian Kohnle, Mirela Wagner, Kigg Media",
 Location: "Fürth town hall",
 Client: "BKPV",
 }
-link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
+link: "https://youtu.be/JNyzUPhozzE"
 ---
 
 # Realtime Presentation
