@@ -1,6 +1,6 @@
 ---
 title: "Playlist Sharing"
-tag: "web"
+tag: "web",
 thumbnail: "spotifyparty"
 highlight: 'true'
 members: {

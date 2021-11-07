@@ -3,18 +3,10 @@
     <div class="sorting-container">
       <h1>Discover Projects</h1>
       <ul>
-        <li>
-          <Button @click="setFilter('web')">Apps</Button>
-        </li>
-        <li>
-          <Button @click="setFilter('science')">Science</Button>
-        </li>
-        <li>
-          <Button @click="setFilter('photo')">Photography</Button>
-        </li>
-        <li>
-          <Button @click="setFilter('vfx')">Rendering</Button>
-        </li>
+        <ProjectsCategories filter="web" _cat="Apps" />
+        <ProjectsCategories filter="science" _cat="Science" />
+        <ProjectsCategories filter="photo" _cat="Photography" />
+        <ProjectsCategories filter="vfx" _cat="Rendering" />
       </ul>
     </div>
     <div class="highlights">
@@ -22,7 +14,12 @@
       <div class="project-container">
         <div v-for="item in articles" :key="item">
           <nuxt-link :to="{ name: 'slug', params: { slug: item.slug } }">
-            <div v-if="item.tag == category">
+            <div
+              v-if="
+                item.tag == category ||
+                  (item.highlight == 'true' && category == null)
+              "
+            >
               <div class="thumbnail">
                 <img
                   :src="require(`~/assets/img/thumbs/${item.thumbnail}.webp`)"
@@ -50,21 +47,11 @@ export default {
   computed: {
     ...mapState(["category"])
   },
-
   async asyncData({ $content, params }) {
     const articles = await $content("projects", params.slug).fetch();
     return {
       articles
     };
-  },
-
-  methods: {
-    setFilter(filter) {
-      {
-        this.$store.commit("setCategory", filter);
-        console.log(filter);
-      }
-    }
   }
 };
 </script>
