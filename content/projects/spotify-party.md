@@ -7,7 +7,7 @@ members: {
 Date: "November 2020 - February 2021",    
 Type: "Study",
 Team: "Martin Kohnle, Moritz Kronberger",
-Martin Kohnle: "Django, Websocket, Spotipy, Docker, Design",
+My Role: "Django, Websocket, Spotipy, Docker, Design",
 }
 link: "https://github.com/kohnmart/spotify-party"
 file: "docs/spotifyparty.pdf"

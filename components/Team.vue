@@ -83,11 +83,9 @@ export default {
 }
 @media (max-width: 600px) {
   .info {
-    width: 100%;
-    .list {
-      margin-right: 5px;
-    }
+    width: 140%;
     ul > li {
+      padding: 0;
       font-size: 0.8em;
       list-style-type: none;
       margin-bottom: 0.5em;
