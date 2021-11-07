@@ -7,7 +7,7 @@ Date: "April - August 2021",
 Type: "Study",         
 Role: "*",
 }
-link: "https://github.com/kohnmart/snippets"
+link: "https://github.com/kohnmart/marching-algorithm"
 file: "docs/marching.pdf"
 ---
 
