@@ -4,16 +4,14 @@
       <div class="list">
         <div v-for="(key, item) in members">
           <ul>
-            <li>
-              {{ item }}
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="list">
-        <div v-for="(key, item) in members">
-          <ul>
-            <li>{{ key }}</li>
+            <div class="left">
+              <li>
+                {{ item }}
+              </li>
+            </div>
+            <div class="right">
+              <li>{{ key }}</li>
+            </div>
           </ul>
         </div>
       </div>
@@ -50,16 +48,25 @@ export default {
 
 <style lang="scss">
 @import "@/assets/css/main.scss";
+
 .info {
   width: 80%;
-  display: inline-block;
+  float: left;
+  margin-bottom: 50px;
   .list {
-    display: inline-block;
-    margin-right: 20px;
-  }
-  ul > li {
-    list-style-type: none;
-    margin-bottom: 0.5em;
+    ul {
+      display: inline-flex;
+      .left {
+        width: 80px;
+      }
+      .right {
+        width: 550px;
+      }
+      li {
+        list-style-type: none;
+        margin-bottom: 0.5em;
+      }
+    }
   }
 }
 .media {

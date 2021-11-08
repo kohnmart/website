@@ -27,9 +27,9 @@
           <br />
           Design, interaction and technology play a role in all of my projects.
           Even if my focus is now on coding and databases, I can evaluate and
-          understand all project's components. The aim is
-          to create a product, that is convincing for a specific target group
-          and can solve a real problem.
+          understand all project's components. The aim is to create a product,
+          that is convincing for a specific target group and can solve a real
+          problem.
           <br />
           <br />
           In addition, I have spent a lot of time in photography over the past
@@ -112,11 +112,11 @@ export default {};
   }
   h1 {
     @include h1-main;
+    margin-top: 0px;
   }
   h2 {
     @include h2-main;
   }
-
   p {
     @include p-main;
   }

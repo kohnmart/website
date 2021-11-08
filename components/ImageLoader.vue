@@ -43,7 +43,7 @@ export default {
   flex-flow: wrap;
   justify-content: center;
   align-content: center;
-  gap: 2px;
+  gap: 10px;
   width: 100%;
   margin-top: 40px;
   margin-bottom: 80px;

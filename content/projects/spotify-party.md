@@ -7,7 +7,7 @@ members: {
 Date: "November 2020 - February 2021",    
 Type: "Study",
 Team: "Martin Kohnle, Moritz Kronberger",
-My Role: "Django, Websocket, Spotipy, Docker, Design",
+Role: "Django, Websocket, Spotipy, Docker, Design",
 }
 link: "https://github.com/kohnmart/spotify-party"
 file: "docs/spotifyparty.pdf"
@@ -63,7 +63,7 @@ Of course, you can skip a few songs if you don't want to look at your smartphone
 
 <image-loader height="small_portrait" image="dev/spotifyparty/second"></image-loader>
 
-#### Review <br />
+## Review <br />
 
 All team members were able to meet the requirements for the app.
 In the current state, all the necessary features have been implemented so that the app can function as a prototype.

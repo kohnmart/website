@@ -6,7 +6,7 @@ members: {
 Date: "May - July 2021", 
 Type: "Study",
 Team: "Lea Jell, Martin Kohnle, Moritz Kronberger",
-My Role: "Vue, Vuex, Validation, Prism.js, SCSS",
+Role: "Vue, Vuex, Validation, Prism.js, SCSS",
 }
 link: "https://github.com/kohnmart/snippets"
 file: "docs/Snippets.pdf"

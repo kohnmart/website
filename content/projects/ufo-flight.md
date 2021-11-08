@@ -5,7 +5,7 @@ thumbnail: "ufo"
 members: {
 Date: "March - April 2021",
 Type: "Study",    
-Martin Kohnle: "Storyboard, Animatic, Modelling, Animation, Rendering, Music",
+Role: "Storyboard, Animatic, Modelling, Animation, Rendering, Music",
 }
 link: "https://www.youtube.com/embed/_N7EeSHyqYo"
 ---
