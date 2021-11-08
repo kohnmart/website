@@ -1,40 +1,27 @@
 ---
 title: "Machine Learning"
 tag: "science"
-thumbnail: "bkpv"
-highlight: "true"
+thumbnail: "flai"
 members: {
-Date: "August 2020 - January 2021",
-Type: "Study",         
+Date: "October 2021 - January 2022",
+Type: "European Semester Project",         
 Role: "Neural Network, dataset creation, database",
 Team: "Stefanie Jany, Lea Jell, Eva Kunzmann, Anja Krendlinger, Martin Kohnle, Moritz Kronberger,
         Kieu Pham",
 }
-link: "https://youtu.be/FwsDQmhkQqo"
 ---
 
 # Learn Sign Language
 
 ### Vue / Express / PostgreSQL / Keras / Tensorflow <br /> <br />
 
-<team :link="link" :members="members" title="Media" type="Showcase"></team>
+<team :members="members"></team>
 
 <br /> <br />
 
-<image-loader height="large_wide" image="science/bkpv/intro"></image-loader>
+<image-loader height="large_wide" image="science/flai"></image-loader>
 
-## Introduction
-
-#### Background
-
-I am particularly proud of this project, it is an important milestone in my development. I would even call it a personal moonshot.
-No project that I have done to date has involved such responsibility and risk. This project was an official assignment
-that I received at the beginning of 2019. The occasion of the presentation was the 100th anniversary of the Bavarian Auditing Association.
-Many important mayors and high-ranking politicians attended.
-It took place a year later in the Fürth town hall.
-
-<br /> <br />
-
-<image-loader height="large_wide" image="science/bkpv/title"></image-loader>
- 
-[Go to Media](#top)
+## In Progress
+We are developing a web application in which users can learn the basics of German Sign Language.
+A key feature is camera interaction. The users show gestures and receive live feedback.
+In addition, the training is adapted to the individual learning progress. In the next step, we will set up and train the data set with professional teachers.
