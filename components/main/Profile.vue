@@ -12,24 +12,35 @@
         <h1>Intro</h1>
         <p>
           Hello, everyone. My name is Martin Kohnle, I am a 24-year-old student
-          from Augsburg. I am currently studying interactive media with a focus
-          on computer science in the 5th semester. This interdisciplinary course
-          is based at the Faculty of Design and Computer Science. The spectrum
-          ranges from media design, interaction, 2D / 3D animation to web and
-          app development, mathematics and AI. The merging of these two
-          faculties develops experts in a wide variety of areas, who are
-          nevertheless able to understand the fundamentals of all. These
-          individual capabilities enable more complex projects to be scaled up.
+          from Augsburg. I am currently studying
+          <a
+            style="text-decoration:underline"
+            href="https://www.hs-augsburg.de/Gestaltung/Interactive-Media/IA.html"
+            >interactive media </a
+          >with a focus on computer science in the 5th semester. IAM is an
+          interdisciplinary course based at the Faculty of Design and Computer
+          Science. This mixture allows me to cover a wide fundamental spectrum
+          in design, interaction and computer science. I focus on full-stack web
+          development and machine learning. These fields seem to me to solve the
+          most valuable and urgent problems in the future.
           <br />
           <br />
-          I feel at home in this intermediate world of logic and design. My
-          focus is on web development, machine learning and 3D animation. It's
-          exciting and varied. A high level of communication, innovation and
-          skills come together. It expands my horizon and perspective on a wide
-          range of challenges. The know-how in these fields makes it possible to
-          find solutions not compromise, to recognize possible issues early and
-          to adapt the design to technical possibilities. <br />
+          Design, interaction and technology play a role in all of my projects.
+          Even if my focus is now on coding and databases, I can evaluate and
+          understand all project's components. The aim is
+          to create a product, that is convincing for a specific target group
+          and can solve a real problem.
           <br />
+          <br />
+          In addition, I have spent a lot of time in photography over the past
+          few years. It was mainly about working for the first time on long-term
+          projects, leading a team and understanding, that success depends to a
+          large extent on proper communication. All in all, the teamwork is
+          exciting and varied. A high level of creativity, innovation and skills
+          comes together. It expands the horizon and perspective on a wide range
+          of challenges. The collective know-how makes it possible to find
+          solutions not compromise, to recognize issues early and to adapt the
+          design to technical possibilities.
         </p>
       </div>
       <div>
@@ -95,7 +106,7 @@ export default {};
       object-fit: cover;
       height: 500px;
       width: 100%;
-      border-radius: 150px;
+      border-radius: 50px;
       margin: 100px 0px;
     }
   }
