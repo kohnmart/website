@@ -89,13 +89,29 @@ export default {
 }
 @media (max-width: 600px) {
   .info {
-    display: none;
-    margin: 0;
+    width: 80%;
+    float: left;
+    margin-bottom: 20px;
+    .list {
+      ul {
+        display: inline-flex;
+        .left {
+          width: 80px;
+        }
+        .right {
+          width: 220px;
+        }
+        li {
+          list-style-type: none;
+          margin-bottom: 0.5em;
+        }
+      }
+    }
   }
   .media {
     float: left;
     width: 100%;
-    margin: 0em auto;
+    margin-bottom: 30px;
     ul > li {
       display: inline-block;
       font-size: 1em;
