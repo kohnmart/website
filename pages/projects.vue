@@ -97,7 +97,7 @@ h1 {
         width: 300px;
         height: 250px;
         border-radius: 10px;
-        background: black;
+        background-color: black;
         img {
           width: 300px;
           height: 200px;
@@ -109,9 +109,9 @@ h1 {
           margin-top: 5%;
           p {
             @include p-main;
-            color: white;
             font-weight: 400;
             line-height: 100%;
+            background-color: black;
           }
         }
       }

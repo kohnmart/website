@@ -87,7 +87,7 @@ export default {
     }
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .info {
     width: 80%;
     float: left;

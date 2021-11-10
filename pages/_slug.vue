@@ -17,13 +17,12 @@ export default {
 <style lang="scss">
 @import "@/assets/css/main.scss";
 .container {
-  margin: 60px auto;
-  width: 70%;
+  width: 900px;
   display: block;
 
   p {
     @include p-main;
-    width: 60%;
+    width: 600px;
     margin: 0 auto;
     a {
       font-weight: 400;
@@ -32,13 +31,14 @@ export default {
 
   h1 {
     @include h1-main;
+    margin-top: 70px;
   }
 
   h2 {
     @include h2-main;
     margin: 0.5em auto;
     margin-top: 2em;
-    width: 60%;
+    width: 600px;
   }
 
   h3 {
@@ -48,7 +48,7 @@ export default {
   h4 {
     @include h4-main;
     margin: 0 auto;
-    width: 60%;
+    width: 600px;
   }
 }
 @media (max-width: 600px) {

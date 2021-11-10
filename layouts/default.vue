@@ -9,6 +9,6 @@
 @import "@/assets/css/main.scss";
 
 div {
-  font-family: $roboto;
+  margin: 0 auto;
 }
 </style>

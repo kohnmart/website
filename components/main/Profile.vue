@@ -96,7 +96,7 @@ export default {};
 @import "@/assets/css/main.scss";
 
 .intro {
-  width: 50%;
+  width: 650px;
   margin: 0 auto;
   margin-bottom: 100px;
   div {
@@ -133,7 +133,7 @@ export default {};
     text-decoration: underline;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .intro {
     width: 80%;
     margin-top: 50px;

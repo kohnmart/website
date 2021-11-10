@@ -55,7 +55,7 @@ export default {
   width: 235px;
 }
 .large_wide {
-  height: 500px;
+  width: 100%;
 }
 .medium_wide {
   width: 665px;

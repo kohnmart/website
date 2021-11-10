@@ -36,7 +36,7 @@ It took place a year later in the Fürth town hall.
 
 <br /> <br />
 
-<image-loader height="large_wide" image="science/bkpv/title"></image-loader>
+<image-loader height="medium_wide" image="science/bkpv/title"></image-loader>
 
 ## Concept
 

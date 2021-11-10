@@ -13,7 +13,7 @@
   background-position: center;
   background-position-y: -100px;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .bg_image {
     height: 600px;
     background-size: cover;
