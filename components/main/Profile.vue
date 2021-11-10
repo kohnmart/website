@@ -96,15 +96,15 @@ export default {};
 @import "@/assets/css/main.scss";
 
 .intro {
-  width: 650px;
+  width: 80%;
   margin: 0 auto;
   margin-bottom: 100px;
   div {
     padding: 5%;
-    width: 100%;
+    margin: 0 auto;
+    width: 70%;
     .profile {
       object-fit: cover;
-      height: 500px;
       width: 100%;
       border-radius: 50px;
       margin: 100px 0px;

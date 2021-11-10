@@ -55,13 +55,13 @@ export default {
   width: 235px;
 }
 .large_wide {
-  width: 100%;
+  width: 900px;
 }
 .medium_wide {
   width: 665px;
 }
 .medium_portrait {
-  width: 335px;
+  width: 435px;
 }
 @media (max-width: 600px) {
 .overview_image_portrait {

@@ -16,13 +16,12 @@ export default {
 
 <style lang="scss">
 @import "@/assets/css/main.scss";
-.container {
-  width: 900px;
-  display: block;
-
+.nuxt-content {
+  width: 90%;
+  margin: 0 auto;
   p {
     @include p-main;
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
     a {
       font-weight: 400;
@@ -32,23 +31,25 @@ export default {
   h1 {
     @include h1-main;
     margin-top: 70px;
+        width: 800px;
   }
 
   h2 {
     @include h2-main;
     margin: 0.5em auto;
     margin-top: 2em;
-    width: 600px;
+    width: 800px;
   }
 
   h3 {
     @include h3-main;
+    width: 800px;
   }
 
   h4 {
     @include h4-main;
     margin: 0 auto;
-    width: 600px;
+    width: 800px;
   }
 }
 @media (max-width: 600px) {

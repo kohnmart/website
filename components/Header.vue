@@ -30,7 +30,7 @@
 <style lang="scss" scoped>
 @import "@/assets/css/main.scss";
 .header {
-  margin: 0px 20px 20px 20px;
+  margin: 0px 20px 20px 0px;
   ul {
     list-style-type: none;
     margin-top: 20px;
@@ -42,7 +42,7 @@
         padding: 10px 10px;
         text-decoration: none;
         font-weight: 300;
-        font-size: 1em;
+        font-size: 1.5em;
       }
       .far,
       .fab {

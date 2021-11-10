@@ -64,7 +64,7 @@ h1 {
 }
 
 .main-container {
-  width: 80%;
+  width: 90%;
   margin: 80px auto;
   .sorting-container {
     margin-bottom: 40px;
