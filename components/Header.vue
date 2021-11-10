@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <ul>
-      <li style="float:left"><nuxt-link to="/">Martin Kohnle</nuxt-link></li>
+      <li style="float:left"><nuxt-link to="/">Home</nuxt-link></li>
       <div>
         <li style="float:left">
           <nuxt-link to="/projects">Projects</nuxt-link>

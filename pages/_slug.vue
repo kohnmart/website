@@ -17,7 +17,7 @@ export default {
 <style lang="scss">
 @import "@/assets/css/main.scss";
 .nuxt-content {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   p {
     @include p-main;

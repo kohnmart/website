@@ -15,7 +15,7 @@ export default {
 
 <style lang="scss">
 .bar {
-  margin-top: 100px;
+  margin: 50px auto;
   .res {
     text-align: center;
     .return {

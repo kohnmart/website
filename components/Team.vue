@@ -18,6 +18,7 @@
     </div>
     <div class="media">
       <div>
+        <h4 v-if="doc != null || link != null">Media</h4>
         <ul>
           <li>
             <Button v-if="doc != null">
