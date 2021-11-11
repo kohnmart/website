@@ -135,10 +135,11 @@ export default {};
 }
 @media (max-width: 768px) {
   .intro {
-    width: 80%;
+    width: 100%;
     margin-top: 50px;
     div {
-      padding: 5%;
+      padding: 2%;
+      margin-bottom: 20px;
       .profile {
         object-fit: cover;
         height: 300px;

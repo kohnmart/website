@@ -63,7 +63,7 @@ export default {
 .medium_portrait {
   width: 435px;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 .overview_image_portrait {
   height: 200px;
 }

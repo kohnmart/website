@@ -54,6 +54,8 @@
 @media (max-width: 768px) {
   .header {
     margin-top: 10%;
+    width: 90%;
+    margin: 0 auto;
     margin-bottom: 10%;
     ul {
       list-style-type: none;
@@ -64,11 +66,7 @@
           padding: 5px 8px;
           text-decoration: none;
           font-weight: 300;
-          font-size: 1.5em;
-        }
-        .far,
-        .fab {
-          display: none;
+          font-size: 1.8em;
         }
       }
     }

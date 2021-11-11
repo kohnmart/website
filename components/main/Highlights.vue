@@ -14,7 +14,7 @@
 }
 @media (max-width: 768px) {
   .bg_image {
-    height: 600px;
+    height: 700px;
     background-size: cover;
     background-position-y: 0px;
   }

@@ -21,50 +21,58 @@ export default {
   margin: 0 auto;
   p {
     @include p-main;
-    width: 800px;
     margin: 0 auto;
     a {
       font-weight: 400;
     }
   }
 
+  p,
+  h1,
+  h2,
+  h3,
+  h4 {
+    width: 800px;
+  }
+
   h1 {
     @include h1-main;
     margin-top: 70px;
-        width: 800px;
   }
 
   h2 {
     @include h2-main;
     margin: 0.5em auto;
     margin-top: 2em;
-    width: 800px;
   }
 
   h3 {
     @include h3-main;
-    width: 800px;
   }
 
   h4 {
     @include h4-main;
     margin: 0 auto;
-    width: 800px;
   }
 }
-@media (max-width: 600px) {
-  .container {
+@media (max-width: 768px) {
+  .nuxt-content {
     padding: 10px;
     margin: 40px auto;
-    width: 90%;
+    width: 80%;
     h1 {
-      font-size: $h1 * 0.7;
+      font-size: $h1 * 0.5;
+      width: 600px;
     }
-    h2,
+
     p,
+    h1,
+    h2,
+    h3,
     h4 {
-      width: 80%;
+      width: 95%;
     }
+
     p {
       line-height: 170%;
     }
