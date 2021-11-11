@@ -113,7 +113,7 @@ export default {
   }
   .media {
     float: left;
-    width: 100%;
+    width: 100px;
     margin-bottom: 30px;
     ul > li {
       display: inline-block;
