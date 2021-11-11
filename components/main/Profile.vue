@@ -17,7 +17,7 @@
             style="text-decoration:underline"
             href="https://www.hs-augsburg.de/Gestaltung/Interactive-Media/IA.html"
             target="_blank"
-            >interactive media </a
+            >interactive media</a
           >with a focus on computer science in the 5th semester. IAM is an
           interdisciplinary course based at the Faculty of Design and Computer
           Science. This mixture allows me to cover a wide fundamental spectrum
@@ -54,7 +54,7 @@
           the 5th Bachelor semester.
         </p>
         <br />
-        <p>Neuronal Networks</p>
+        <p>Neural Networks</p>
         <br />
         <ul class="skills">
           <li>Python</li>
