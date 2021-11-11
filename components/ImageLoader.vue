@@ -32,11 +32,6 @@ export default {
 </script>
 
 <style lang="scss">
-.carousel {
-  display: block;
-  margin: auto;
-  max-height: 100%;
-}
 .overview {
   display: flex;
   flex-direction: row;
@@ -61,7 +56,7 @@ export default {
   width: 665px;
 }
 .medium_portrait {
-  width: 435px;
+  width: 335px;
 }
 @media (max-width: 768px) {
 .overview_image_portrait {

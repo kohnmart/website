@@ -18,7 +18,7 @@
     </div>
     <div class="media">
       <div>
-        <h4 v-if="doc != null || link != null">Media</h4>
+        <h4 class="title" v-if="doc != null || link != null">Media</h4>
         <ul>
           <li>
             <Button v-if="doc != null">
@@ -51,7 +51,6 @@ export default {
 @import "@/assets/css/main.scss";
 
 .info {
-  width: 80%;
   float: left;
   margin-bottom: 50px;
   .list {
@@ -71,8 +70,11 @@ export default {
   }
 }
 .media {
-  width: 20%;
   float: right;
+  .title {
+    float: left;
+    width: 100px;
+  }
   ul > li {
     font-size: 1em;
     list-style-type: none;

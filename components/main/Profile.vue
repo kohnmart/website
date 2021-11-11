@@ -56,12 +56,12 @@
           <li>Jupyter Notebook</li>
           <li>Tensorflow</li>
           <li>Keras</li>
-          <li>Scikit</li>
+          <li>scikit-learn</li>
           <li>Theory</li>
         </ul>
         <br />
         <br />
-        <p>Fullstack Webdevelopment</p>
+        <p>Webdevelopment</p>
         <br />
         <ul class="skills">
           <li>Javascript</li>
