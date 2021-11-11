@@ -2,7 +2,7 @@
   <div class="container">
     <a name="top"></a>
     <nuxt-content :document="post" />
-    <return-button></return-button>
+    <home-button></home-button>
   </div>
 </template>
 <script>

@@ -21,8 +21,7 @@
           interdisciplinary course based at the Faculty of Design and Computer
           Science. This mixture allows me to cover a wide fundamental spectrum
           in design, interaction and computer science. I focus on full-stack web
-          development and machine learning. These fields seem to me to solve the
-          most valuable and urgent problems in the future.
+          development and machine learning.
           <br />
           <br />
           Design, interaction and technology play a role in all of my projects.
@@ -36,12 +35,54 @@
           few years. It was mainly about working for the first time on long-term
           projects, leading a team and understanding, that success depends to a
           large extent on proper communication. All in all, the teamwork is
-          exciting and varied. A high level of creativity, innovation and skills
+          exciting and varied. <br>
+          A high level of creativity, innovation and skills
           comes together. It expands the horizon and perspective on a wide range
           of challenges. The collective know-how makes it possible to find
           solutions not compromise, to recognize issues early and to adapt the
           design to technical possibilities.
         </p>
+      </div>
+      <div>
+        <h2>
+          Skills
+        </h2>
+        <p>The level of my skills is appropriate to what should be achieved after the 5th Bachelor semester.</p>
+        <br />
+        <p>Neuronal Networks</p>
+        <br />
+        <ul class="skills">
+          <li>Python</li>
+          <li>Jupyter Notebook</li>
+          <li>Tensorflow</li>
+          <li>Keras</li>
+          <li>Scikit</li>
+          <li>Theory</li>
+        </ul>
+        <br />
+        <br />
+        <p>Fullstack Webdevelopment</p>
+        <br />
+        <ul class="skills">
+          <li>Javascript</li>
+          <li>Python</li>
+          <li>Docker</li>
+          <li>Git</li>
+          <li>Django</li>
+          <li>Vue.js</li>
+          <li>Express</li>
+          <li>PostgreSQL</li>
+          <li>API</li>
+        </ul>
+        <br />
+        <br />
+        <p>Other</p>
+        <br />
+        <ul class="skills">
+          <li>Unity</li>
+        </ul>
+        <br />
+        <br />
       </div>
       <div>
         <h2>Favorite literature</h2>
@@ -108,6 +149,10 @@ export default {};
       width: 100%;
       border-radius: 50px;
       margin: 100px 0px;
+    }
+
+    .skills {
+      columns: 3;
     }
   }
   h1 {
