@@ -36,29 +36,35 @@
           few years. It was mainly about working for the first time on long-term
           projects, leading a team and understanding, that success depends to a
           large extent on proper communication. All in all, the teamwork is
-          exciting and varied. <br>
-          A high level of creativity, innovation and skills
-          comes together. It expands the horizon and perspective on a wide range
-          of challenges. The collective know-how makes it possible to find
-          solutions not compromise, to recognize issues early and to adapt the
-          design to technical possibilities.
+          exciting and varied. <br />
+          A high level of creativity, innovation and skills comes together. It
+          expands the horizon and perspective on a wide range of challenges. The
+          collective know-how makes it possible to find solutions not
+          compromise, to recognize issues early and to adapt the design to
+          technical possibilities.
         </p>
       </div>
       <div>
         <h2>
           Skills
         </h2>
-        <p>The level of my skills is appropriate to what should be achieved after the 5th Bachelor semester.</p>
+        <br />
+        <p>
+          The level of my skills is appropriate to what should be achieved after
+          the 5th Bachelor semester.
+        </p>
         <br />
         <p>Neuronal Networks</p>
         <br />
         <ul class="skills">
           <li>Python</li>
-          <li>Jupyter Notebook</li>
+          <li>Jupyter</li>
           <li>Tensorflow</li>
           <li>Keras</li>
           <li>scikit-learn</li>
           <li>Theory</li>
+          <li>Mathematics</li>
+          <li>Linux Commands</li>
         </ul>
         <br />
         <br />
