@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="wrap">
     <div class="info">
       <div class="list">
         <div v-for="(key, item) in members">
@@ -49,44 +49,48 @@ export default {
 
 <style lang="scss">
 @import "@/assets/css/main.scss";
-
-.info {
-  float: left;
-  margin-bottom: 50px;
-  .list {
-    ul {
-      display: inline-flex;
-      .left {
-        width: 80px;
-      }
-      .right {
-        width: 550px;
-      }
-      li {
-        list-style-type: none;
-        margin-bottom: 0.5em;
+.wrap {
+  width: 100%;
+  height: 100px;
+  .info {
+    float: left;
+    margin-bottom: 50px;
+    .list {
+      ul {
+        display: inline-flex;
+        .left {
+          width: 80px;
+        }
+        .right {
+          width: 550px;
+        }
+        li {
+          list-style-type: none;
+          margin-bottom: 0.5em;
+        }
       }
     }
   }
-}
-.media {
-  float: right;
-  .title {
-    float: left;
-    width: 100px;
-  }
-  ul > li {
-    font-size: 1em;
-    list-style-type: none;
-    margin-bottom: 0.5em;
-    margin: 0;
+  .media {
+    float: right;
+    margin-bottom: 50px;
+    .title {
+      float: left;
+      width: 100px;
+    }
+    ul > li {
+      font-size: 1em;
+      list-style-type: none;
+      margin-bottom: 0.5em;
+      margin: 0;
 
-    button {
-      @include button-main;
-      a {
-        text-decoration: none;
+      button {
+        @include button-main;
+        a {
+          text-decoration: none;
+        }
+        margin-bottom: 10px;
       }
-      margin-bottom: 10px;
     }
   }
 }
