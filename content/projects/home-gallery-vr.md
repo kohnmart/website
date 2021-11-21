@@ -1,5 +1,5 @@
 ---
-title: "Home Gallery VR"
+title: "Virtual Reality"
 tag: "web"
 thumbnail: "home-vr"
 highlight: 'true'

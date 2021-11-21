@@ -6,7 +6,7 @@ highlight: "true"
 members: {
 Date: "August 2019 - January 2020",
 Type: "Assignment",         
-Role: "Camera path, animations, sceneries, terrain, design",
+Role: "Camera path, interactions, animations, sceneries, terrain, design",
 Team: "Adrian Kohnle, Mirela Wagner, Kigg Media Film",
 Location: "Fürth town hall",
 Client: "BKPV",

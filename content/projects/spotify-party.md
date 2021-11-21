@@ -1,5 +1,5 @@
 ---
-title: "Playlist Sharing"
+title: "Web App"
 tag: "web"
 thumbnail: "spotifyparty"
 highlight: 'true'

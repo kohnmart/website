@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning"
+title: "Web App / Machine Learning"
 tag: "science"
 thumbnail: "flai"
 members: {
@@ -28,5 +28,4 @@ A key feature is camera interaction. The gestures are evaluated by the neural ne
 
 ## Creating the dataset
 
-We decided to create our own data set. The advantage is that every team member records the signs and learns them at the same time. We will need around 1000 training images per letter. We wrote a small Python application for this purpose, which consists of the sub-areas recording, checking and conversion. First, the images are recorded via the webcam or front camera. A folder is automatically created in a file directory for each letter. The user can easily manage the respective target folder using the keys [A-Y, without J, Z].
-After the recording, the images can be compared with reference gestures. The image is then either saved or deleted. Finally, the images are converted into a CSV format and can be added to the data set.
+We decided to create our own data set. The advantage is that every team member records the signs and learns them at the same time. We will need around 1000 training images per letter. We wrote a small Python application for this purpose, which consists of the sub-areas recording, checking and conversion. First, the images are recorded via the webcam or front camera. A folder is automatically created in a certain file directory for each letter. The user can easily manage the respective target folder using the keys [A-Y, without J, Z]. After the recording, the images can be compared with reference gestures. The training image can be then either saved or deleted. Finally, the images are converted into a CSV format and can be added to the data set.

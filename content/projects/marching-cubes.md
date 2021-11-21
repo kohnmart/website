@@ -1,5 +1,5 @@
 ---
-title: "Marching Cubes"
+title: "Marching Algorithms"
 tag: "science"
 thumbnail: "marching"
 members: {
