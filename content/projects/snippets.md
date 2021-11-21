@@ -6,7 +6,7 @@ members: {
 Date: "May - July 2021", 
 Type: "Study",
 Team: "Lea Jell, Martin Kohnle, Moritz Kronberger",
-Role: "Vue, Vuex, Validation, Prism.js, SCSS",
+Role: "Vue.js, Vuex, Validation, Prism.js",
 }
 link: "https://github.com/kohnmart/snippets"
 file: "docs/Snippets.pdf"
@@ -14,7 +14,7 @@ file: "docs/Snippets.pdf"
 
 # Snippets
 
-### Vue 3, SCSS, Express, PostgreSQL, Docker, Figma <br /> <br />
+### Vue.js, Express, PostgreSQL, Docker, Figma <br /> <br />
 
 <team :members="members" :link="link" :doc="file"></team>
 
@@ -41,8 +41,8 @@ from the start page via "Login". It should also be mentioned that all input fiel
 
 #### Create a Post
 
-Click on "Add Post" to submit a new post. There is a fixed structure for the creation. First, you choose one of the available languages. Then add a title and the code snippet. We made sure that line breaks in the code are retained. Optionally, you can add tags in the "category" to find the posts with the same tag via search.
-The contribution can be deleted at any time. <br /> 
+Click on "Add Post" to submit a new post. There is a fixed structure for the creation. First, you choose one of the available languages. Then add a title and the code snippet. We made sure that line breaks in the code are retained. Optionally, you can add tags in "category" to find the posts with the same tag via search.
+The contribution can be deleted at any time. 
 An example post can be seen below.
 
 <image-loader height="medium_wide" image="dev/snippets/first"></image-loader>

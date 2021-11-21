@@ -6,8 +6,8 @@ highlight: "true"
 members: {
 Date: "August 2019 - January 2020",
 Type: "Assignment",         
-Role: "Unity, Visual Studio, Blender, Stage Design",
-Team: "Adrian Kohnle, Mirela Wagner, Kigg Media",
+Role: "Camera path, animations, sceneries, terrain, design",
+Team: "Adrian Kohnle, Mirela Wagner, Kigg Media Film",
 Location: "Fürth town hall",
 Client: "BKPV",
 }
@@ -61,7 +61,7 @@ It is not always possible to coordinate everything beforehand. The engine allows
 
 #### Logo Scence
 
-This scene was visible for most of the presentation. Many speakers, as well as the band, used this as a background. The auditing association is responsible for the federal state of Bavaria. Accordingly, our globe consists only of the Bavaria map. Sure, that was a funny gag. But it also had a technical background. This representation is intended to draw attention to the digital transformation that is taking place in Bavaria.
+This scene was visible for most of the presentation. Many speakers, as well as the band, used this as a background. The auditing association is responsible for the federal state of Bavaria. Accordingly, our globe consists only of the Bavaria map. Sure, that was a funny gag. But it also had a technical background. This representation is intended to draw attention to the digital transformation, that is taking place in Bavaria.
 
 <image-loader height="medium_wide" image="science/bkpv/intro"></image-loader>
 
@@ -86,5 +86,5 @@ Features such as slides, 2D and 3D objects, terrain maps, videos and live speech
 
 This presentation should be seen as a study. The aim was to find out whether the use of 3D space and real-time could result in an advantage. First, it was definitely a success. The employees of the association were emotionally touched by the new representation of their workplace. They had never seen each other in this perspective before. We achieved the desired effect, which was great! I am certain that we have only implemented a minimum of what would be possible. After all, I was just in the first semester.
 <br /> <br />
- 
+
 [Go to Media](#top)

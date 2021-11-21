@@ -27,7 +27,7 @@ link: "https://youtu.be/-SkZ3tUML_s"
 Home Gallery VR is a virtual reality application for photographers and artists. The creators can view their images in unprecedented size and perspective. Nowadays, we are consuming images extremely quickly on social media and other creator platforms. So fast, that we often don't understand how much passion, creativity and energy someone has put into a project. With this application, I want to return the focus and value to the individual artwork. <br /> <br />
 
 ## File Browser
-I developed an embedded file browser that can transfer images from any folder to the frames. The browser loads the folder content in small batches to keep the cache size stable. In addition, the incoming images are reduced to a thumbnail resolution. The browser also manages the various sets of the gallery. Each set consists of a JSON file. This contains the saved images with the parameters as objects.
+I developed an embedded file browser that can transfer images from any folder to the frames. The browser loads the folder content in small batches to keep the cache size stable. In addition, the incoming images are reduced to a thumbnail resolution. The browser also manages the various sets of the gallery. Each set consists of a JSON file. This contains the saved images it´s parameters.
 ## Scenery
 
 <image-loader height="medium_wide" image="dev/home-vr/view"></image-loader>
@@ -39,7 +39,7 @@ You can watch that at any time via the settings. <br /> <br />
 
 #### Set-Manager
 
-In the gallery, there are 20 ready-made frames to place pictures. In addition, you can create your frameset for each topic or category. These can be easily created, loaded and deleted. Click on any frame to open the file browser and open the Set-Manager. You should first create a new set to save your pictures in! <br /> <br />
+In the gallery, there are 20 ready-made frames to place pictures. You can create your own framesets for several themes or categories. These can be easily created, loaded and deleted. Click on any frame to open the file browser and open the Set-Manager. You should first create a new set to save your pictures in! <br /> <br />
 
 <image-loader height="medium_wide" image="dev/home-vr/set-manager"></image-loader>
 
@@ -54,7 +54,7 @@ You are ready to populate your gallery! To do this, simply click on any frame to
 
 As a special feature, there is a walk-in globe to view 360-degree images.
 To do this, simply click on the globe and select an image.
-I took this example with my cell phone camera.<br /> <br />
+I took this example image with my cell phone camera.<br /> <br />
 
 <image-loader height="medium_wide" image="dev/home-vr/globe"></image-loader>
 
