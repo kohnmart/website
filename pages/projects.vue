@@ -5,8 +5,8 @@
       <ul>
         <ProjectsCategories filter="web" _cat="Apps" />
         <ProjectsCategories filter="science" _cat="Science" />
-        <ProjectsCategories filter="photo" _cat="Photography" />
         <ProjectsCategories filter="vfx" _cat="Rendering" />
+        <ProjectsCategories filter="photo" _cat="Photography" />
       </ul>
     </div>
     <div class="highlights">
