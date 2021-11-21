@@ -18,7 +18,8 @@
             href="https://www.hs-augsburg.de/Gestaltung/Interactive-Media/IA.html"
             target="_blank"
             >interactive media</a
-          > with a focus on computer science in the 5th semester. IAM is an
+          >
+          with a focus on computer science in the 5th semester. IAM is an
           interdisciplinary course based at the Faculty of Design and Computer
           Science. This mixture allows me to cover a wide fundamental spectrum
           in design, interaction and computer science. I focus on full-stack web
@@ -71,15 +72,15 @@
         <p>Web Development</p>
         <br />
         <ul class="skills">
-          <li>Javascript</li>
+          <li>JavaScript</li>
           <li>Python</li>
-          <li>Docker</li>
-          <li>Git</li>
-          <li>Django</li>
           <li>Vue.js</li>
+          <li>Django</li>
           <li>Express</li>
           <li>PostgreSQL</li>
-          <li>API</li>
+          <li>Git</li>
+          <li>Docker</li>
+          <li>Node.js</li>
         </ul>
         <br />
         <br />
