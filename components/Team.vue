@@ -78,12 +78,11 @@ export default {
       float: left;
       width: 100px;
     }
-    ul > li {
+    ul li {
       font-size: 1em;
       list-style-type: none;
       margin-bottom: 0.5em;
       margin: 0;
-
       button {
         @include button-main;
         a {
@@ -98,7 +97,6 @@ export default {
   .wrap {
     .info {
       width: 80%;
-      float: left;
       margin-bottom: 20px;
       .list {
         ul {
@@ -120,9 +118,9 @@ export default {
       float: left;
       width: 100px;
       margin-bottom: 30px;
-      ul > li {
+      ul li {
         display: inline-block;
-        font-size: 1em;
+        font-size: $p;
       }
     }
   }

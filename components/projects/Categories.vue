@@ -23,8 +23,7 @@ export default {
     setFilter(filter) {
       {
         this.$store.commit("setCategory", filter);
-        console.log(filter);
-      }
+        }
     }
   }
 };

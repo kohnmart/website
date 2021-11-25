@@ -53,10 +53,8 @@
 }
 @media (max-width: 768px) {
   .header {
-    margin-top: 10%;
+    margin: 10% auto;
     width: 90%;
-    margin: 0 auto;
-    margin-bottom: 10%;
     ul {
       list-style-type: none;
       padding: 0;

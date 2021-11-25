@@ -63,6 +63,7 @@ export default {
     h1 {
       font-size: $h1 * 0.5;
       width: 600px;
+      margin-top: 40px;
     }
 
     p,
