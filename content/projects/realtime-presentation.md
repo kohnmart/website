@@ -6,7 +6,7 @@ highlight: "true"
 members: {
 Date: "August 2019 - January 2020",
 Type: "Assignment",         
-Role: "Camera path, animations, sceneries, terrain, design",
+Role: "Camera path, interactions, animations, sceneries, terrain, design",
 Team: "Adrian Kohnle, Mirela Wagner, Kigg Media Film",
 Location: "Fürth town hall",
 Client: "BKPV",
@@ -76,11 +76,11 @@ Images and documents of the history were visualized in an animated book.
 Core of the presentation. Showing the development and current activities.
 Features such as slides, 2D and 3D objects, terrain maps, videos and live speeches were displayed here.
 
-<image-loader height="medium_portrait" image="science/bkpv/present"></image-loader>
+<image-loader height="small_wide" image="science/bkpv/present"></image-loader>
 
 ## Behind the scenes
 
-<image-loader height="medium_portrait" image="science/bkpv/scenes"></image-loader>
+<image-loader height="small_wide" image="science/bkpv/scenes"></image-loader>
 
 ## Review
 
