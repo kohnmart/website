@@ -1,12 +1,12 @@
 <template>
   <div class="footer">
-    <p>© Martin Kohnle 2021</p>
+    <footer>© Martin Kohnle 2021</footer>
   </div>
 </template>
 <style lang="scss" scoped>
 @import "@/assets/css/main.scss";
 .footer {
-  p {
+  footer {
     font-size: 0.8em;
     color: gray;
     text-align: center;

@@ -41,8 +41,8 @@
       a {
         padding: 10px 10px;
         text-decoration: none;
-        font-weight: 300;
-        font-size: 1.5em;
+        font-weight: 400;
+        font-size: $h3;
       }
       .far,
       .fab {
@@ -66,7 +66,7 @@
           padding: 5px 8px;
           text-decoration: none;
           font-weight: 300;
-          font-size: 1.8em;
+          font-size: $h3;
         }
       }
     }

@@ -8,6 +8,14 @@ $p: 1.1em;
 //Button
 $br: 5px;
 
+//btn-state-active
+/// @type Color
+$btn-state-active: rgb(202, 202, 202) !default;
+
+//btn-state-inactive
+/// @type Color
+$btn-state-inactive: rgb(92, 92, 92) !default;
+
 //Background
 /// @type Color
 $bg-color: #1d1f20 !default;
@@ -21,7 +29,6 @@ $main-width: 1200;
 $content-width: $main-width * 0.8;
 
 //Images 
-
 //Portrait
 $l-portrait: 400;
 $m-portrait: $l-portrait * 0.75;
