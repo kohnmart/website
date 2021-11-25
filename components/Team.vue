@@ -78,12 +78,11 @@ export default {
       float: left;
       width: 100px;
     }
-    ul > li {
+    ul li {
       font-size: 1em;
       list-style-type: none;
       margin-bottom: 0.5em;
       margin: 0;
-
       button {
         @include button-main;
         a {
@@ -95,33 +94,34 @@ export default {
   }
 }
 @media (max-width: 768px) {
-  .info {
-    width: 80%;
-    float: left;
-    margin-bottom: 20px;
-    .list {
-      ul {
-        display: inline-flex;
-        .left {
-          width: 80px;
-        }
-        .right {
-          width: 220px;
-        }
-        li {
-          list-style-type: none;
-          margin-bottom: 0.5em;
+  .wrap {
+    .info {
+      width: 80%;
+      margin-bottom: 20px;
+      .list {
+        ul {
+          display: inline-flex;
+          .left {
+            width: 80px;
+          }
+          .right {
+            width: 200px;
+          }
+          li {
+            list-style-type: none;
+            margin-bottom: 0.5em;
+          }
         }
       }
     }
-  }
-  .media {
-    float: left;
-    width: 100%;
-    margin-bottom: 30px;
-    ul > li {
-      display: inline-block;
-      font-size: 1em;
+    .media {
+      float: left;
+      width: 100px;
+      margin-bottom: 30px;
+      ul li {
+        display: inline-block;
+        font-size: $p;
+      }
     }
   }
 }
