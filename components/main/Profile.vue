@@ -45,68 +45,6 @@
           technical possibilities.
         </p>
       </div>
-      <div>
-        <h2>
-          Skills
-        </h2>
-        <br />
-        <p>
-          The level of my skills is appropriate to what should be achieved after
-          the 5th Bachelor semester.
-        </p>
-        <br />
-        <p>Neural Networks</p>
-        <br />
-        <ul class="skills">
-          <li>Python</li>
-          <li>Jupyter</li>
-          <li>Tensorflow</li>
-          <li>Keras</li>
-          <li>scikit-learn</li>
-          <li>Theory</li>
-          <li>Mathematics</li>
-          <li>Linux Commands</li>
-        </ul>
-        <br />
-        <br />
-        <p>Web Development</p>
-        <br />
-        <ul class="skills">
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Vue.js</li>
-          <li>Django</li>
-          <li>Express</li>
-          <li>PostgreSQL</li>
-          <li>Git</li>
-          <li>Docker</li>
-          <li>Node.js</li>
-        </ul>
-        <br />
-        <br />
-        <p>Other</p>
-        <br />
-        <br />
-        <p>
-        Design, interaction and technology play a role in all of my projects.
-        Even if my focus is now on coding and databases, I can evaluate and
-        understand all project's components. The aim is to create a product,
-        that is convincing for a specific target group and can solve a real
-        problem.
-        <br />
-        <br />
-        In addition, I have spent a lot of time in photography over the past few
-        years. It was mainly about working for the first time on long-term
-        projects, leading a team and understanding, that success depends to a
-        large extent on proper communication. All in all, the teamwork is
-        exciting and varied. <br />
-        A high level of creativity, innovation and skills comes together. It
-        expands the horizon and perspective on a wide range of challenges. The
-        collective know-how makes it possible to find solutions not compromise,
-        to recognize issues early and to adapt the design to technical
-        possibilities.
-      </p>
-    </div>
     <div>
       <h2>
         Skills
