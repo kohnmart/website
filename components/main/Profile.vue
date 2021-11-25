@@ -197,6 +197,9 @@ export default {};
         border-radius: 10px;
         margin: 20px 0px;
       }
+      .skills {
+        columns: 2;
+      }
     }
     p {
       font-size: $p;
