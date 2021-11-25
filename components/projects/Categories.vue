@@ -39,11 +39,11 @@ li {
     @include button-main;
   }
   .active {
-    border: 2px solid rgb(202, 202, 202);
+    border: 2px solid $btn-state-active;
   }
 
   .inactive {
-    border: 2px solid rgb(92, 92, 92);
+    border: 2px solid $btn-state-inactive;
   }
 }
 </style>

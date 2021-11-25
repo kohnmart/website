@@ -1,0 +1,40 @@
+//Typo
+$h1: 4em;
+$h2: 2em;
+$h3: 1.4em;
+$h4: 1.2em;
+$p: 1.1em;
+
+//Button
+$br: 5px;
+
+//btn-state-active
+/// @type Color
+$btn-state-active: rgb(202, 202, 202) !default;
+
+//btn-state-inactive
+/// @type Color
+$btn-state-inactive: rgb(92, 92, 92) !default;
+
+//Background
+/// @type Color
+$bg-color: #1d1f20 !default;
+
+//Text default
+/// @type Color
+$text-color: #ffff !default;
+
+//Width
+$main-width: 1200;
+$content-width: $main-width * 0.8;
+
+//Images 
+//Portrait
+$l-portrait: 400;
+$m-portrait: $l-portrait * 0.75;
+$s-portrait: $l-portrait * 0.6;
+
+//Wide
+$l-wide: $content-width;
+$m-wide: $content-width * 0.7;
+$s-wide: $content-width * 0.4;

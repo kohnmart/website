@@ -56,7 +56,7 @@ Height maps and satellite images are combined to create a realistic landscape.
 In addition, the image data is read out in order to match the color of the vegetation.
 
 
-<image-loader height="medium_portrait" image="vfx/clouds/poly"></image-loader>
+<image-loader height="small_wide" image="vfx/clouds/poly"></image-loader>
 
 ## Review
 

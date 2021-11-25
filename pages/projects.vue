@@ -71,9 +71,7 @@ h1 {
     text-align: left;
     ul {
       list-style-type: none;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: left;
+      @include list-flex;
       li {
         margin: 10px 5px;
         button {
@@ -85,12 +83,9 @@ h1 {
   .highlights {
     h3 {
       @include h3-main;
-      font-weight: 500;
     }
     .project-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: left;
+      @include list-flex;
       .thumbnail {
         margin-right: 25px;
         margin-bottom: 25px;
@@ -116,6 +111,12 @@ h1 {
         }
       }
     }
+  }
+}
+@media (max-width: 768px) {
+  .main-container {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 </style>

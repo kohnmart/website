@@ -15,7 +15,7 @@ export default {
   },
   data() {
     return {
-      all_images: [],
+      all_images: []
     };
   },
   methods: {
@@ -32,6 +32,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "@/assets/css/main.scss";
 .overview {
   display: flex;
   flex-direction: row;
@@ -44,36 +45,37 @@ export default {
   margin-bottom: 80px;
 }
 .overview_image_portrait {
-  height: 400px;
+  height: #{$l-portrait}px;
 }
+
+.medium_portrait {
+  width: #{$m-portrait}px;
+}
+
 .small_portrait {
-  width: 235px;
+  width: #{$s-portrait}px;
 }
 .large_wide {
-  width: 100%;
+  width: #{$l-wide}px;
 }
 .medium_wide {
-  width: 665px;
+  width: #{$m-wide}px;
 }
-.medium_portrait {
-  width: 335px;
+.small_wide {
+  width: #{$s-wide}px;
 }
+
 @media (max-width: 768px) {
-.overview_image_portrait {
-  height: 200px;
-}
-.small_portrait {
-  width: 235px;
-}
-.large_wide {
-   width: 400px;
-   height: 100%;
-}
-.medium_wide {
-  width: 300px;
-}
-.medium_portrait {
-  width: 335px;
-}
+  .overview_image_portrait,
+  .medium_portrait,
+  .small_portrait {
+    width: #{$l-portrait * 0.7}px;
+  }
+
+  .large_wide,
+  .medium_wide,
+  .small_wide {
+    width: #{$s-wide}px;
+  }
 }
 </style>

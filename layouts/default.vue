@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Header />
+    <MainHeader />
     <Nuxt class="nuxt" />
-    <Footer />
+    <MainFooter />
   </div>
 </template>
 
@@ -11,7 +11,7 @@
 
 div {
   margin: 0 auto;
-  width: 1200px;
+  width: #{$main-width}px;
 }
 @media (max-width: 768px) {
   div {
