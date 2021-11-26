@@ -36,8 +36,7 @@ export default {
   }
 
   h1 {
-    @include h1-main;
-    margin-top: 70px;
+    @include h1-main(70px, 0px)
   }
 
   h2 {

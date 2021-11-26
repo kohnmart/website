@@ -60,7 +60,7 @@ export default {
 @import "@/assets/css/main.scss";
 
 h1 {
-  @include h1-main;
+  @include h1-main(0,20px);
 }
 
 .main-container {

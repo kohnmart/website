@@ -1,7 +1,8 @@
-@mixin h1-main {
+@mixin h1-main($top: 0px, $bottom: 0px) {
   font-size: $h1;
   font-weight: 500;
-  margin-bottom: 0.2em;
+  margin-top: $top;
+  margin-bottom: $bottom;
 }
 
 @mixin h2-main {

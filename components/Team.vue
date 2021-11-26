@@ -61,7 +61,7 @@ export default {
         width: 550px;
       }
       li {
-        @include list-item($p, 0.5em);
+        @include list-item($p, 1em);
       }
     }
   }
@@ -91,6 +91,9 @@ export default {
           margin-bottom: 20px;
           width: 250px;
           float: left;
+        }
+        li {
+          @include list-item($p, 0.5em);
         }
       }
     }
