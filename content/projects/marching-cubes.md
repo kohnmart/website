@@ -17,6 +17,7 @@ file: "docs/marching.pdf"
 
 <team :members="members" :link="link" :doc="file"></team> 
 
+<br />
 
 ## Introduction
 

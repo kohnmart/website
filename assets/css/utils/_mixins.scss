@@ -1,7 +1,8 @@
-@mixin h1-main {
+@mixin h1-main($top: 0px, $bottom: 0px) {
   font-size: $h1;
   font-weight: 500;
-  margin-bottom: 0.2em;
+  margin-top: $top;
+  margin-bottom: $bottom;
 }
 
 @mixin h2-main {
@@ -52,4 +53,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: left;
+}
+
+@mixin list-item($fonts-size, $margin-bottom){
+  font-size: $fonts-size;
+  list-style-type: none;
+  margin-bottom: $margin-bottom;
 }

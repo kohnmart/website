@@ -45,94 +45,95 @@
           technical possibilities.
         </p>
       </div>
-    <div>
-      <h2>
-        Skills
-      </h2>
-      <br />
-      <p>
-        The level of my skills is appropriate to what should be achieved after
-        the 5th Bachelor semester.
-      </p>
-      <br />
-      <p>Neural Networks</p>
-      <br />
-      <ul class="skills">
-        <li>Python</li>
-        <li>Jupyter</li>
-        <li>Tensorflow</li>
-        <li>Keras</li>
-        <li>scikit-learn</li>
-        <li>Theory</li>
-        <li>Mathematics</li>
-        <li>Linux Commands</li>
-      </ul>
-      <br />
-      <br />
-      <p>Web Development</p>
-      <br />
-      <ul class="skills">
-        <li>JavaScript</li>
-        <li>Python</li>
-        <li>Vue.js</li>
-        <li>Django</li>
-        <li>Express</li>
-        <li>PostgreSQL</li>
-        <li>Git</li>
-        <li>Docker</li>
-        <li>Node.js</li>
-      </ul>
-      <br />
-      <br />
-      <p>Other</p>
-      <br />
-      <ul class="skills">
-        <li>Unity</li>
-      </ul>
-      <br />
-      <br />
-    </div>
-    <div>
-      <h2>Favorite literature</h2>
-      <br />
-      <ul>
-        <li>
-          <a
-            href="https://www.google.de/books/edition/The_Innovator_s_Dilemma/6bMOk7QdnesC?hl=de&gbpv=1&dq=innovator%27s+dilemma&printsec=frontcover"
-            >The Innovator´s Dilemma - Clayton Christensen</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.google.de/books/edition/Thinking_Fast_and_Slow/ZuKTvERuPG8C?hl=de&gbpv=1&dq=thinking+fast+and+slow&printsec=frontcover"
-            >Thinking, Fast and Slow - Daniel Kahnemann</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.google.de/books/edition/Elon_Musk/PSljBgAAQBAJ?hl=de&gbpv=1&printsec=frontcover"
-            >Elon Musk Biography - Ashley Vance</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.google.de/books/edition/Eine_kurze_Geschichte_der_Zeit/Nk_PpwAACAAJ?hl=de"
-            >Eine kurze Geschichte der Zeit - Stephen Hawking</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.google.de/books/edition/Denke_nach_und_werde_reich/Q8iSAAAACAAJ?hl=de"
-            >Think and grow rich - Napoleon Hill</a
-          >
-        </li>
-        <li>
-          <a
-            href="https://www.google.de/books/edition/Silicon_Germany/RALFjwEACAAJ?hl=de"
-            >Silicon Germany - Christoph Keese</a
-          >
-        </li>
-      </ul>
+      <div>
+        <h2>
+          Skills
+        </h2>
+        <br />
+        <p>
+          The level of my skills is appropriate to what should be achieved after
+          the 5th Bachelor semester.
+        </p>
+        <br />
+        <p>Neural Networks</p>
+        <br />
+        <ul class="skills">
+          <li>Python</li>
+          <li>Jupyter</li>
+          <li>Tensorflow</li>
+          <li>Keras</li>
+          <li>scikit-learn</li>
+          <li>Theory</li>
+          <li>Mathematics</li>
+          <li>Linux Commands</li>
+        </ul>
+        <br />
+        <br />
+        <p>Web Development</p>
+        <br />
+        <ul class="skills">
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Vue.js</li>
+          <li>Django</li>
+          <li>Express</li>
+          <li>PostgreSQL</li>
+          <li>Git</li>
+          <li>Docker</li>
+          <li>Node.js</li>
+        </ul>
+        <br />
+        <br />
+        <p>Other</p>
+        <br />
+        <ul class="skills">
+          <li>Unity</li>
+        </ul>
+        <br />
+        <br />
+      </div>
+      <div>
+        <h2>Favorite literature</h2>
+        <br />
+        <ul>
+          <li>
+            <a
+              href="https://www.google.de/books/edition/The_Innovator_s_Dilemma/6bMOk7QdnesC?hl=de&gbpv=1&dq=innovator%27s+dilemma&printsec=frontcover"
+              >The Innovator´s Dilemma - Clayton Christensen</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.google.de/books/edition/Thinking_Fast_and_Slow/ZuKTvERuPG8C?hl=de&gbpv=1&dq=thinking+fast+and+slow&printsec=frontcover"
+              >Thinking, Fast and Slow - Daniel Kahnemann</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.google.de/books/edition/Elon_Musk/PSljBgAAQBAJ?hl=de&gbpv=1&printsec=frontcover"
+              >Elon Musk Biography - Ashley Vance</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.google.de/books/edition/Eine_kurze_Geschichte_der_Zeit/Nk_PpwAACAAJ?hl=de"
+              >Eine kurze Geschichte der Zeit - Stephen Hawking</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.google.de/books/edition/Denke_nach_und_werde_reich/Q8iSAAAACAAJ?hl=de"
+              >Think and grow rich - Napoleon Hill</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.google.de/books/edition/Silicon_Germany/RALFjwEACAAJ?hl=de"
+              >Silicon Germany - Christoph Keese</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>
@@ -162,8 +163,7 @@ export default {};
     }
   }
   h1 {
-    @include h1-main;
-    margin-top: 0px;
+    @include h1-main(0,0);
   }
   h2 {
     @include h2-main;
@@ -176,9 +176,6 @@ export default {};
       margin-left: 30px;
       margin-bottom: 10px;
     }
-  }
-  a {
-    text-decoration: none;
   }
   a:hover {
     text-decoration: underline;
