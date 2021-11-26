@@ -1,5 +1,5 @@
 <template>
-  <div class="wrap">
+  <div class="team">
     <div class="info">
       <div class="list">
         <div v-for="(key, item) in members">
@@ -47,8 +47,7 @@ export default {
 
 <style lang="scss">
 @import "@/assets/css/main.scss";
-.wrap {
-  width: 100%;
+.team {
   height: 100px;
   .info {
     float: left;
@@ -62,8 +61,7 @@ export default {
         width: 550px;
       }
       li {
-        list-style-type: none;
-        margin-bottom: 0.5em;
+        @include list-item($p, 0.5em);
       }
     }
   }
@@ -76,23 +74,17 @@ export default {
     width: 100px;
   }
   ul li {
-    font-size: 1em;
-    list-style-type: none;
-    margin-bottom: 0.5em;
+    @include list-item($p, 0.5em);
     margin: 0;
     button {
       @include button-main;
-      a {
-        text-decoration: none;
-      }
       margin-bottom: 10px;
     }
   }
 }
 @media (max-width: 768px) {
-  .wrap {
+  .team {
     .info {
-      width: 80%;
       margin-bottom: 20px;
       .list {
         .key {
@@ -107,10 +99,6 @@ export default {
     float: left;
     width: 100px;
     margin-bottom: 30px;
-    ul li {
-      display: inline-block;
-      font-size: $p;
-    }
   }
 }
 </style>
