@@ -1,0 +1,64 @@
+.nuxt-content {
+    width: #{$content-width}px;
+    margin: 5rem auto;
+    p {
+        @include font($p, 300, 150%);
+        margin: 0 auto;
+        a {
+            font-weight: 400;
+        }
+    }
+
+    p,
+    h1,
+    h2,
+    h3,
+    h4 {
+        width: 800px;
+    }
+
+    h1 {
+        @include font($h1, 500);
+        margin-bottom: 0.5em;
+    }
+
+    h2 {
+        @include font($h2, 400);
+        margin: 0.5em auto;
+        margin-top: 2em;
+    }
+
+    h3 {
+        @include font($h3, 400);
+        margin-bottom: 1em;
+    }
+
+    h4 {
+        @include font($h4, 300);
+        margin: 0.5em auto;
+        color: gray;
+    }
+}
+@media (max-width: 768px) {
+    .nuxt-content {
+        padding: 10px;
+        margin: 40px auto;
+        width: 80%;
+        h1 {
+            font-size: $h2;
+            margin-top: 40px;
+        }
+
+        p,
+        h1,
+        h2,
+        h3,
+        h4 {
+            width: 95%;
+        }
+
+        p {
+            line-height: 170%;
+        }
+    }
+}

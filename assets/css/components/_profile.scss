@@ -1,0 +1,66 @@
+.profile {
+    width: #{$content-width}px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    &_image_martin {
+      padding: 5%;
+      margin: 0 auto;
+      width: 70%;
+      .profile {
+        object-fit: cover;
+        width: 100%;
+        border-radius: 50px;
+        margin: 100px 0px;
+      }
+      .skills {
+        columns: 3;
+      }
+    }
+    h1 {
+      @include font($h1, 500);
+      margin-bottom: 0.5em
+    }
+    h2 {
+      @include font($h2, 400);
+      margin-top: 2em;
+    }
+    p {
+      @include font($p, 300, 150%);
+    }
+    ul {
+      li {
+        margin-left: 30px;
+        margin-bottom: 10px;
+      }
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  @media (max-width: 768px) {
+    .profile {
+      width: 100%;
+      margin-top: 100px;
+      &_image_martin {
+        padding: 2%;
+        margin-bottom: 20px;
+        .profile {
+          object-fit: cover;
+          height: 300px;
+          width: 100%;
+          border-radius: 10px;
+          margin: 20px 0px;
+        }
+        .skills {
+          columns: 2;
+        }
+      }
+      p {
+        line-height: 170%;
+      }
+  
+      h1 {
+        margin: 0.5em 0;
+      }
+    }
+  }

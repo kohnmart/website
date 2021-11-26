@@ -1,0 +1,60 @@
+.projects {
+  width: 90%;
+  margin: 5rem auto;
+
+  &_sorting {
+    margin-bottom: 4rem;
+    h1 {
+      @include font($h1, 500);
+      margin-bottom: 1rem;
+    }
+    ul {
+      list-style-type: none;
+      @include list-flex;
+      li {
+        margin-right: 0.5rem;
+        button {
+          @include button-main;
+        }
+      }
+    }
+  }
+
+  &_display {
+    h3 {
+      @include font($h3, 400);
+    }
+    .container {
+      @include list-flex;
+
+      .thumb {
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+        width: 300px;
+        height: 250px;
+        border-radius: 10px;
+        background-color: black;
+        img {
+          width: 300px;
+          height: 200px;
+          object-fit: cover;
+        }
+        .project_info {
+          margin-left: 5%;
+          text-align: left;
+          margin-top: 5%;
+          p {
+            @include font($p, 400);
+            background-color: black;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .main-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

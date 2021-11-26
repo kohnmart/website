@@ -4,7 +4,6 @@
   </div>
 </template>
 <style lang="scss" scoped>
-@import "@/assets/css/main.scss";
 .footer {
   footer {
     font-size: 0.8em;

@@ -1,14 +1,12 @@
 <template>
   <div>
-    <div class="intro">
-      <div>
+    <div class="profile">
+      <div class="profile_image_martin">
         <img
           class="profile"
           src="~/assets/img/profile/profile.webp"
           alt="Martin Kohnle is not here"
         />
-      </div>
-      <div>
         <h1>Intro</h1>
         <p>
           Hello, everyone. My name is Martin Kohnle, I am a 24-year-old student
@@ -44,8 +42,6 @@
           compromise, to recognize issues early and to adapt the design to
           technical possibilities.
         </p>
-      </div>
-      <div>
         <h2>
           Skills
         </h2>
@@ -91,8 +87,6 @@
         </ul>
         <br />
         <br />
-      </div>
-      <div>
         <h2>Favorite literature</h2>
         <br />
         <ul>
@@ -144,69 +138,4 @@ export default {};
 
 <style lang="scss" scoped>
 @import "@/assets/css/main.scss";
-.intro {
-  width: #{$content-width}px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  div {
-    padding: 5%;
-    margin: 0 auto;
-    width: 70%;
-    .profile {
-      object-fit: cover;
-      width: 100%;
-      border-radius: 50px;
-      margin: 100px 0px;
-    }
-    .skills {
-      columns: 3;
-    }
-  }
-  h1 {
-    @include h1-main(0,0);
-  }
-  h2 {
-    @include h2-main;
-  }
-  p {
-    @include p-main;
-  }
-  ul {
-    li {
-      margin-left: 30px;
-      margin-bottom: 10px;
-    }
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-}
-@media (max-width: 768px) {
-  .intro {
-    width: 100%;
-    margin-top: 50px;
-    div {
-      padding: 2%;
-      margin-bottom: 20px;
-      .profile {
-        object-fit: cover;
-        height: 300px;
-        width: 100%;
-        border-radius: 10px;
-        margin: 20px 0px;
-      }
-      .skills {
-        columns: 2;
-      }
-    }
-    p {
-      font-size: $p;
-      line-height: 170%;
-    }
-
-    h1 {
-      margin-bottom: 10px;
-    }
-  }
-}
 </style>

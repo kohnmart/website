@@ -1,37 +1,10 @@
-@mixin h1-main($top: 0px, $bottom: 0px) {
-  font-size: $h1;
-  font-weight: 500;
-  margin-top: $top;
-  margin-bottom: $bottom;
-}
+@import '_functions';
 
-@mixin h2-main {
-  font-size: $h2;
-  font-weight: 400;
-  margin-bottom: 0.5;
-}
-
-@mixin h3-main {
-  font-size: $h3;
-  font-weight: 400;
-  margin-bottom: 1em;
-}
-
-@mixin h4-main {
-  font-size: $h4;
-  font-weight: 300;
-  margin-bottom: 0.5em;
-  margin: 0 auto;
-  line-height: 200%;
-  color: grey;
-}
-
-@mixin p-main {
-  font-size: $p;
-  margin: 0 auto;
-  font-weight: 300;
-  line-height: 150%;
-  text-align: left;
+@mixin font($size, $weight, $height: 100%)
+{
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
 }
 
 @mixin button-main {
