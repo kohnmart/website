@@ -1,7 +1,6 @@
-@import '_functions';
+@import "_functions";
 
-@mixin font($size, $weight, $height: 100%)
-{
+@mixin font($size, $weight, $height: 100%) {
   font-size: $size;
   font-weight: $weight;
   line-height: $height;
@@ -28,8 +27,14 @@
   justify-content: left;
 }
 
-@mixin list-item($fonts-size, $margin-bottom){
+@mixin list-item($fonts-size, $margin-bottom) {
   font-size: $fonts-size;
   list-style-type: none;
   margin-bottom: $margin-bottom;
+}
+
+@mixin breakpoint() {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
 }

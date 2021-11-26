@@ -2,7 +2,7 @@
   <div>
     <div class="overview">
       <div v-for="img in all_images" :key="img">
-        <img :class="height" :src="img" />
+        <img :class="height" :src="img" alt="project-image" />
       </div>
     </div>
   </div>

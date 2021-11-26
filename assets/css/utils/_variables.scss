@@ -37,3 +37,8 @@ $s-portrait: $l-portrait * 0.6;
 $l-wide: $content-width;
 $m-wide: $content-width * 0.7;
 $s-wide: $content-width * 0.4;
+
+$breakpoints: (
+    "desktop": 1366px,
+    "mobile": 768px,
+)!default;
