@@ -3,15 +3,13 @@
     <div class="info">
       <div class="list">
         <div v-for="(key, item) in members">
-          <ul>
-            <div class="left">
-              <li>
-                {{ item }}
-              </li>
-            </div>
-            <div class="right">
-              <li>{{ key }}</li>
-            </div>
+          <ul class="item">
+            <li style="font-weight:600;">
+              {{ item }}
+            </li>
+          </ul>
+          <ul class="key">
+            <li>{{ key }}</li>
           </ul>
         </div>
       </div>
@@ -56,40 +54,38 @@ export default {
     float: left;
     margin-bottom: 50px;
     .list {
-      ul {
-        display: inline-flex;
-        .left {
-          width: 80px;
-        }
-        .right {
-          width: 550px;
-        }
-        li {
-          list-style-type: none;
-          margin-bottom: 0.5em;
-        }
+      .item {
+        float: left;
+        width: 80px;
+      }
+      .key {
+        width: 550px;
+      }
+      li {
+        list-style-type: none;
+        margin-bottom: 0.5em;
       }
     }
   }
-  .media {
-    float: right;
-    margin-bottom: 50px;
-    .title {
-      float: left;
-      width: 100px;
-    }
-    ul li {
-      font-size: 1em;
-      list-style-type: none;
-      margin-bottom: 0.5em;
-      margin: 0;
-      button {
-        @include button-main;
-        a {
-          text-decoration: none;
-        }
-        margin-bottom: 10px;
+}
+.media {
+  float: right;
+  margin-bottom: 50px;
+  .title {
+    float: left;
+    width: 100px;
+  }
+  ul li {
+    font-size: 1em;
+    list-style-type: none;
+    margin-bottom: 0.5em;
+    margin: 0;
+    button {
+      @include button-main;
+      a {
+        text-decoration: none;
       }
+      margin-bottom: 10px;
     }
   }
 }
@@ -99,29 +95,21 @@ export default {
       width: 80%;
       margin-bottom: 20px;
       .list {
-        ul {
-          display: inline-flex;
-          .left {
-            width: 80px;
-          }
-          .right {
-            width: 200px;
-          }
-          li {
-            list-style-type: none;
-            margin-bottom: 0.5em;
-          }
+        .key {
+          margin-bottom: 20px;
+          width: 250px;
+          float: left;
         }
       }
     }
-    .media {
-      float: left;
-      width: 100px;
-      margin-bottom: 30px;
-      ul li {
-        display: inline-block;
-        font-size: $p;
-      }
+  }
+  .media {
+    float: left;
+    width: 100px;
+    margin-bottom: 30px;
+    ul li {
+      display: inline-block;
+      font-size: $p;
     }
   }
 }
