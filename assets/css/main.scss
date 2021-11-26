@@ -3,13 +3,18 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
 
 //Utils
-@import 'utils/mixins';
-@import 'utils/variables';
+@import "utils/mixins";
+@import "utils/variables";
 //Pages
-@import 'pages/_projects';
-@import 'pages/_slug';
+@import "pages/projects";
+@import "pages/slug";
 //Components
-@import 'components/_profile';
+@import "components/profile";
+@import "components/header";
+@import "components/images-loader";
+@import "components/_team";
+
+//Reset
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,5 +22,5 @@
   color: $text-color;
   background-color: $bg-color;
   text-decoration: none;
-  font-family: "Roboto"
+  font-family: "Roboto";
 }

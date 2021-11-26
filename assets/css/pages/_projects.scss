@@ -23,6 +23,7 @@
   &_display {
     h3 {
       @include font($h3, 400);
+      margin-bottom: 1em;
     }
     .container {
       @include list-flex;
