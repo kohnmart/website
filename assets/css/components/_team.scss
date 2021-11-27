@@ -33,7 +33,7 @@
         }
     }
 }
-@media (max-width: 768px) {
+@include breakpoint() {
     .team {
         &_info {
             margin-bottom: 20px;

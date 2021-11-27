@@ -30,7 +30,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@include breakpoint() {
     .overview {
         .overview_image_portrait,
         .medium_portrait,
