@@ -1,11 +1,11 @@
 .projects {
-  width: 90%;
-  margin: 5rem auto;
+  width: 85%;
+  margin: 3rem auto;
 
   &_sorting {
     margin-bottom: 4rem;
     h1 {
-      @include font($h1, 500);
+      @include font($h1, 500, 120%);
       margin-bottom: 1rem;
     }
     ul {
@@ -27,7 +27,7 @@
     }
     .container {
       @include list-flex;
-
+    
       .thumb {
         margin-right: 2rem;
         margin-bottom: 1rem;
