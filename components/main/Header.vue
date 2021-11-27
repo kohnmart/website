@@ -1,8 +1,8 @@
 <template>
   <div class="header">
-    <ul>
-      <li style="float:left"><nuxt-link to="/">Home</nuxt-link></li>
-      <div>
+    <nav>
+      <ul>
+        <li style="float:left"><nuxt-link to="/">Home</nuxt-link></li>
         <li style="float:left">
           <nuxt-link to="/projects">Projects</nuxt-link>
         </li>
@@ -21,8 +21,8 @@
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
-      </div>
-    </ul>
+      </ul>
+    </nav>
   </div>
 </template>
 
