@@ -23,6 +23,7 @@
               <div class="thumb">
                 <img
                   :src="require(`~/assets/img/thumbs/${item.thumbnail}.webp`)"
+                  :alt="'Missing ' + item.thumbnail"
                 />
                 <div class="project_info">
                   <p>{{ item.title }}</p>
