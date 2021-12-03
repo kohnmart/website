@@ -15,21 +15,19 @@
       </div>
     </div>
     <div class="media">
-      <div>
-        <h4 class="title" v-if="doc != null || link != null">Media</h4>
-        <ul>
-          <li>
-            <Button v-if="doc != null">
-              <a :href="doc">Documentation</a>
-            </Button>
-          </li>
-          <li>
-            <Button v-if="link != null">
-              <a :href="link" target="_blank">{{ type }}</a>
-            </Button>
-          </li>
-        </ul>
-      </div>
+   <p class="media_title" v-if="doc != null || link != null">Media</p> 
+      <ul>
+        <li>
+          <Button v-if="doc != null">
+            <a :href="doc">Documentation</a>
+          </Button>
+        </li>
+        <li>
+          <Button v-if="link != null">
+            <a :href="link" target="_blank">{{ type }}</a>
+          </Button>
+        </li>
+      </ul>
     </div>
   </div>
 </template>
@@ -45,6 +43,6 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import "@/assets/css/main.scss";
 </style>

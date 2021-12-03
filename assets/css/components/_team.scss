@@ -1,35 +1,35 @@
 .team {
-    height: 100px;
     &_info {
         float: left;
         margin-bottom: 50px;
         .list {
             .item {
                 float: left;
-                width: 80px;
+                width: 90px;
             }
             .key {
-                width: 550px;
+                width: 870px;
             }
             li {
                 @include list-item($p, 1em);
             }
         }
     }
-}
-.media {
-    float: right;
-    margin-bottom: 50px;
-    .title {
-        float: left;
-        width: 100px;
-    }
-    ul li {
-        @include list-item($p, 0.5em);
-        margin: 0;
-        button {
-            @include button-main;
-            margin-bottom: 10px;
+
+    .media {
+        &_title {
+            width: 100%;
+            float: left;
+            @include font($p, 500);
+            margin-bottom: 1em;
+        }
+        ul li {
+            @include list-item($p, 0.5em);
+            margin: 0;
+            button {
+                @include button-main;
+                margin-bottom: 10px;
+            }
         }
     }
 }
