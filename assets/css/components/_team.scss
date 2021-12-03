@@ -17,6 +17,7 @@
     }
 
     .media {
+        margin-bottom: 2em;
         &_title {
             width: 100%;
             float: left;
@@ -36,7 +37,7 @@
 @include breakpoint() {
     .team {
         &_info {
-            margin-bottom: 20px;
+            margin-bottom: 1em;
             .list {
                 .key {
                     margin-bottom: 20px;
@@ -52,6 +53,6 @@
     .media {
         float: left;
         width: 100px;
-        margin-bottom: 30px;
+        margin-bottom: 4em;
     }
 }
