@@ -2,6 +2,7 @@
 title: "UFO Flight Animation"
 tag: "vfx"
 thumbnail: "ufo"
+stack: ["Houdini", "Substance"]
 members: {
 Date: "March - April 2021",
 Type: "Study",    
@@ -12,7 +13,7 @@ link: "https://www.youtube.com/embed/_N7EeSHyqYo"
 
 # UFO Flight Animation
 
-### Houdini / Substance Painter <br /> <br />
+<tech-stack :stack="stack"></tech-stack>
 
 <team :members="members" :link="link" type="Animation" title="Media"></team>
 <br /> <br />

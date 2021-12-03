@@ -2,6 +2,7 @@
 title: "Machine Learning"
 tag: "science"
 thumbnail: "flai"
+stack: ["Vue.js", "Express", "PostgreSQL", "Keras", "Tensorflow"]
 members: {
 Date: "October 2021 - January 2022",
 Type: "European Semester Project",         
@@ -13,7 +14,7 @@ Team: "Stefanie Jany, Lea Jell, Eva Kunzmann, Anja Krendlinger, Martin Kohnle, M
 
 # Learn Sign Language
 
-### Vue / Express / PostgreSQL / Keras / Tensorflow <br /> <br />
+<tech-stack :stack="stack"></tech-stack>
 
 <team :members="members"></team>
 

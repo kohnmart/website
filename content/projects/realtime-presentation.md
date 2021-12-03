@@ -3,6 +3,7 @@ title: "Realtime Presentation"
 tag: "science"
 thumbnail: "bkpv"
 highlight: "true"
+stack: ["Unity", "C#", "Blender"]
 members: {
 Date: "August 2019 - January 2020",
 Type: "Assignment",         
@@ -16,7 +17,7 @@ link: "https://youtu.be/FwsDQmhkQqo"
 
 # Realtime Presentation
 
-### Unity / Visual Studio / Blender <br /> <br />
+<tech-stack :stack="stack"></tech-stack>
 
 <team :link="link" :members="members" title="Media" type="Showcase"></team>
 

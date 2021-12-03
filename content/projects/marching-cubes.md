@@ -2,6 +2,7 @@
 title: "Marching Algorithms"
 tag: "science"
 thumbnail: "marching"
+stack: ["Unity", "C#", "Processing"]
 members: {
 Date: "April - August 2021",
 Type: "Study",         
@@ -13,7 +14,7 @@ file: "docs/marching.pdf"
 
 # Marching Algorithm 
 
-### Unity / Visual Studio / Processing <br /> <br />
+<tech-stack :stack="stack"></tech-stack>
 
 <team :members="members" :link="link" :doc="file"></team> 
 

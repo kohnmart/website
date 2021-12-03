@@ -2,6 +2,7 @@
 title: "Project Clouds Animation"
 tag: "vfx"
 thumbnail: "clouds"
+stack: ["Houdini", "Substance Painter", "MapBox"]
 members: {
 Date: "May - July 2021",   
 Type: "Study",  
@@ -15,7 +16,7 @@ file: "docs/clouds.pdf"
 
 # Project Clouds
 
-### Houdini / Substance Painter / Mapbox <br /> <br />
+<tech-stack :stack="stack"></tech-stack>
 
 <team :members="members" :link="link" title="Media" type="Animation" :doc="file"></team>
 

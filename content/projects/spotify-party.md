@@ -3,6 +3,7 @@ title: "Web App"
 tag: "web"
 thumbnail: "spotifyparty"
 highlight: 'true'
+stack: ["Django", "Websocket", "Spotipy", "PostgreSQL", "Docker", "Figma"]
 members: {
 Date: "November 2020 - February 2021",    
 Type: "Study",
@@ -15,7 +16,7 @@ file: "docs/spotifyparty.pdf"
 
 # SpotifyParty
 
-### Python / Django / Websocket / PostgreSQL / Docker / Figma <br /> <br />
+<tech-stack :stack="stack"></tech-stack>
 
 <team :members="members" :link="link" :doc="file"></team>
 

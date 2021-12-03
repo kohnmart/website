@@ -3,6 +3,7 @@ title: "Virtual Reality"
 tag: "web"
 thumbnail: "home-vr"
 highlight: 'true'
+stack: ["Unity", "C#", "Oculus SDK", "Photoshop"]
 members: {
 Date: "2018 - Today",    
 Type: "Private Project",
@@ -14,7 +15,7 @@ link: "https://youtu.be/-SkZ3tUML_s"
 
 # Home Gallery VR
 
-### Unity / C# / Oculus SDK <br /> <br />
+<tech-stack :stack="stack"></tech-stack>
 
 <team :members="members" :link="link" type="Showcase"></team>
 

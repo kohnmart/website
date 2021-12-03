@@ -2,6 +2,7 @@
 title: "Web App"
 tag: "web"
 thumbnail: "snippets"
+stack: ["Vue.js", "Express", "PostgreSQL", "Prism.js", "Docker", "Figma"]
 members: {
 Date: "May - July 2021", 
 Type: "Study",
@@ -14,7 +15,7 @@ file: "docs/Snippets.pdf"
 
 # Snippets
 
-### Vue.js, Express, PostgreSQL, Docker, Figma <br /> <br />
+<tech-stack :stack="stack"></tech-stack>
 
 <team :members="members" :link="link" :doc="file"></team>
 
