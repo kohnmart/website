@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="stack" v-for="item in stack" :key="item">
+  <div class="stack">
+    <div class="stack_items" v-for="item in stack" :key="item">
       <li>{{ item }}</li>
     </div>
   </div>
@@ -10,22 +10,25 @@
 export default {
   props: {
     stack: Array
-  },
+  }
 };
 </script>
 
 <style lang="scss" scoped>
-    .stack {
-        display: inline-block;
-        margin-bottom: 2em;
-        li {
-            list-style: none;
-            padding: 5px 15px;
-            margin-right: 0.5em;
-            font-size: 1em;
-            border: 2px solid black;
-            border-radius: 5px;
-            color: white;
-        }   
+.stack {
+    margin-bottom: 2em;
+  &_items {
+    display: inline-block;
+    margin-bottom: 0.5em;
+    li {
+      list-style: none;
+      padding: 5px 15px;
+      margin-right: 0.5em;
+      font-size: 1em;
+      border: 2px solid black;
+      border-radius: 5px;
+      color: white;
     }
-</style>>
+  }
+}</style
+>>
