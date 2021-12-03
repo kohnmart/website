@@ -2,20 +2,24 @@
   <div class="team">
     <div class="team_info">
       <div class="list">
-        <div v-for="(key, item) in members">
+        <div v-for="(key, item) in members" :key="key">
           <ul class="item">
             <li style="font-weight:600;">
               {{ item }}
             </li>
           </ul>
-          <ul class="key">
-            <li>{{ key }}</li>
-          </ul>
+          <div class="key">
+            <ul>
+              <li v-for="array in key" :key="array">
+                {{ array }}
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
     <div class="media">
-   <p class="media_title" v-if="doc != null || link != null">Media</p> 
+      <p class="media_title" v-if="doc != null || link != null">Media</p>
       <ul>
         <li>
           <Button v-if="doc != null">
