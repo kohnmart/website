@@ -24,17 +24,17 @@
 
     h2 {
         @include font($h2, 400);
-        margin: 2em auto 1em auto;
+        margin: 2.5em auto 0.5em auto;
     }
 
     h3 {
         @include font($h3, 400);
-        margin-bottom: 1em;
+        margin-bottom: 0.5em;
     }
 
     h4 {
         @include font($h4, 400);
-        margin: 0.5em auto;
+        margin: 2em auto 1em auto;
         color: white;
     }
 }
