@@ -12,7 +12,7 @@
     <div class="projects_display">
       <h3 v-if="category == null">{{ subline }}</h3>
       <div class="container">
-        <div v-for="item in articles" :key="item">
+        <div v-for="item in articles" :key="item.id">
           <nuxt-link :to="{ name: 'slug', params: { slug: item.slug } }">
             <div
               v-if="

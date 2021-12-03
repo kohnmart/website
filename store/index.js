@@ -1,12 +1,10 @@
 export const state = () => ({
-    category: null
-  })
-
+  category: null
+});
 
 export const mutations = {
-     setCategory(state, filter)
-    {
-        state.category = filter;
-        console.log(state.category);
-    }
-}
+  setCategory(state, filter) {
+    state.category = filter;
+    console.log(state.category);
+  }
+};
