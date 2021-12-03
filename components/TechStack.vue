@@ -16,7 +16,7 @@ export default {
 
 <style lang="scss" scoped>
 .stack {
-    margin-bottom: 2em;
+    margin-bottom: 4em;
   &_items {
     display: inline-block;
     margin-bottom: 0.5em;
