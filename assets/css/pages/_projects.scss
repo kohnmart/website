@@ -13,9 +13,6 @@
       @include list-flex;
       li {
         margin-right: 0.5rem;
-        button {
-          @include button-main;
-        }
       }
     }
   }

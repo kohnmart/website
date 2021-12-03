@@ -23,7 +23,7 @@ export default {
     setFilter(filter) {
       {
         this.$store.commit("setCategory", filter);
-        }
+      }
     }
   }
 };
@@ -33,15 +33,14 @@ export default {
 @import "@/assets/css/main.scss";
 li {
   margin: 10px 5px;
-  .active,
-  .inactive {
-    @include button-main;
-  }
+
   .active {
+    @include button-main;
     border: 2px solid $btn-state-active;
   }
 
   .inactive {
+    @include button-main;
     border: 2px solid $btn-state-inactive;
   }
 }
