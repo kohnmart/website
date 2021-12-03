@@ -20,12 +20,12 @@ export default {
         margin-bottom: 2em;
         li {
             list-style: none;
+            padding: 5px 15px;
             margin-right: 0.5em;
             font-size: 1em;
             border: 2px solid black;
-            color: white;
-            padding: 5px 15px;
             border-radius: 5px;
+            color: white;
         }   
     }
 </style>>
