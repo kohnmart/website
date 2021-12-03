@@ -1,17 +1,25 @@
 .team {
     &_info {
-        float: left;
         margin-bottom: 50px;
         .list {
-            .item {
-                float: left;
-                width: 90px;
-            }
-            .key {
-                width: 870px;
-            }
-            li {
-                @include list-item($p, 1em);
+            columns: 2;
+            column-gap: 20em;
+            div {
+                margin-bottom: 3em;
+                .item {
+                    float: left;
+                    width: 90px;
+                }
+                .key {
+                    display: inline-block;
+                    columns: 2;
+                    width: 350px;
+                }
+                li {
+                    @include list-item($p, 1em);
+                    display: inline-block;
+                    margin: 0.25em 0.5em;
+                }
             }
         }
     }
@@ -41,7 +49,7 @@
             .list {
                 .key {
                     margin-bottom: 20px;
-                    width: 250px;
+                    width: 200px;
                     float: left;
                 }
                 li {
