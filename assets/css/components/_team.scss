@@ -1,34 +1,25 @@
 .team {
+    margin-bottom: 200px;
     &_info {
-        margin-bottom: 50px;
         .list {
-            columns: 2;
-            column-gap: 20em;
-            div {
-                margin-bottom: 3em;
-                .item {
-                    float: left;
-                    width: 90px;
-                }
+            .list_object {
+                margin-bottom: 2em;
+                width: 350px;
+                float: left;
                 .key {
-                    display: inline-block;
                     columns: 2;
-                    width: 350px;
+                    width: 300px;
                 }
                 li {
                     @include list-item($p, 1em);
-                    display: inline-block;
-                    margin: 0.25em 0.5em;
+                    margin-bottom: 1em;
                 }
             }
         }
     }
 
     .media {
-        margin-bottom: 2em;
         &_title {
-            width: 100%;
-            float: left;
             @include font($p, 500);
             margin-bottom: 1em;
         }
