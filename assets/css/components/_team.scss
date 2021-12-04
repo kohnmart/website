@@ -1,18 +1,19 @@
 .team {
-    margin-bottom: 200px;
+    display: flex;
     &_info {
         .list {
+            @include list-flex;
+            width: 400px;
             .list_object {
                 margin-bottom: 2em;
-                width: 350px;
-                float: left;
+                margin-right: 20px;
                 .key {
                     columns: 2;
-                    width: 300px;
                 }
                 li {
                     @include list-item($p, 1em);
-                    margin-bottom: 1em;
+                    margin-bottom: 0.5em;
+                    width: 150px;
                 }
             }
         }
