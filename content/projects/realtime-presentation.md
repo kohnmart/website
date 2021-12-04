@@ -4,13 +4,13 @@ tag: "science"
 thumbnail: "bkpv"
 highlight: "true"
 stack: ["Unity", "C#", "Blender"]
-members: {
-Date: "August 2019 - January 2020",
-Type: "Assignment",         
-Role: "Camera path, interactions, animations, sceneries, terrain, design",
-Team: "Adrian Kohnle, Mirela Wagner, Kigg Media Film",
-Location: "Fürth town hall",
-Client: "BKPV",
+info: {
+Date: ["August 2019 - January 2020"],
+Type: ["Assignment"],         
+Role: ["Camera path", "interactions", "animations", "sceneries", "terrain", "design"],
+Team: ["Adrian Kohnle", "Mirela Wagner", "Kigg Media Film"],
+Location: ["Fürth town hall"],
+Client: ["BKPV"],
 }
 link: "https://youtu.be/FwsDQmhkQqo"
 ---
@@ -19,7 +19,7 @@ link: "https://youtu.be/FwsDQmhkQqo"
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :link="link" :members="members" title="Media" type="Showcase"></team>
+<team :link="link" :info="info" title="Media" type="Showcase"></team>
 
 <br /> <br />
 

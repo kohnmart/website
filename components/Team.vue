@@ -8,7 +8,7 @@
               {{ item }}
             </li>
           </ul>
-          <div :class="key_class(item)">
+          <div :class="key_class(key)">
             <ul>
               <li v-for="array in key" :key="array">
                 {{ array }}
@@ -46,8 +46,8 @@ export default {
   },
 
   methods: {
-    key_class: function(item) {
-      if (item == "Role" || item == "Team") {
+    key_class: function(key) {
+      if (key.length > 3) {
         return "key";
       } else {
         return "";

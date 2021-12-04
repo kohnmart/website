@@ -4,11 +4,11 @@ tag: "web"
 thumbnail: "home-vr"
 highlight: 'true'
 stack: ["Unity", "C#", "Oculus SDK", "Photoshop"]
-members: {
-Date: "2018 - Today",    
-Type: "Private Project",
-Stage: "Beta",
-HMD: "Oculus Rift",
+info: {
+Date: ["2018 - Today"],    
+Type: ["Private Project"],
+Stage: ["Beta"],
+HMD: ["Oculus Rift"],
 }
 link: "https://youtu.be/-SkZ3tUML_s"
 ---
@@ -17,7 +17,7 @@ link: "https://youtu.be/-SkZ3tUML_s"
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :members="members" :link="link" type="Showcase"></team>
+<team :info="info" :link="link" type="Showcase"></team>
 
 <br /> <br />
 

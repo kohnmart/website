@@ -3,11 +3,11 @@ title: "Project Clouds Animation"
 tag: "vfx"
 thumbnail: "clouds"
 stack: ["Houdini", "Substance Painter", "MapBox"]
-members: {
-Date: "May - July 2021",   
-Type: "Study",  
-Role: "Research, Modelling, Animation, Rendering",
-Team: "Martin Kohnle, Moritz Kronberger",
+info: {
+Date: ["May - July 2021"],   
+Type: ["Study"],  
+Role: ["Research", "Modelling", "Animation", "Rendering"],
+Team: ["Martin Kohnle", "Moritz Kronberger"],
 }
 headlines: ["Introduction", "Animation", "Research", "Review"]
 link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
@@ -18,7 +18,7 @@ file: "docs/clouds.pdf"
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :members="members" :link="link" title="Media" type="Animation" :doc="file"></team>
+<team :info="info" :link="link" title="Media" type="Animation" :doc="file"></team>
 
 <image-loader height="large_wide" image="vfx/clouds/title"></image-loader>
 

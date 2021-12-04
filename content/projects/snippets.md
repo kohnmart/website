@@ -3,11 +3,11 @@ title: "Web App"
 tag: "web"
 thumbnail: "snippets"
 stack: ["Vue.js", "Express", "PostgreSQL", "Prism.js", "Docker", "Figma"]
-members: {
-Date: "May - July 2021", 
-Type: "Study",
-Team: "Lea Jell, Martin Kohnle, Moritz Kronberger",
-Role: "Vue.js, Vuex, Validation, Prism.js",
+info: {
+Date: ["May - July 2021"], 
+Type: ["Study"],
+Team: ["Lea Jell", "Martin Kohnle", "Moritz Kronberger"],
+Role: ["Vue.js", "Vuex", "Validation", "Prism.js"],
 }
 link: "https://github.com/kohnmart/snippets"
 file: "docs/Snippets.pdf"
@@ -17,7 +17,7 @@ file: "docs/Snippets.pdf"
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :members="members" :link="link" :doc="file"></team>
+<team :info="info" :link="link" :doc="file"></team>
 
 <br /> <br />
 

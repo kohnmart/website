@@ -3,10 +3,10 @@ title: "Marching Algorithms"
 tag: "science"
 thumbnail: "marching"
 stack: ["Unity", "C#", "Processing"]
-members: {
-Date: "April - August 2021",
-Type: "Study",         
-Role: "*",
+info: {
+Date: ["April - August 2021"],
+Type: ["Study"],         
+Role: ["All"],
 }
 link: "https://github.com/kohnmart/marching-algorithm"
 file: "docs/marching.pdf"
@@ -16,7 +16,7 @@ file: "docs/marching.pdf"
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :members="members" :link="link" :doc="file"></team> 
+<team :info="info" :link="link" :doc="file"></team> 
 
 <br />
 

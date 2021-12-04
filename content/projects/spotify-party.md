@@ -4,11 +4,11 @@ tag: "web"
 thumbnail: "spotifyparty"
 highlight: 'true'
 stack: ["Django", "Websocket", "Spotipy", "PostgreSQL", "Docker", "Figma"]
-members: {
-Date: "November 2020 - February 2021",    
-Type: "Study",
-Team: "Martin Kohnle, Moritz Kronberger",
-Role: "Django, Django-Channels, Spotify Api",
+info: {
+Date: ["November 2020 - February 2021"],    
+Type: ["Study"],
+Team: ["Martin Kohnle", "Moritz Kronberger"],
+Role: ["Django", "Django-Channels", "Spotify Api"],
 }
 link: "https://github.com/kohnmart/spotify-party"
 file: "docs/spotifyparty.pdf"
@@ -18,7 +18,7 @@ file: "docs/spotifyparty.pdf"
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :members="members" :link="link" :doc="file"></team>
+<team :info="info" :link="link" :doc="file"></team>
 
 <br /> <br />
 

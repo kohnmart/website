@@ -5,12 +5,12 @@ thumbnail: "flai"
 stack: ["Vue.js", "Express", "PostgreSQL", "Keras", "Tensorflow"]
 
 
-members: {
+info: {
+        Date: ["October 2021 - January 2022"],
+Type: ["European Semester Project"],
 Role: ["Neural Network", "Backend", "Dataset", "Database"],
-Team: ["Stefanie Jany", "Lea Jell", "Eva Kunzmann", "Anja Krendlinger", "Martin Kohnle", "Moritz Kronberger",
-        "Kieu Pham"],      
-Date: ["October 2021 - January 2022"],
-Type: ["European Semester Project"],   
+Team: ["Stefanie Jany", "Lea Jell", "Eva Kunzmann", "Anja Krendlinger", "Martin Kohnle", "Moritz Kronberger","Kieu Pham"],      
+   
 
 
 }
@@ -20,7 +20,7 @@ Type: ["European Semester Project"],
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :members="members"></team>
+<team :info="info"></team>
 
 <br /> <br />
 
