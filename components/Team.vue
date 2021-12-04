@@ -2,13 +2,13 @@
   <div class="team">
     <div class="team_info">
       <div class="list">
-        <div v-for="(key, item) in members" :key="key">
-          <ul class="item">
+        <div class="list_object" v-for="(key, item) in info" :key="key">
+          <ul>
             <li style="font-weight:600;">
               {{ item }}
             </li>
           </ul>
-          <div class="key">
+          <div :class="key_class(item)">
             <ul>
               <li v-for="array in key" :key="array">
                 {{ array }}
@@ -38,11 +38,21 @@
 <script>
 export default {
   props: {
-    members: { type: Object, default: () => ({}) },
+    info: { type: Object, default: () => ({}) },
     link: { type: String },
     title: { type: String, default: "Code" },
     type: { type: String, default: "GitHub" },
     doc: { type: String, default: null }
+  },
+
+  methods: {
+    key_class: function(item) {
+      if (item == "Role" || item == "Team") {
+        return "key";
+      } else {
+        return "";
+      }
+    }
   }
 };
 </script>
