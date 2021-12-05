@@ -6,8 +6,9 @@ stack: ["Houdini", "Substance Painter", "MapBox"]
 info: {
 Date: ["May - July 2021"],   
 Type: ["Study"],  
-Role: ["Research", "Modelling", "Animation", "Rendering"],
 Team: ["Martin Kohnle", "Moritz Kronberger"],
+Role: ["Research", "Modelling", "Animation", "Rendering"],
+
 }
 headlines: ["Introduction", "Animation", "Research", "Review"]
 link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"

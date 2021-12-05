@@ -5,7 +5,7 @@ thumbnail: "spotifyparty"
 highlight: 'true'
 stack: ["Django", "Websocket", "Spotipy", "PostgreSQL", "Docker", "Figma"]
 info: {
-Date: ["November 2020 - February 2021"],    
+Date: ["Nov 2020 - Feb 2021"],    
 Type: ["Study"],
 Team: ["Martin Kohnle", "Moritz Kronberger"],
 Role: ["Django", "Django-Channels", "Spotify Api"],

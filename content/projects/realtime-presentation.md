@@ -6,11 +6,13 @@ highlight: "true"
 stack: ["Unity", "C#", "Blender"]
 info: {
 Date: ["August 2019 - January 2020"],
-Type: ["Assignment"],         
-Role: ["Camera path", "interactions", "animations", "sceneries", "terrain", "design"],
-Team: ["Adrian Kohnle", "Mirela Wagner", "Kigg Media Film"],
+Type: ["Assignment"],  
+Client: ["BKPV"],    
+Team: ["Adrian Kohnle", "Mirela Wagner", "Kigg Media Film"],   
+Role: ["Camera path", "Interaction", "Animation", "Scenery", "Terrain", "Design"],
+
 Location: ["Fürth town hall"],
-Client: ["BKPV"],
+
 }
 link: "https://youtu.be/FwsDQmhkQqo"
 ---

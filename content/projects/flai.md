@@ -8,8 +8,9 @@ stack: ["Vue.js", "Express", "PostgreSQL", "Keras", "Tensorflow"]
 info: {
         Date: ["October 2021 - January 2022"],
 Type: ["European Semester Project"],
+Team: ["Stefanie Jany", "Lea Jell", "Eva Kunzmann", "Anja Krendlinger", "Martin Kohnle", "Moritz Kronberger","Kieu Pham"],  
 Role: ["Neural Network", "Backend", "Dataset", "Database"],
-Team: ["Stefanie Jany", "Lea Jell", "Eva Kunzmann", "Anja Krendlinger", "Martin Kohnle", "Moritz Kronberger","Kieu Pham"],      
+    
    
 
 
