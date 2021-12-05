@@ -8,7 +8,7 @@
               {{ item }}
             </li>
           </ul>
-          <div :class="key_class(key)">
+          <div class="key">
             <ul>
               <li v-for="array in key" :key="array">
                 {{ array }}
@@ -17,21 +17,21 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="media">
-      <p class="media_title" v-if="doc != null || link != null">Media</p>
-      <ul>
-        <li>
-          <Button v-if="doc != null">
-            <a :href="doc">Documentation</a>
-          </Button>
-        </li>
-        <li>
-          <Button v-if="link != null">
-            <a :href="link" target="_blank">{{ type }}</a>
-          </Button>
-        </li>
-      </ul>
+      <div class="media">
+        <p class="media_title" v-if="doc != null || link != null">Media</p>
+        <ul>
+          <li>
+            <Button v-if="doc != null">
+              <a :href="doc">Documentation</a>
+            </Button>
+          </li>
+          <li>
+            <Button v-if="link != null">
+              <a :href="link" target="_blank">{{ type }}</a>
+            </Button>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </template>

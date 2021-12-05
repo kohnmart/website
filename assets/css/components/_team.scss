@@ -1,45 +1,44 @@
 .team {
-    display: flex;
-    gap: 100px;
     &_info {
+        display: flex;
         .list {
-            @include list-flex();
-            align-items: normal;
-            width: 700px;
+            width: 600px;
             .list_object {
-                margin-bottom: 2em;
                 margin-right: 20px;
                 border-radius: 5px;
+                margin-bottom: 1.5em;
+                display: flex;
                 .topic {
-                    background-color: black;
-                    border-radius: 5px;
-                    width: 100%;
+                    @include font($p, 500);
+                    width: 90px;
                 }
                 .key {
-                    display: flex;
-                    width: 350px;
+                    @include font(1em, 300);
                 }
                 li {
-                    display: inline-block;
-                    @include list-item($p, 1em);
-                    padding: 5px 10px;
+                    @include list-item($p, 100);
+                    margin-right: 0.5em;
                     margin-bottom: 0.5em;
+                    padding: 5px 5px;
+                    float: left;
                 }
             }
         }
-    }
 
-    .media {
-        &_title {
-            @include font($p, 500);
-            margin-bottom: 1em;
-        }
-        ul li {
-            @include list-item($p, 0.5em);
-            margin: 0;
-            button {
-                @include button-main;
-                margin-bottom: 10px;
+        .media {
+            width: 100px;
+            &_title {
+                @include font($p, 500);
+                margin-bottom: 1em;
+                width: 100px;
+            }
+            ul li {
+                @include list-item($p, 0.5em);
+                margin: 0;
+                button {
+                    @include button-main;
+                    margin-bottom: 10px;
+                }
             }
         }
     }
@@ -47,15 +46,14 @@
 @include breakpoint() {
     .team {
         &_info {
-            margin-bottom: 1em;
+            display: block;
             .list {
-                .key {
-                    margin-bottom: 20px;
-                    width: 200px;
-                    float: left;
+                align-items: start;
+                .topic {
+                    width: 100px;
                 }
-                li {
-                    @include list-item($p, 0.5em);
+                .key {
+                    width: 200px;
                 }
             }
         }
@@ -63,6 +61,6 @@
     .media {
         float: left;
         width: 100px;
-        margin-bottom: 4em;
+        margin: 2em 0em;
     }
 }
