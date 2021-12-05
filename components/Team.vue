@@ -4,7 +4,7 @@
       <div class="list">
         <div class="list_object" v-for="(key, item) in info" :key="key">
           <ul>
-            <li style="font-weight:600;">
+            <li class="topic">
               {{ item }}
             </li>
           </ul>

@@ -1,19 +1,29 @@
 .team {
     display: flex;
+    gap: 100px;
     &_info {
         .list {
-            @include list-flex;
-            width: 400px;
+            @include list-flex();
+            align-items: normal;
+            width: 700px;
             .list_object {
                 margin-bottom: 2em;
                 margin-right: 20px;
+                border-radius: 5px;
+                .topic {
+                    background-color: black;
+                    border-radius: 5px;
+                    width: 100%;
+                }
                 .key {
-                    columns: 2;
+                    display: flex;
+                    width: 350px;
                 }
                 li {
+                    display: inline-block;
                     @include list-item($p, 1em);
+                    padding: 5px 10px;
                     margin-bottom: 0.5em;
-                    width: 150px;
                 }
             }
         }
