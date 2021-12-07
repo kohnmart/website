@@ -8,12 +8,14 @@
                 border-radius: 5px;
                 margin-bottom: 1.5em;
                 display: flex;
+                flex-wrap: wrap;
                 .topic {
                     @include font($p, 500);
                     width: 90px;
                 }
                 .key {
                     @include font(1em, 300);
+                    width: 500px;
                 }
                 li {
                     @include list-item($p, 100);
@@ -23,12 +25,19 @@
                     float: left;
                 }
             }
+            hr {
+                border: 1px solid rgb(80, 80, 80);
+                border-radius: 2px;
+                height: 1px;
+                width: 500px;
+            }
         }
 
         .media {
+            margin-left: 10px;
             width: 100px;
             &_title {
-                @include font($p, 500);
+                @include font($h3, 500);
                 margin-bottom: 1em;
                 width: 100px;
             }
@@ -48,12 +57,13 @@
         &_info {
             display: block;
             .list {
-                align-items: start;
+                width: 300px;
                 .topic {
                     width: 100px;
                 }
-                .key {
-                    width: 200px;
+                .key,
+                hr {
+                    width: 300px;
                 }
             }
         }

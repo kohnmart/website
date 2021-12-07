@@ -15,10 +15,12 @@
               </li>
             </ul>
           </div>
+            <hr />
         </div>
+           
       </div>
-      <div class="media">
-        <p class="media_title" v-if="doc != null || link != null">Media</p>
+      <div class="media" v-if="doc != null || link != null">
+        <p class="media_title">Media</p>
         <ul>
           <li>
             <Button v-if="doc != null">
