@@ -35,8 +35,8 @@ $m-portrait: $l-portrait * 0.75;
 $s-portrait: $l-portrait * 0.6;
 ///Wide
 $l-wide: $content-width;
-$m-wide: $content-width * 0.7;
-$s-wide: $content-width * 0.4;
+$m-wide: 800;
+$s-wide: 390;
 
 $breakpoints: (
     "desktop": 1366px,
