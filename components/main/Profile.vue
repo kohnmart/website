@@ -42,51 +42,6 @@
           compromise, to recognize issues early and to adapt the design to
           technical possibilities.
         </p>
-        <h2>
-          Skills
-        </h2>
-        <br />
-        <p>
-          The level of my skills is appropriate to what should be achieved after
-          the 5th Bachelor semester.
-        </p>
-        <br />
-        <p>Neural Networks</p>
-        <br />
-        <ul class="skills">
-          <li>Python</li>
-          <li>Jupyter</li>
-          <li>Tensorflow</li>
-          <li>Keras</li>
-          <li>scikit-learn</li>
-          <li>Theory</li>
-          <li>Mathematics</li>
-          <li>Linux Commands</li>
-        </ul>
-        <br />
-        <br />
-        <p>Web Development</p>
-        <br />
-        <ul class="skills">
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Vue.js</li>
-          <li>Django</li>
-          <li>Express</li>
-          <li>PostgreSQL</li>
-          <li>Git</li>
-          <li>Docker</li>
-          <li>Node.js</li>
-        </ul>
-        <br />
-        <br />
-        <p>Other</p>
-        <br />
-        <ul class="skills">
-          <li>Unity</li>
-        </ul>
-        <br />
-        <br />
         <h2>Favorite literature</h2>
         <br />
         <ul>
