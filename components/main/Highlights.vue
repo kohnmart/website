@@ -6,7 +6,7 @@
 .bg_image {
   background-image: url("~/assets/img/bg.webp");
   width: 100%;
-  height: 1050px;
+  height: 1480px;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
