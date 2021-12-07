@@ -8,26 +8,33 @@
     width: 100%;
     margin-top: 40px;
     margin-bottom: 80px;
+  
     .overview_image_portrait {
         height: #{$l-portrait}px;
+        border-radius: 5px;
     }
 
     .medium_portrait {
         width: #{$m-portrait}px;
+        border-radius: 5px;
     }
 
     .small_portrait {
         width: #{$s-portrait}px;
+        border-radius: 5px;
     }
     .large_wide {
         margin-top: 100px;
         width: #{$l-wide}px;
+        border-radius: 5px;
     }
     .medium_wide {
         width: #{$m-wide}px;
+        border-radius: 5px;
     }
     .small_wide {
         width: #{$s-wide}px;
+        border-radius: 5px;
     }
 }
 
