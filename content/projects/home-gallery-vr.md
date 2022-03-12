@@ -1,5 +1,5 @@
 ---
-title: "Virtual Reality"
+title: "Virtual Reality App"
 tag: "web"
 thumbnail: "home-vr"
 highlight: 'true'
