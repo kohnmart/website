@@ -8,7 +8,7 @@ info: {
 Date: ["2018 - Today"],    
 Type: ["Private Project"],
 Stage: ["Beta"],
-HMD: ["Oculus Rift"],
+HMD: ["Oculus Rift", "Oculus Quest 2"],
 }
 link: "https://youtu.be/-SkZ3tUML_s"
 ---
