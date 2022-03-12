@@ -35,7 +35,6 @@
     h4 {
         @include font($h4, 400);
         margin: 2em auto 1em auto;
-        color: white;
     }
 }
 @include breakpoint() {
