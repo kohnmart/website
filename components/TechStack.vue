@@ -30,5 +30,4 @@ export default {
       color: white;
     }
   }
-}</style
->>
+}</style>
