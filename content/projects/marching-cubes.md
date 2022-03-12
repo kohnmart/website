@@ -6,17 +6,21 @@ stack: ["Unity", "C#", "Processing"]
 info: {
 Date: ["April - August 2021"],
 Type: ["Study"],         
-Role: ["All"],
+Role: ["Study", "Implementation"],
 }
-link: "https://github.com/kohnmart/marching-algorithm"
-file: "docs/marching.pdf"
+
+links: {
+    Code: ["https://github.com/kohnmart/marching-algorithm"],
+    Documentation: ["docs/marching.pdf"]
+}
+
 ---
 
 # Marching Algorithm 
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :info="info" :link="link" :doc="file"></team> 
+<team :info="info" :links="links"></team>
 
 <br />
 
