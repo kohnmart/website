@@ -19,17 +19,12 @@
         </div>
            
       </div>
-      <div class="media" v-if="doc != null || link != null">
+      <div class="media">
         <p class="media_title">Media</p>
-        <ul>
+        <ul v-for="(key, item) in links" :key="key">
           <li>
-            <Button v-if="doc != null">
-              <a :href="doc">Documentation</a>
-            </Button>
-          </li>
-          <li>
-            <Button v-if="link != null">
-              <a :href="link" target="_blank">{{ type }}</a>
+            <Button>
+              <a :href="key" target="_blank">{{ item }}</a>
             </Button>
           </li>
         </ul>
@@ -41,6 +36,7 @@
 export default {
   props: {
     info: { type: Object, default: () => ({}) },
+    links: { type: Object, default: () => ({}) },
     link: { type: String },
     title: { type: String, default: "Code" },
     type: { type: String, default: "GitHub" },
