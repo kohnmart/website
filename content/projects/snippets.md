@@ -9,15 +9,19 @@ Type: ["Study"],
 Team: ["Lea Jell", "Martin Kohnle", "Moritz Kronberger"],
 Role: ["Vue.js", "Vuex", "Validation", "Prism.js"],
 }
-link: "https://github.com/kohnmart/snippets"
-file: "docs/Snippets.pdf"
+
+links: {
+    Code: ["https://github.com/kohnmart/snippets"],
+    Documentation: ["docs/Snippets.pdf"],
+}
+
 ---
 
 # Snippets
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :info="info" :link="link" :doc="file"></team>
+<team :info="info" :links="links"></team>
 
 <br /> <br />
 
