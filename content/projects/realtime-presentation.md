@@ -8,20 +8,24 @@ info: {
 Date: ["August 2019 - January 2020"],
 Type: ["Assignment"],  
 Client: ["BKPV"],    
-Team: ["Adrian Kohnle", "Mirela Wagner", "Kigg Media Film"],   
+Team: ["Adrian Kohnle", "Martin Kohnle", "Mirela Wagner", "Kigg Media Film"],   
 Role: ["Camera path", "Interaction", "Animation", "Scenery", "Terrain", "Design"],
 
 Location: ["Fürth town hall"],
 
 }
-link: "https://youtu.be/FwsDQmhkQqo"
+
+links: {
+    Showcase: ["https://youtu.be/FwsDQmhkQqo"],
+}
 ---
 
 # Realtime Presentation
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :link="link" :info="info" title="Media" type="Showcase"></team>
+<team :info="info" :links="links"></team>
+
 
 <br /> <br />
 
