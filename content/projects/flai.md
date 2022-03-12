@@ -35,15 +35,21 @@ links: {
 The FLAI web application supports sign language beginners with live feedback, confidently detects finger language and adapts to the individual learning rhythm of its users.
 From the design of the neural network to the choice of typography: Freedom from barriers and discrimination are the basic ideas that determine the creation of the prototype from the very beginning. For a respectful use of sign language as a central part of the culture of the deaf, it was important to keep entry hurdles as low as possible.
 
+<image-loader height="medium_wide" image="science/flai/intro"></image-loader>
+
 #### Learning Model
 
 A new language is often associated with an inhibition threshold. Live feedback encourages you to overcome this inhibition threshold. Through visual feedback, FLAI helps beginners to learn signs correctly from the start and report them confidently.
 
 In addition, the feedback function makes it possible to set up spelling exercises according to the “index card principle”: Letters that the user knows well, are asked less frequently than those that require more practice. In this way, the tasks adapt to his*her individual learning progress.
 
+<image-loader height="medium_wide" image="science/flai/frames"></image-loader>
+
 #### Design
 
 The major design challenge was to bring aesthetics and accessibility together. The focus was on finding a color scheme with which all design elements can be optimized for people with color vision impairment.
+
+<image-loader height="medium_wide" image="science/flai/design"></image-loader>
 
 #### Technology
 
