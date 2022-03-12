@@ -13,7 +13,7 @@ Role: ["Neural Network", "Dataset Creation", "REST API", "Frontend", "Code Revie
 }
 
 links: {
-    GitHub: ["https://github.com/kohnmart/FLAI"],
+    Code: ["https://github.com/kohnmart/FLAI"],
     Documentation: ["https://sichtraum.hs-augsburg.de/2021/flai"],
     Showcase: ["https://vimeo.com/670362463?embedded=true&source=vimeo_logo&owner=29836091"],
     Kaggle: ["https://www.kaggle.com/moritzkronberger/german-sign-language"]
@@ -35,7 +35,7 @@ links: {
 The FLAI web application supports sign language beginners with live feedback, confidently detects finger language and adapts to the individual learning rhythm of its users.
 From the design of the neural network to the choice of typography: Freedom from barriers and discrimination are the basic ideas that determine the creation of the prototype from the very beginning. For a respectful use of sign language as a central part of the culture of the deaf, it was important to keep entry hurdles as low as possible.
 
-#### Learning Modell
+#### Learning Model
 
 A new language is often associated with an inhibition threshold. Live feedback encourages you to overcome this inhibition threshold. Through visual feedback, FLAI helps beginners to learn signs correctly from the start and report them confidently.
 
