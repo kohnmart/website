@@ -8,7 +8,7 @@ stack: ["Vue.js + TypesScript", "Express.js", "PostgreSQL", "Docker", "Keras", "
 info: {
 Date: ["October 2021 - February 2022"],
 Type: ["European Project Semester"],
-Team: ["Stefanie Jany", "Lea Jell", "Eva Kunzmann", "Anja Krendlinger", "Martin Kohnle", "Moritz    Kronberger","Kieu Pham"],  
+Team: ["Stefanie Jany", "Lea Jell", "Eva Kunzmann", "Anja Krendlinger", "Martin Kohnle", "Moritz Kronberger","Kieu Pham"],  
 Role: ["Neural Network", "Dataset Creation", "REST API", "Frontend", "Code Review"],
 }
 
