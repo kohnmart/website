@@ -8,14 +8,17 @@ Date: ["March - April 2021"],
 Type: ["Study"],    
 Role: ["Storyboard", "Animatic", "Modelling", "Animation", "Rendering", "Music"],
 }
-link: "https://www.youtube.com/embed/_N7EeSHyqYo"
+links: {
+    Showcase: ["https://www.youtube.com/embed/_N7EeSHyqYo"]
+}
+
 ---
 
 # UFO Flight Animation
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :info="info" :link="link" type="Animation" title="Media"></team>
+<team :info="info" :links="links"></team>
 <br /> <br />
 
 <image-loader height="large_wide" image="vfx/ufo/title"></image-loader>
