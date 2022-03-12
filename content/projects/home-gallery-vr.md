@@ -10,14 +10,19 @@ Type: ["Private Project"],
 Stage: ["Beta"],
 HMD: ["Oculus Rift", "Oculus Quest 2"],
 }
-link: "https://youtu.be/-SkZ3tUML_s"
+link: 
+
+links: {
+    Showcase: ["https://youtu.be/-SkZ3tUML_s"],
+}
+
 ---
 
 # Home Gallery VR
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :info="info" :link="link" type="Showcase"></team>
+<team :info="info" :links="links"></team>
 
 <br /> <br />
 
@@ -28,7 +33,9 @@ link: "https://youtu.be/-SkZ3tUML_s"
 Home Gallery VR is a virtual reality application for photographers and artists. The creators can view their images in unprecedented size and perspective. Nowadays, we are consuming images extremely quickly on social media and other creator platforms. So fast, that we often don't understand how much passion, creativity and energy someone has put into a project. With this application, I want to return the focus and value to the individual artwork. <br /> <br />
 
 ## File Browser
+
 I developed an embedded file browser that can transfer images from any folder to the frames.
+
 ## Scenery
 
 <image-loader height="medium_wide" image="dev/home-vr/view"></image-loader>
@@ -62,10 +69,11 @@ I took this example image with my cell phone camera.<br /> <br />
 ## Review <br />
 
 As a private project, Home Gallery VR is the only application that I am continuously developing.
-When I started back then, I didn't have any programming skills at all. Especially not in the development of an embedded browser. I have acquired a lot of knowledge and experience through my studies and that helps me to advance this project. Of course, this app still has weaknesses in terms of design and interface. First of all, it was important for me to develop and test the technical features. In the future, I will focus more on design and user experience. 
+When I started back then, I didn't have any programming skills at all. Especially not in the development of an embedded browser. I have acquired a lot of knowledge and experience through my studies and that helps me to advance this project. Of course, this app still has weaknesses in terms of design and interface. First of all, it was important for me to develop and test the technical features. In the future, I will focus more on design and user experience.
 <br /> <br />
 
 #### Perspective <br />
+
 The app is now in a stable state that allows design improvements and technical extensions. The lighting and optics of the scenery should be adjustable to create harmony with the individual gallery. The user interface should be revised. The 360 Globe should also be able to play video formats. In addition, I would like to make the app available to testers to check various use cases for errors and bugs. <br /> <br />
 
 The future of Home Gallery VR will be great!
