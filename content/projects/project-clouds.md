@@ -11,15 +11,19 @@ Role: ["Research", "Modelling", "Animation", "Rendering"],
 
 }
 headlines: ["Introduction", "Animation", "Research", "Review"]
-link: "https://www.youtube.com/watch?v=bUjEX9_8Q0c"
-file: "docs/clouds.pdf"
+
+links: {
+    Showcase: ["https://www.youtube.com/watch?v=bUjEX9_8Q0c"],
+    Documentation: ["docs/clouds.pdf"],
+}
+
 ---
 
 # Project Clouds
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :info="info" :link="link" title="Media" type="Animation" :doc="file"></team>
+<team :info="info" :links="links"></team>
 
 <image-loader height="large_wide" image="vfx/clouds/title"></image-loader>
 
