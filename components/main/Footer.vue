@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <footer>© Martin Kohnle 2021</footer>
+    <footer>© Martin Kohnle 2022</footer>
   </div>
 </template>
 <style lang="scss" scoped>
