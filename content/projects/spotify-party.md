@@ -10,15 +10,18 @@ Type: ["Study"],
 Team: ["Martin Kohnle", "Moritz Kronberger"],
 Role: ["Django", "Django-Channels", "Spotify Api"],
 }
-link: "https://github.com/kohnmart/spotify-party"
-file: "docs/spotifyparty.pdf"
+links: {
+    Code: ["https://github.com/kohnmart/spotify-party"],
+    Documentation: ["docs/spotifyparty.pdf"],
+}
 ---
 
 # SpotifyParty
 
 <tech-stack :stack="stack"></tech-stack>
 
-<team :info="info" :link="link" :doc="file"></team>
+<team :info="info" :links="links"></team>
+
 
 <br /> <br />
 
