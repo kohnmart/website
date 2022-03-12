@@ -31,7 +31,7 @@
         width: 300px;
         height: 250px;
         border-radius: 10px;
-        background-color: black;
+        background-color: lightgray;
         img {
           width: 300px;
           height: 200px;
@@ -43,7 +43,7 @@
           margin-top: 5%;
           p {
             @include font($p, 400);
-            background-color: black;
+            background-color: lightgray;
           }
         }
       }
