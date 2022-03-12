@@ -25,9 +25,9 @@ export default {
       padding: 5px 15px;
       margin-right: 0.5em;
       font-size: 1em;
-      border: 2px solid black;
+      border: 1.5px solid rgb(90,90,90);
+      color: rgb(90,90,90);
       border-radius: 5px;
-      color: white;
     }
   }
 }</style>
