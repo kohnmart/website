@@ -9,7 +9,7 @@
         />
         <h1>Intro</h1>
         <p>
-          Hello, everyone. My name is Martin Kohnle, I am a 24-year-old student
+          Hello, everyone. My name is Martin Kohnle, I am a 25-year-old student
           from Augsburg. I am currently studying
           <a
             style="text-decoration:underline"
@@ -17,7 +17,7 @@
             target="_blank"
             >interactive media</a
           >
-          with a focus on computer science in the 5th semester. IAM is an
+          with a focus on computer science in the 6th semester. IAM is an
           interdisciplinary course based at the Faculty of Design and Computer
           Science. This mixture allows me to cover a wide fundamental spectrum
           in design, interaction and computer science. 
