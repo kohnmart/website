@@ -41,7 +41,7 @@ import { mapState } from "vuex";
 export default {
   data() {
     return {
-      subline: "Highlights 2021"
+      subline: "Highlights"
     };
   },
 
