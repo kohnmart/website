@@ -2,6 +2,7 @@
 title: "Machine Learning"
 tag: "science"
 thumbnail: "flai"
+highlight: "true"
 stack: ["Vue.js + TypesScript", "Express.js", "PostgreSQL", "Docker", "Keras", "Tensorflow"]
 
 
@@ -35,7 +36,6 @@ links: {
 The FLAI web application supports sign language beginners with live feedback, confidently detects finger language and adapts to the individual learning rhythm of its users.
 From the design of the neural network to the choice of typography: Freedom from barriers and discrimination are the basic ideas that determine the creation of the prototype from the very beginning. For a respectful use of sign language as a central part of the culture of the deaf, it was important to keep entry hurdles as low as possible.
 
-<image-loader height="medium_wide" image="science/flai/intro"></image-loader>
 
 #### Learning Model
 
@@ -58,5 +58,3 @@ An important goal during development was to give as many people as possible unre
 <br />
 
 This is not just limited to use: interested developers should also be able to view and further develop the project. That is why the data set and source code are open source.
-
-
